@@ -218,6 +218,14 @@ mark { background: var(--gold); color: var(--ink); padding: 0 2px; }
 .toc a:hover { color: var(--gold); text-decoration: underline; }
 .tocflag { display: inline-block; background: var(--gold); color: var(--ink); font-family: var(--f-mono); font-weight: 700; font-size: 11px; padding: 0 5px; border-radius: 3px; }
 .toc-toggle { align-self: flex-start; }
+.toc li.done > a { color: rgba(243,234,216,0.6); }
+.tocdone { color: var(--acid); font-weight: 700; }
+.checkbox { width: 26px; height: 26px; flex-shrink: 0; border: 3px solid var(--ink); border-radius: 3px; background: transparent; cursor: pointer; padding: 0; position: relative; margin-top: 1px; }
+.checkbox.on { background: var(--acid); }
+.checkbox.on::after { content: ""; position: absolute; left: 6px; top: 1px; width: 7px; height: 13px; border-right: 3px solid var(--ink); border-bottom: 3px solid var(--ink); transform: rotate(45deg); }
+details.block.is-done > summary .headline { text-decoration: line-through; text-decoration-thickness: 2px; opacity: 0.6; }
+.block-foot { display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-end; border-top: 2px solid var(--ink); padding-top: 16px; }
+.block-foot .btn:not(.acid):not(.ink) { border-color: var(--ink); color: var(--ink); }
 .overview { max-width: none; }
 .sec-title { margin: 0; font-family: var(--f-wide); font-weight: 400; font-size: 22px; text-transform: uppercase; }
 .overview .lead { margin: 0; font-size: 18px; line-height: 29px; font-weight: 400; }
