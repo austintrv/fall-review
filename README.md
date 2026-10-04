@@ -4,4 +4,4 @@ Personal study site. Each class's content is in `data/` (one file per class); `d
 
 **To update:** replace the changed file(s) in this repository (Add file → Upload files → Commit changes). The live site refreshes in about a minute.
 
-Progress (quiz bests, missed questions, flashcard "again" pile) saves in each browser separately.
+Progress (check-offs, ratings, notes, highlights, hypo answers, quiz bests, missed questions, flashcard schedule) saves in each browser separately. To move it to another device, use "Move progress to another device" at the bottom of the hub: copy the backup code on one device and restore it on the other.
