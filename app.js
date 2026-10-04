@@ -22,6 +22,7 @@
     p.missed = p.missed || [];
     p.drillBest = p.drillBest || {};
     p.conf = p.conf || {};
+    p.done = p.done || {};
     p.unit = p.unit || 0;
     p.map = p.map || 0;
     p.drill = p.drill || 0;
@@ -263,6 +264,7 @@
   }
 
   /* review */
+  function doneKey(U, b) { return hash(U.title + "::" + b.title); }
   function viewReview(id, c, p, hue) {
     var ui = Math.min(p.unit, c.units.length - 1), U = c.units[ui];
     var dots = c.units.map(function (u) { var v = p.conf[hash(u.title)]; return v === "solid" ? "#3dff5a" : v === "ok" ? "#ffc400" : v === "shaky" ? "#ff2d95" : ""; });
@@ -271,16 +273,19 @@
     var ovArr = U.overview ? (Array.isArray(U.overview) ? U.overview : [U.overview]) : [];
     var ov = ovArr.length ? '<section class="overview" id="overview"><h3 class="sec-title" style="color:' + esc(hue) + '">Overview</h3>' +
       '<p class="lead">' + esc(ovArr[0]) + "</p>" + (ovArr.length > 1 ? '<ul class="bul">' + bulletsFromParas(ovArr.slice(1)) + "</ul>" : "") + "</section>" : "";
-    var toc = '<nav class="toc" aria-label="Sections in this unit"><span class="lab">In this unit</span><ol>' +
+    var doneCount = U.blocks.filter(function (b) { return p.done[doneKey(U, b)]; }).length;
+    var toc = '<nav class="toc" aria-label="Sections in this unit"><span class="lab">In this unit · ' + doneCount + "/" + U.blocks.length + ' checked</span><ol>' +
       (ov ? '<li><a href="#" data-act="jump" data-target="overview">Overview</a></li>' : "") +
       U.blocks.map(function (b, bi) {
         var flag = b.check && b.check.status === "thin" ? ' <span class="tocflag" title="Needs more source">!</span>' : "";
-        return '<li><a href="#" data-act="jump" data-target="b-' + bi + '">' + esc(b.title) + "</a>" + flag + "</li>";
+        var dn = !!p.done[doneKey(U, b)];
+        return '<li' + (dn ? ' class="done"' : "") + '><a href="#" data-act="jump" data-target="b-' + bi + '">' + esc(b.title) + "</a>" + (dn ? ' <span class="tocdone" title="Checked off">✓</span>' : "") + flag + "</li>";
       }).join("") + "</ol>" +
       '<button class="btn quiet lab push toc-toggle" data-act="expandAll">' + (expandAll ? "Collapse all" : "Expand all") + "</button></nav>";
     var blocks = U.blocks.map(function (b, bi) {
       var key = ui + ":" + bi;
-      var open = expandAll || !!S.openBlocks[key];
+      var open = key in S.openBlocks ? !!S.openBlocks[key] : expandAll;
+      var dn = !!p.done[doneKey(U, b)];
       var how = b.explain && b.explain.length ? '<div class="sec"><h4 class="sec-h">How it works</h4><ul class="bul">' + bulletsFromParas(b.explain) + "</ul></div>" : "";
       var txt = b.text ? '<div class="sec"><ul class="bul">' + bulletsFromParas([b.text]) + "</ul></div>" : "";
       var rules = (b.items || []).map(function (it) {
@@ -293,14 +298,17 @@
       var rulesSec = rules ? '<div class="sec"><h4 class="sec-h">' + (b.multi ? "The elements" : "The rules") + "</h4>" + rules + "</div>" : "";
       var tip = b.tip ? '<div class="tip"><span class="lab">Exam tip</span><span>' + esc(b.tip) + "</span></div>" : "";
       var thin = b.check && b.check.status === "thin" ? '<div class="thin"><span class="lab">Needs more source</span><span>' + esc(b.check.note || "") + "</span></div>" : "";
-      return '<details class="cut block" id="b-' + bi + '" data-key="' + key + '"' + (open ? " open" : "") + ">" +
-        '<summary><span class="sum-top"><span class="lab sum-n">' + String(bi + 1).padStart(2, "0") + '</span><span class="headline">' + esc(b.title) + "</span>" +
+      var box = '<button class="checkbox push' + (dn ? " on" : "") + '" data-act="done" data-b="' + bi + '" role="checkbox" aria-checked="' + dn + '" aria-label="' + (dn ? "Uncheck" : "Check off") + " " + esc(b.title) + '"></button>';
+      var foot = '<div class="block-foot"><button class="btn lab push' + (dn ? " acid" : "") + '" data-act="done" data-b="' + bi + '">' + (dn ? "✓ Checked off" : "Check off") + "</button>" +
+        '<button class="btn ink lab push" data-act="closeBlock" data-b="' + bi + '">Close section</button></div>';
+      return '<details class="cut block' + (dn ? " is-done" : "") + '" id="b-' + bi + '" data-key="' + key + '"' + (open ? " open" : "") + ">" +
+        '<summary><span class="sum-top">' + box + '<span class="lab sum-n">' + String(bi + 1).padStart(2, "0") + '</span><span class="headline">' + esc(b.title) + "</span>" +
         (b.multi ? '<span class="lab tag">Multifactor</span>' : "") + (b.check && b.check.status === "thin" ? '<span class="lab tag" style="background:#ffc400">Thin</span>' : "") +
         '<span class="chev" aria-hidden="true"></span></span><span class="sum-line">' + esc(firstSentence(b)) + "</span></summary>" +
-        '<div class="block-body">' + how + txt + rulesSec + tip + thin + "</div></details>";
+        '<div class="block-body">' + how + txt + rulesSec + tip + thin + foot + "</div></details>";
     }).join("");
     var cur = p.conf[hash(U.title)] || "";
-    var rate = '<div class="cut ratebox"><div style="display:flex;flex-direction:column;gap:4px"><span class="lab">Finished this unit?</span><span class="headline" style="font-size:20px">How solid is it?</span></div><div class="row">' +
+    var rate = '<div class="cut ratebox"><div style="display:flex;flex-direction:column;gap:4px"><span class="lab">Finished this unit?</span><span class="headline" style="font-size:20px">How solid is it?</span><span class="lab">' + doneCount + " of " + U.blocks.length + ' sections checked off</span></div><div class="row">' +
       CONF.map(function (cf) { return '<button class="btn lab push conf' + (cur === cf[0] ? " picked" : "") + '" style="--c:' + cf[2] + '" data-act="conf" data-v="' + cf[0] + '">' + cf[1] + "</button>"; }).join("") +
       '</div><div class="row"><button class="btn ink lab push" data-act="quizUnit">Quiz this unit</button><button class="btn ink lab push" data-act="cardsUnit">Cards for this unit</button><button class="btn pink lab push" data-act="unitStep" data-d="1">Next unit</button></div></div>';
     return '<section style="display:flex;flex-direction:column;gap:24px">' + pills(list, ui, "unit", dots) +
@@ -483,6 +491,16 @@
       }
       case "quizUnit": S.quizUnit = p.unit; S.quiz = null; save(); location.hash = "#/" + id + "/quiz"; return;
       case "cardsUnit": S.cardUnit = p.unit; S.deck = null; S.deckMode = "Full deck"; S.card = 0; S.flip = false; save(); location.hash = "#/" + id + "/cards"; return;
+      case "done": {
+        var dk2 = doneKey(c.units[p.unit], c.units[p.unit].blocks[n("data-b")]);
+        if (p.done[dk2]) delete p.done[dk2]; else p.done[dk2] = 1;
+        break;
+      }
+      case "closeBlock": {
+        S.openBlocks[p.unit + ":" + n("data-b")] = false;
+        pendingScroll = "#b-" + n("data-b");
+        break;
+      }
       case "map": p.map = n("data-i"); break;
       case "expandAll": p.expandAll = !p.expandAll; S.openBlocks = {}; break;
       case "jump": {
