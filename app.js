@@ -227,24 +227,77 @@
   }
 
   /* review */
+  /* sentence splitting for bullet layout (keeps legal abbreviations together) */
+  var ABBR = /(?:^|[\s(])(?:art|arts|v|vs|cmt|cmts|no|nos|st|mr|ms|dr|inc|co|corp|cir|ct|rev|supp|stat|pub|para|paras|pp|p|ch|concl|concls|ed|res|doc|reg|cl|n|e\.g|i\.e|etc|u\.s|u\.n|jr|sr|sec|secs|ss|fed|tex|cal|minn|kan|subch|id|cf|al|op|seq|approx|incl|govt|dept|admin|amend|const|r|ann)\.$/i;
+  function sentences(text) {
+    var out = [], buf = "", i = 0, s = String(text || "");
+    while (i < s.length) {
+      var ch = s[i];
+      buf += ch;
+      if ((ch === "." || ch === "?" || ch === "!") ) {
+        var j = i + 1;
+        while (j < s.length && /[”"’)\]]/.test(s[j])) { buf += s[j]; j++; }
+        var rest = s.slice(j);
+        var m = rest.match(/^\s+(?=[A-Z“"(\[§0-9])/);
+        var prev = buf.replace(/[”"’)\]]+$/, "");
+        var single = /(?:^|\s)[A-Z]\.$/.test(prev);
+        if (m && !ABBR.test(prev) && !single) { out.push(buf.trim()); buf = ""; i = j + m[0].length; continue; }
+        i = j; continue;
+      }
+      i++;
+    }
+    if (buf.trim()) out.push(buf.trim());
+    return out;
+  }
+  function bulletsFromParas(arr) {
+    return (Array.isArray(arr) ? arr : [arr]).filter(Boolean).map(function (para) {
+      var ss = sentences(para);
+      if (ss.length <= 2) return "<li>" + esc(ss.join(" ")) + "</li>";
+      return "<li>" + esc(ss[0]) + '<ul class="sub">' + ss.slice(1).map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul></li>";
+    }).join("");
+  }
+  function firstSentence(b) {
+    var src = (b.explain && b.explain[0]) || (b.items && b.items[0] && (b.items[0][1] || b.items[0][0])) || b.text || "";
+    var s = sentences(Array.isArray(src) ? src[0] : src)[0] || "";
+    return s.length > 180 ? s.slice(0, 177) + "…" : s;
+  }
+
+  /* review */
   function viewReview(id, c, p, hue) {
     var ui = Math.min(p.unit, c.units.length - 1), U = c.units[ui];
     var dots = c.units.map(function (u) { var v = p.conf[hash(u.title)]; return v === "solid" ? "#3dff5a" : v === "ok" ? "#ffc400" : v === "shaky" ? "#ff2d95" : ""; });
     var list = c.units.map(function (u, i) { return '<span class="lab">' + String(i + 1).padStart(2, "0") + "</span> " + esc(u.title); });
-    var ov = U.overview ? '<section class="overview"><span class="lab" style="color:' + esc(hue) + '">What this unit covers</span>' + paras(U.overview) + "</section>" : "";
-    var blocks = U.blocks.map(function (b) {
-      var items = (b.items || []).map(function (it) {
-        var sub = it[2] && it[2].length ? "<ul>" + it[2].map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" : "";
-        return '<li><span class="rule">' + esc(it[0]) + "</span>" + (it[1] ? " – " + esc(it[1]) : "") + sub + "</li>";
+    var expandAll = !!p.expandAll;
+    var ovArr = U.overview ? (Array.isArray(U.overview) ? U.overview : [U.overview]) : [];
+    var ov = ovArr.length ? '<section class="overview" id="overview"><h3 class="sec-title" style="color:' + esc(hue) + '">Overview</h3>' +
+      '<p class="lead">' + esc(ovArr[0]) + "</p>" + (ovArr.length > 1 ? '<ul class="bul">' + bulletsFromParas(ovArr.slice(1)) + "</ul>" : "") + "</section>" : "";
+    var toc = '<nav class="toc" aria-label="Sections in this unit"><span class="lab">In this unit</span><ol>' +
+      (ov ? '<li><a href="#" data-act="jump" data-target="overview">Overview</a></li>' : "") +
+      U.blocks.map(function (b, bi) {
+        var flag = b.check && b.check.status === "thin" ? ' <span class="tocflag" title="Needs more source">!</span>' : "";
+        return '<li><a href="#" data-act="jump" data-target="b-' + bi + '">' + esc(b.title) + "</a>" + flag + "</li>";
+      }).join("") + "</ol>" +
+      '<button class="btn quiet lab push toc-toggle" data-act="expandAll">' + (expandAll ? "Collapse all" : "Expand all") + "</button></nav>";
+    var blocks = U.blocks.map(function (b, bi) {
+      var key = ui + ":" + bi;
+      var open = expandAll || !!S.openBlocks[key];
+      var how = b.explain && b.explain.length ? '<div class="sec"><h4 class="sec-h">How it works</h4><ul class="bul">' + bulletsFromParas(b.explain) + "</ul></div>" : "";
+      var txt = b.text ? '<div class="sec"><ul class="bul">' + bulletsFromParas([b.text]) + "</ul></div>" : "";
+      var rules = (b.items || []).map(function (it) {
+        var ss = it[1] ? sentences(it[1]) : [];
+        var subs = it[2] && it[2].length ? '<ul class="sub">' + it[2].map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" : "";
+        var lis = ss.map(function (x, k) { return "<li>" + esc(x) + (k === ss.length - 1 ? subs : "") + "</li>"; }).join("");
+        if (!ss.length && subs) lis = "<li>" + subs + "</li>";
+        return '<div class="rule-item"><h5 class="rule-h">' + esc(it[0]) + "</h5>" + (lis ? '<ul class="bul">' + lis + "</ul>" : "") + "</div>";
       }).join("");
+      var rulesSec = rules ? '<div class="sec"><h4 class="sec-h">' + (b.multi ? "The elements" : "The rules") + "</h4>" + rules + "</div>" : "";
+      var tip = b.tip ? '<div class="tip"><span class="lab">Exam tip</span><span>' + esc(b.tip) + "</span></div>" : "";
       var thin = b.check && b.check.status === "thin" ? '<div class="thin"><span class="lab">Needs more source</span><span>' + esc(b.check.note || "") + "</span></div>" : "";
-      return '<article class="cut block"><div class="spread" style="align-items:flex-start"><h3 class="headline">' + esc(b.title) + "</h3>" +
-        (b.multi ? '<span class="lab tag">Multifactor</span>' : "") + "</div>" +
-        (b.explain ? '<div class="explain">' + paras(b.explain) + "</div>" : "") +
-        (b.text ? "<p>" + esc(b.text) + "</p>" : "") +
-        (items ? "<ul>" + items + "</ul>" : "") +
-        (b.tip ? '<div class="tip"><span class="lab">Exam tip</span><span>' + esc(b.tip) + "</span></div>" : "") + thin +
-        "</article>";
+      return '<details class="cut block" id="b-' + bi + '" data-key="' + key + '"' + (open ? " open" : "") + ">" +
+        '<summary><span class="sum-top"><span class="lab sum-n">' + String(bi + 1).padStart(2, "0") + '</span><span class="headline">' + esc(b.title) + "</span>" +
+        (b.multi ? '<span class="lab tag">Multifactor</span>' : "") + (b.check && b.check.status === "thin" ? '<span class="lab tag" style="background:#ffc400">Thin</span>' : "") +
+        '<span class="chev" aria-hidden="true"></span></span><span class="sum-line">' + esc(firstSentence(b)) + "</span></summary>" +
+        '<div class="block-body">' + how + txt + rulesSec + tip + thin + "</div></details>";
     }).join("");
     var cur = p.conf[hash(U.title)] || "";
     var rate = '<div class="cut ratebox"><div style="display:flex;flex-direction:column;gap:4px"><span class="lab">Finished this unit?</span><span class="headline" style="font-size:20px">How solid is it?</span></div><div class="row">' +
@@ -253,7 +306,7 @@
     return '<section style="display:flex;flex-direction:column;gap:24px">' + pills(list, ui, "unit", dots) +
       '<div class="unit-head"><div style="display:flex;flex-direction:column;gap:6px"><div class="lab" style="color:' + esc(hue) + '">Unit ' + (ui + 1) + " of " + c.units.length + "</div>" +
       '<h2 class="h2">' + esc(U.title) + '</h2></div><div class="row"><button class="btn lab push" data-act="unitStep" data-d="-1">Prev unit</button><button class="btn pink lab push" data-act="unitStep" data-d="1">Next unit</button></div></div>' +
-      ov + '<div class="blocks">' + blocks + "</div>" + rate + "</section>";
+      '<div class="review-layout">' + toc + '<div class="review-main">' + ov + '<div class="blocks">' + blocks + "</div>" + rate + "</div></div></section>";
   }
 
   /* maps */
@@ -355,7 +408,7 @@
       var L = function (oi) { return LET[Z.order.indexOf(oi)]; };
       var why = Q.why || [];
       var mine = !right && why[Z.pick] ? '<div class="fb-sec"><span class="lab" style="color:#ff2d95">Why ' + L(Z.pick) + " is wrong</span><p>" + esc(why[Z.pick]) + "</p></div>" : "";
-      var correct = '<div class="fb-sec"><span class="lab" style="color:#3dff5a">Why ' + L(Q.a) + " is right</span><p>" + esc(Q.e || why[Q.a] || "") + "</p>" + (Q.e && why[Q.a] && why[Q.a] !== Q.e ? "<p>" + esc(why[Q.a]) + "</p>" : "") + "</div>";
+      var correct = '<div class="fb-sec"><span class="lab" style="color:#3dff5a">Why ' + L(Q.a) + " is right</span><p>" + esc(Q.e || why[Q.a] || "") + "</p></div>";
       var rest = Z.order.filter(function (oi) { return oi !== Q.a && oi !== Z.pick && why[oi]; }).map(function (oi) {
         return "<li><b>" + L(oi) + ".</b> " + esc(why[oi]) + "</li>";
       }).join("");
@@ -431,6 +484,14 @@
       case "quizUnit": S.quizUnit = p.unit; S.quiz = null; save(); location.hash = "#/" + id + "/quiz"; return;
       case "cardsUnit": S.cardUnit = p.unit; S.deck = null; S.deckMode = "Full deck"; S.card = 0; S.flip = false; save(); location.hash = "#/" + id + "/cards"; return;
       case "map": p.map = n("data-i"); break;
+      case "expandAll": p.expandAll = !p.expandAll; S.openBlocks = {}; break;
+      case "jump": {
+        var tgt = el.getAttribute("data-target");
+        var m = /^b-(\d+)$/.exec(tgt);
+        if (m) S.openBlocks[p.unit + ":" + m[1]] = true;
+        pendingScroll = "#" + tgt;
+        break;
+      }
       case "flip": S.flip = !S.flip; break;
       case "cardStep": cardMove(c, n("data-d")); break;
       case "gotit": case "again": {
@@ -527,6 +588,11 @@
     if (what === "cardUnit") { S.cardUnit = v; S.deck = null; S.deckMode = "Full deck"; S.card = 0; S.flip = false; }
     var y5 = window.scrollY; render(); window.scrollTo(0, y5);
   });
+  app.addEventListener("toggle", function (e) {
+    var d = e.target;
+    if (!d.matches || !d.matches("details.block")) return;
+    S.openBlocks[d.getAttribute("data-key")] = d.open;
+  }, true);
   var searchTimer = null;
   app.addEventListener("input", function (e) {
     if (e.target.id !== "q") return;

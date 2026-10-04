@@ -15,13 +15,13 @@ window.COURSES["asylum"] = {
  "t2": "Law",
  "hue": "#3dff5a",
  "kicker": "Asylum Law · Ch. 1–5 & 12 · Days 1–11",
- "sub": "Refugee definition, standards of proof, process and rights, persecution, and the Convention Against Torture.",
+ "sub": "Refugee definition, standards of proof, process and rights, persecution, nexus, and the Convention Against Torture.",
  "exam": {
   "label": "Midterm · 30%",
   "when": "Mon 10.19",
   "date": "2026-10-19"
  },
- "cover": "Ch. 1–4, Ch. 5 (CAT), and Ch. 12",
+ "cover": "Ch. 1–5 and Ch. 12",
  "units": [
   {
    "title": "Origins of Refugee Law",
@@ -266,7 +266,7 @@ window.COURSES["asylum"] = {
   {
    "title": "Intl Norms & U.S. Law",
    "overview": [
-    "This unit asks one question: how far does U.S. practice match the international rules on refugee protection? It starts with how international law becomes U.S. law (through treaties and customary international law, limited by the self-execution and last-in-time doctrines). It then measures U.S. law against the three key articles of the 1967 Protocol: Article 1 (who is a refugee), Article 33 (no return to danger), and Article 34 (states should facilitate naturalization).",
+    "This unit asks how far U.S. practice matches the international rules on refugee protection. It starts with how international law becomes U.S. law (through treaties and customary international law, limited by the self-execution and last-in-time doctrines). It then measures U.S. law against the three key articles of the 1967 Protocol: Article 1 (who is a refugee), Article 33 (no return to danger), and Article 34 (states should facilitate naturalization).",
     "Before 1980 the U.S. relied on discretionary and ideological tools: withholding of deportation under former INA (Immigration and Nationality Act) § 243(h), conditional entry, and parole. The 1980 Refugee Act copied the Convention's neutral refugee definition into INA § 101(a)(42) and built two tracks on that one definition. USRAP (the U.S. Refugee Admissions Program) selects people outside the U.S., with an annual cap set by the President. Asylum and withholding protect people inside the U.S. or at the border, with no cap.",
     "The second half asks whether the 1980 Act kept its promise. The materials point to two problems: bias in adjudication (Cold War nationality bias, the ABC settlement, the treatment of Haitians) and limits on access to territory and process. The access problem runs from Haitian interdiction, upheld in Sale v. Haitian Centers Council, through outsourcing deals, expedited removal, and border measures from 2016 to 2025.",
     "For the exam, the § 101(a)(42) definition is the rule spine for the rest of the course. Keep two levels apart: a later statute or a narrow court reading can change what binds U.S. courts, but the U.S. remains bound by its treaty obligations internationally. Sale is where that gap matters most."
@@ -498,7 +498,7 @@ window.COURSES["asylum"] = {
       ],
       [
        "Who adjudicates",
-       "DHS (Department of Homeland Security) houses USCIS (U.S. Citizenship and Immigration Services), which decides benefit applications, interviews applicants, and through its Refugee Corps and asylum officers handles refugee and asylum cases. USCIS is not a law enforcement agency, but like CBP and ICE it can refer people to removal proceedings. DOJ (Department of Justice) houses the immigration courts within EOIR (Executive Office for Immigration Review). State reviews visa applications at consulates; HHS (Health and Human Services) handles refugee resettlement through ORR (Office of Refugee Resettlement) and unaccompanied children; Labor handles parts of employment visas."
+       "DHS (Department of Homeland Security) houses USCIS (U.S. Citizenship and Immigration Services), which decides benefit applications, interviews applicants, and through its Refugee Corps and asylum officers handles refugee and asylum cases. USCIS is not a law enforcement agency. Like CBP and ICE, it can refer people to removal proceedings. DOJ (Department of Justice) houses the immigration courts within EOIR (Executive Office for Immigration Review). State reviews visa applications at consulates; HHS (Health and Human Services) handles refugee resettlement through ORR (Office of Refugee Resettlement) and unaccompanied children; Labor handles parts of employment visas."
       ]
      ],
      "tip": "USRAP = outside, capped, foreign policy allowed. In-country = inside or at the border, no cap, foreign policy barred (see ABC below).",
@@ -585,7 +585,7 @@ window.COURSES["asylum"] = {
        "Separates laudable foreign policy goals (protecting people endangered because they helped U.S. interests) from unworthy ones (using admissions to embarrass disfavored nations). He also urges promoting democracy and human rights to minimize refugee crises, while conceding it is 'easier said than done.'"
       ],
       [
-       "How many? Three positions",
+       "How many to admit: three positions",
        "Singer: balance refugees' interests against those of residents, shifting toward non-acceptance only when the harm outweighs the benefit. Gibney: since refugees are a small share of immigration, states should favor refugees within existing totals. Walzer: choose among victims based on ethnic, religious, or ideological affinity."
       ],
       [
@@ -1266,8 +1266,8 @@ window.COURSES["asylum"] = {
     {
      "title": "Well-Founded Fear",
      "explain": [
-      "After Cardoza-Fonseca, the BIA had to say how to apply the well-founded-fear test. In Matter of Mogharrabi (BIA 1987), it adopted a subjective/objective framework plus a reasonable-person test: would a reasonable person in this applicant’s circumstances fear persecution?",
-      "Two things must be true: the applicant actually fears persecution (subjective), and that fear has a reasonable basis in the facts of this applicant’s situation (objective). Credible, specific testimony can supply the objective basis without documents."
+      "After Cardoza-Fonseca, the BIA had to say how to apply the well-founded-fear test. In Matter of Mogharrabi (BIA 1987), it adopted a subjective/objective framework plus a reasonable-person test: whether a reasonable person in this applicant’s circumstances would fear persecution.",
+      "Two things must be true: the applicant fears persecution (subjective), and that fear has a reasonable basis in the facts of this applicant’s situation (objective). Credible, specific testimony can supply the objective basis without documents."
      ],
      "items": [
       [
@@ -1280,7 +1280,7 @@ window.COURSES["asylum"] = {
       ],
       [
        "Reasonable person",
-       "Would a reasonable person in the applicant’s circumstances fear persecution? Generalized fear alone is not enough. Consider what happened to similarly situated people, but assess this applicant’s circumstances individually. The fear must also be on account of a protected ground; generalized violence or purely personal disputes do not qualify."
+       "The question is whether a reasonable person in the applicant’s circumstances would fear persecution. Generalized fear alone is not enough. Consider what happened to similarly situated people, but assess this applicant’s circumstances individually. The fear must also be on account of a protected ground; generalized violence or purely personal disputes do not qualify."
       ],
       [
        "Proof",
@@ -1395,7 +1395,7 @@ window.COURSES["asylum"] = {
        "Withholding gives no derivative protection for a spouse and minor children and allows removal to a third country. Under 8 C.F.R. § 1208.16(e), if asylum is denied solely on discretionary grounds and withholding is granted, the denial should be reconsidered because it effectively prevents the family from joining the applicant."
       ]
      ],
-     "tip": "Pula’s factors are the professor’s ★★★ point. If asked “why grant despite the fraud?”: credibility, the statutory text, Salim limited, and balancing the circumstances of flight.",
+     "tip": "Pula’s factors are the professor’s ★★★ point. To explain why Pula granted asylum despite the fraud, give four reasons: credibility, the statutory text, Salim limited, and balancing the circumstances of flight.",
      "multi": true,
      "check": {
       "status": "complete",
@@ -1421,7 +1421,7 @@ window.COURSES["asylum"] = {
      "title": "Standard of Proof vs. Burden of Proof",
      "explain": [
       "The applicant for protection bears the burden of proof, in both U.S. and international practice. Two separate questions are involved. The standard of proof is what the factfinder must be convinced of: the likelihood of harm (a reasonable possibility for asylum, more likely than not for withholding). The burden of persuasion is how convinced the factfinder must be.",
-      "Courts often blur these together. Stevic and Cardoza-Fonseca set the likelihood of harm but never clearly set the burden of persuasion, so some decision-makers have demanded near-certainty, closer to “beyond a reasonable doubt,” which does not apply in civil proceedings. Asylum cases are also unusual because the factfinder must predict future events, not just find past facts."
+      "Courts often blur these together. Stevic and Cardoza-Fonseca set the likelihood of harm but did not set the burden of persuasion, so some decision-makers have demanded near-certainty, closer to “beyond a reasonable doubt,” which does not apply in civil proceedings. Asylum cases are also unusual because the factfinder must predict future events, not just find past facts."
      ],
      "items": [
       [
@@ -1430,7 +1430,7 @@ window.COURSES["asylum"] = {
       ],
       [
        "Burden of production",
-       "The duty to supply evidence."
+       "The duty to supply evidence on a point. It is separate from the burden of persuasion: production asks whether the party has put evidence forward at all, while persuasion asks how convinced the factfinder must be. In asylum and withholding cases the applicant bears the burden of proof, and under 8 C.F.R. § 1208.13(a) credible testimony alone can supply the needed evidence without corroboration."
       ],
       [
        "Burden of persuasion",
@@ -1744,6 +1744,7 @@ window.COURSES["asylum"] = {
        "Shortened briefing and hearing schedules limit access to counsel, evidence, and preparation, and lead to in absentia orders (removal ordered when the person does not appear).",
        [
         "Dedicated Docket (2021) aimed to decide family cases within 300 days. In the Los Angeles docket studied, 70% had no counsel, 99.1% of completed cases ended in removal, and 72.4% of those orders were in absentia.",
+        "Earlier accelerated dockets had similar results (slides): under Obama, 70% of respondents were pro se (unrepresented) and 50% of orders were in absentia; under Trump, 80% were in absentia.",
         "Boston Dedicated Docket: 20,000 cases assigned in the first year, a 4.2% asylum grant rate, and attorneys declining these cases (slides). In the Boston study, every successful applicant had counsel.",
         "Reopening an in absentia order requires another procedural step that is hard to do without a lawyer.",
         "The 2024 Recent Arrivals Docket targeted decisions for certain single adults within 180 days."
@@ -1819,7 +1820,7 @@ window.COURSES["asylum"] = {
        ]
       ]
      ],
-     "tip": "Substantial evidence is very deferential: the question is whether the record compels the opposite result, not whether it permits one.",
+     "tip": "Substantial evidence is a deferential standard. The question is whether the record compels the opposite result; a record that only permits it is not enough.",
      "check": {
       "status": "complete",
       "note": ""
@@ -1838,7 +1839,7 @@ window.COURSES["asylum"] = {
        [
         "Preparation: practical access to knowledgeable counsel and evidence, and time to get documents, investigate, and line up witnesses; trauma, unfamiliar law, and language barriers increase the need.",
         "Suitable adjudicators: independent (decisions based on law and evidence, not fear of job loss), unbiased (no personal stake, adjudication separate from prosecution), and culturally aware (smiling or avoiding eye contact is not automatically a sign of lying).",
-        "Fair hearing: adequate interpretation, qualified counsel, enough time, the right to testify, call witnesses, present documents, and rebut government evidence. Biased evidence such as State Department reports is not worthless, but the applicant should be able to expose the bias.",
+        "Fair hearing: adequate interpretation, qualified counsel, enough time, the right to testify, call witnesses, present documents, and rebut government evidence. Biased evidence such as State Department reports can still be informative; the applicant should be able to expose the bias, and the adjudicator should account for it when weighing the evidence.",
         "Review and written reasons: reasons slow hasty decisions, expose errors, explain the result, and allow review; the possibility of review improves decisions even in cases never appealed."
        ]
       ],
@@ -1983,7 +1984,7 @@ window.COURSES["asylum"] = {
        "A Salvadoran lesbian woman entered in 2019 at 16, finished high school, works, is engaged, and filed for asylum in 2019. In 2022 she spent two weeks with her dying aunt in El Salvador, re-entered the same way, and was caught within minutes; she received a negative credible fear finding (she was grieving and upset) affirmed by an IJ, and seeks district court review of her expedited removal order.",
        [
         "Facts that separate her from Thuraissigiam: three years of prior residence, community and family ties, and an asylum application pending when she left.",
-        "Question: does the majority control, or would the Breyer/Ginsburg concurrence, limited to someone just past the border with no prior ties, come out differently?"
+        "Open question: whether the majority controls, or whether the Breyer/Ginsburg concurrence, limited to someone just past the border with no prior ties, would come out differently."
        ]
       ]
      ],
@@ -2027,7 +2028,7 @@ window.COURSES["asylum"] = {
     {
      "title": "Legal Representation",
      "explain": [
-      "There is a right to counsel in removal proceedings, but only \"at no expense to the Government\" (INA § 240 and § 292). Applicants can hire or find a lawyer; the government will not pay for one. Combined with detention, this makes counsel very hard to get.",
+      "There is a right to counsel in removal proceedings, but only \"at no expense to the Government\" (INA § 240 and § 292). Applicants can hire or find a lawyer; the government will not pay for one. Combined with detention, this makes counsel hard to get.",
       "Representation is the single most important factor in the outcome of an asylum case (Refugee Roulette). Protective rules ensure people are told about the right and given time to find a lawyer; the open fights are over appointed counsel for children and the mentally incompetent."
      ],
      "items": [
@@ -2063,7 +2064,7 @@ window.COURSES["asylum"] = {
       ],
       [
        "Mentally incompetent detainees",
-       "Entitled to counsel at government expense: Franco-Gonzalez v. Holder (C.D. Cal. 2013). ICE and EOIR then adopted screening and competency procedures (the National Qualified Representative Program)."
+       "Entitled to counsel at government expense: Franco-Gonzalez v. Holder (C.D. Cal. 2013). ICE and EOIR then adopted screening and competency procedures (the National Qualified Representative Program). The Franco class covers unrepresented, detained individuals in Arizona, California, and Washington; elsewhere, EOIR's Nationwide Policy applies (slides)."
       ],
       [
        "Children",
@@ -2203,7 +2204,7 @@ window.COURSES["asylum"] = {
        "Parole (8 C.F.R. § 212.5)",
        "Parole is available only to people who present neither a security risk nor a risk of absconding, and only for an urgent humanitarian reason, a medical emergency, a significant public benefit, or a legitimate law-enforcement objective. While a credible fear determination is pending, parole is allowed only for a medical emergency or law-enforcement need (§ 235.3(b)(2)(iii)).",
        [
-        "A 2009 ICE memo said people with positive credible fear findings should be paroled if not a flight risk or danger, but ICE paroled only about 1% of detainees in FY2013."
+        "A 2009 ICE memo said people with positive credible fear findings should be paroled if they are neither a flight risk nor a danger. ICE did not follow it and paroled only about 1% of detainees in FY2013."
        ]
       ],
       [
@@ -2383,7 +2384,7 @@ window.COURSES["asylum"] = {
   {
    "title": "Defining Persecution",
    "overview": [
-    "Earlier units asked how likely harm has to be (the risk of harm). This unit asks what kind of harm counts and who has to be causing it. Its big question is: when does something bad that happened to a person, or that might happen, count as \"persecution\" under refugee law?",
+    "Earlier units asked how likely harm has to be (the risk of harm). This unit asks what kind of harm counts and who has to be causing it. Its big question is when harm that happened to a person, or that might happen, counts as \"persecution\" under refugee law.",
     "There is no single definition. The 1951 Convention never defines the word, so courts and UNHCR (the United Nations High Commissioner for Refugees) tie it to serious violations of basic human rights. The unit then walks through the forms persecution can take: economic harm, physical and mental harm, severe past harm that supports humanitarian asylum, discrimination, and prosecution that crosses the line into persecution.",
     "The last piece is the source of the harm. Persecution can come from the government itself, or from private people or groups the government is unable or unwilling to control. The U.S. standard for that second category has shifted several times through the Matter of A-B- decisions, and Matter of S-S-F-M- (2025) returned to the stricter A-B- I and II test.",
     "On the exam, frame every claim as: the respondent fears persecution (harm) by WHO on account of WHAT (nexus). This unit covers the \"harm\" and the \"by who\" parts. Look at all incidents together (cumulatively), remember that physical harm is not required, and keep the persecutor's motive in the nexus analysis, not the harm analysis."
@@ -2424,7 +2425,7 @@ window.COURSES["asylum"] = {
       ],
       [
        "Case framing",
-       "The respondent fears persecution (harm) by WHO on account of WHAT (nexus). The professor applies this frame to each major case (Pitcherskaia, Korablina, Sadeghi) by asking: credible? harm? nexus? government? future fear?"
+       "The respondent fears persecution (harm) by WHO on account of WHAT (nexus). The professor applies this frame to each major case (Pitcherskaia, Korablina, Sadeghi) by asking, in order, whether the applicant is credible, whether the harm rises to persecution, whether there is nexus, whether the persecutor is a government actor or one the government cannot or will not control, and whether there is a well-founded future fear."
       ],
       [
        "Two issues",
@@ -2468,9 +2469,9 @@ window.COURSES["asylum"] = {
       ],
       [
        "Cumulative harm",
-       "The inquiry considers the cumulative effect of all incidents together. Physical harm is not required, but where a claim rests on physical harm the court must identify the required severity.",
+       "The inquiry considers the cumulative effect of all incidents together. Physical harm is not required. Where a claim does rest on physical harm, the court must identify the required severity.",
        [
-        "Kumar v. Garland (9th Cir. 2024): a Sikh political activist beaten and given death threats by members of a Hindu nationalist party. A one-off beating does not compel a persecution finding, but physical harm \"plus something more,\" such as credible death threats, does.",
+        "Kumar v. Garland (9th Cir. 2024): a Sikh political activist beaten and given death threats by members of a Hindu nationalist party. A one-off beating does not compel a persecution finding; physical harm \"plus something more,\" such as credible death threats, does.",
         "D'Souza (11th Cir. 2024, unpublished) departed from that receptivity: a young Indian woman's LGBTQ+ discrimination, being thrown out by her parents, and a caning by her father were held not severe enough even cumulatively. The casebook authors call this inexplicable.",
         "If physical persecution required death or a near-death experience, asylum would become martyrdom rather than a preventive measure."
        ]
@@ -2510,7 +2511,7 @@ window.COURSES["asylum"] = {
       ],
       [
        "Kovac v. INS (9th Cir. 1969)",
-       "A Yugoslav chef of Hungarian descent refused the secret police's demand to inform on Hungarian refugees. The police then got him fired from several chef jobs and blocked his hiring, so he worked as a ship's cook and stayed in the U.S. The BIA denied relief because some work remained to him. The Ninth Circuit reversed: requiring loss of all means of livelihood is clearly wrong.",
+       "A Yugoslav chef of Hungarian descent refused the secret police's demand to inform on Hungarian refugees. The police then got him fired from several chef jobs and blocked his hiring, so he worked as a ship's cook and stayed in the U.S. The BIA denied relief because some work remained to him. The Ninth Circuit reversed, calling the requirement of losing all means of livelihood \"clearly wrong.\"",
        [
         "Holding: \"a probability of deliberate imposition of substantial economic disadvantage\" for reasons of race, religion, or political opinion is sufficient.",
         "Cited today for two principles: harm need not be physical, and when deprivation of economic opportunity becomes persecution.",
@@ -2564,7 +2565,7 @@ window.COURSES["asylum"] = {
     {
      "title": "Physical & Mental Harm",
      "explain": [
-      "The main question here is whether the persecutor must intend to punish or harm. Pitcherskaia v. INS (9th Cir. 1997) says no. The test is objective: would a reasonable person regard the harm as offensive? Harm meant to \"cure\" or help the victim is still persecution.",
+      "The main question here is whether the persecutor must intend to punish or harm. Pitcherskaia v. INS (9th Cir. 1997) says no. The test is objective: whether a reasonable person would regard the harm as offensive. Harm meant to \"cure\" or help the victim is still persecution.",
       "The persecutor's motive still matters, but only for nexus. The slides call this a tension between two rules: persecution does not require punitive intent, yet nexus requires proof that the persecutor was motivated by a protected ground.",
       "Severity also matters. One short detention with a single beating that needed no medical care is not persecution (Matter of A-H-D-, BIA 2026). Threats that are carried out are persecution; whether threats alone qualify splits the circuits."
      ],
@@ -2581,13 +2582,13 @@ window.COURSES["asylum"] = {
       ],
       [
        "Motive",
-       "Motive matters only for nexus. Persecution does not require punitive intent, but nexus requires proof that the persecutor was motivated by a protected ground (INS v. Elias-Zacarias, 1992). Under Elias-Zacarias the relevant characteristic is the victim's, not the persecutor's."
+       "Motive matters only for nexus. Persecution does not require punitive intent; nexus, by contrast, requires proof that the persecutor was motivated by a protected ground (INS v. Elias-Zacarias, 1992). Under Elias-Zacarias the relevant characteristic is the victim's, not the persecutor's."
       ],
       [
        "Mental harm",
        "Persecution and torture include mental suffering. EU Qualification Directive Art. 9.2(a) covers \"physical or mental violence,\" and the Convention Against Torture Art. 1 covers \"severe pain or suffering, whether physical or mental.\" Harm inflicted in the victim's supposed best interest, such as FGM (female genital mutilation), is still persecution (In re Kasinga, BIA 1996).",
        [
-        "Open question from the slides: would Pitcherskaia come out the same if there had been no physical harm?"
+        "Open question from the slides: whether Pitcherskaia would come out the same if there had been no physical harm."
        ]
       ],
       [
@@ -2595,7 +2596,7 @@ window.COURSES["asylum"] = {
        "A short detention with one beating that required no medical attention does not rise to persecution. Government deference to tribal mechanisms does not show it is unable or unwilling to control persecutors within a tribe.",
        [
         "Matter of A-H-D- (BIA 2026): a member of the Hadadin minority tribe in Mauritania was detained for 3 days for joining a political rally and struck once by a police officer. One beating with no significant injury and no need for medical care was not persecution.",
-        "Compare Kumar v. Garland: a one-off beating does not compel a persecution finding, but a beating \"plus something more,\" such as credible death threats, does."
+        "Compare Kumar v. Garland: a one-off beating does not compel a persecution finding; a beating \"plus something more,\" such as credible death threats, does."
        ]
       ],
       [
@@ -2606,7 +2607,7 @@ window.COURSES["asylum"] = {
        ]
       ]
      ],
-     "tip": "Keep two questions separate: Is the harm bad enough? (objective, no intent needed) and Why was it inflicted? (nexus, motive required). A BIA finding that the persecutor \"meant well\" goes to neither the harm question nor, by itself, defeats nexus.",
+     "tip": "Keep two questions separate: whether the harm is severe enough (objective, no intent needed) and why it was inflicted (nexus, motive required). A BIA finding that the persecutor \"meant well\" goes to neither the harm question nor, by itself, defeats nexus.",
      "check": {
       "status": "thin",
       "note": "Slides (Death threats slide) and the outline state the 2d Cir./4th Cir. split on threats alone without naming the cases or giving either circuit's reasoning; the Day 8 notes and Day 8 class notes add only the will-or-ability point from Kumar. The reasoning behind the split is not in any source checked."
@@ -2637,7 +2638,7 @@ window.COURSES["asylum"] = {
        "Severity",
        "Severity is not defined; the harm need not be physical, and harm to the applicant's family counts. The BIA in Chen counted his family's suffering, not just his own.",
        [
-        "Slides ask: Chen does not tell us what harm is severe or atrocious; do you assume it must be physical?"
+        "The slides note that Chen does not say what harm is severe or atrocious, and ask whether it must be physical."
        ]
       ],
       [
@@ -2710,14 +2711,14 @@ window.COURSES["asylum"] = {
        "De jure vs. de facto",
        "De jure discrimination is required by law: apartheid in South Africa assigned rights by race (homelands, forced relocation of about 3.5 million people, no vote, no land ownership in 87% of the country). De facto discrimination happens despite formal equality: indigenous Guatemalans (40–60% of the population) face exclusion in land, services, work, and justice, and 83% of the civil war's victims were Maya.",
        [
-        "The 1989 apartheid brief argued that poverty, disease, and illiteracy alone are not persecution, but they were here because they were the direct result of intentional discrimination in a wealthy country.",
-        "Slides ask: Would every black South African be eligible? Does fear of the floodgates affect the analysis? What if the law did not require discrimination but it occurred anyway? A U.K. judge: the problem of numbers cannot justify \"artificial and inhuman criteria.\"",
+        "The 1989 apartheid brief conceded that poverty, disease, and illiteracy alone are not persecution. It argued they were persecution here because they were the direct result of intentional discrimination in a wealthy country.",
+        "The slides ask whether every black South African would be eligible, whether fear of the floodgates affects the analysis, and what follows if the law did not require discrimination but it occurred anyway. A U.K. judge: the problem of numbers cannot justify \"artificial and inhuman criteria.\"",
         "Guatemala: the assumption that indigenous people supported the guerrillas made them targets; fewer than 1% of Guatemalan affirmative applicants (1983–86) won asylum, leading to the ABC settlement (1991)."
        ]
       ],
       [
        "Discrimination as persecution",
-       "Turns on: (1) the cumulative nature of the violence and harassment; and (2) the societal context of widespread harassment and violence. A single isolated incident may not be persecution, but the cumulative effect of several may; violence against family counts where it forms a pattern closely tied to the applicant.",
+       "Turns on: (1) the cumulative nature of the violence and harassment; and (2) the societal context of widespread harassment and violence. A single isolated incident may not be persecution; the cumulative effect of several may be. Violence against family counts where it forms a pattern closely tied to the applicant.",
        [
         "Korablina facts: a Jewish woman in Ukraine was denied university admission and job advancement, fired in an all-Jewish layoff, received death threats, and was tied to a chair with a noose tightened around her neck (concussion). Her boss and a friend disappeared; her husband was beaten and her daughter nearly raped. The militia was part of the ultranationalist group, and the state did not protect Jews.",
         "Holding: the record compelled findings of past persecution, well-founded fear, and a clear probability for withholding.",
@@ -2726,7 +2727,7 @@ window.COURSES["asylum"] = {
       ],
       [
        "Remand, not grant",
-       "A court finding eligibility cannot grant asylum, which is discretionary. The Article III court remands to the BIA, because the AG (Attorney General) delegated that discretion to the BIA in defensive cases and to DHS (Department of Homeland Security) in affirmative cases."
+       "A court finding eligibility cannot grant asylum, which is discretionary. Asylum discretion belongs to the AG (Attorney General) in removal proceedings and to the Secretary of DHS (Department of Homeland Security) in affirmative cases, so in Korablina the court remanded to the BIA as the AG's delegate."
       ],
       [
        "Statelessness",
@@ -2738,7 +2739,7 @@ window.COURSES["asylum"] = {
        ]
       ]
      ],
-     "tip": "For the professor's framework on Korablina, run the full frame: Credible? (yes, \"in all respects\") Harm? (cumulative) Nexus? (anti-Semitic epithets, Star of David) Government? (militia tied to the group, no protection) Future fear? (presumption not rebutted).",
+     "tip": "For the professor's framework on Korablina, run the full frame: credibility (credible \"in all respects\"), harm (cumulative), nexus (anti-Semitic epithets, Star of David), government (militia tied to the group, no protection), and future fear (presumption not rebutted).",
      "check": {
       "status": "complete",
       "note": ""
@@ -2749,7 +2750,7 @@ window.COURSES["asylum"] = {
      "multi": true,
      "explain": [
       "The general rule is that a government enforcing its criminal laws is not persecuting anyone. A refugee is a victim of injustice, \"not a fugitive from justice\" (UNHCR Handbook ¶ 56).",
-      "The line blurs in three ways that the outline lists as factors: the nature of the offense (is it a common crime, or is the \"crime\" really a protected activity?), the extent of the punishment (is it excessive?), and the legitimacy of the judicial process (is the law itself out of line with human rights, or applied in a discriminatory way?).",
+      "The line blurs in three ways that the outline lists as factors: the nature of the offense (whether it is a common crime or the \"crime\" is a protected activity), the extent of the punishment (whether it is excessive), and the legitimacy of the judicial process (whether the law itself departs from human rights standards or is applied in a discriminatory way).",
       "Sadeghi v. INS (10th Cir. 1994) shows the split. The majority treated an attempted arrest as legitimate prosecution; the dissent said a law punishing someone for counseling a child not to fight in a war could not be legitimate."
      ],
      "items": [
@@ -2759,7 +2760,7 @@ window.COURSES["asylum"] = {
       ],
       [
        "Nature of the offense",
-       "Prosecution for a common crime is not persecution, but prosecution for a Convention reason can be (Handbook ¶ 57, e.g., \"illegal\" religious instruction to a child).",
+       "Prosecution for a common crime is not persecution; prosecution for a Convention reason can be (Handbook ¶ 57, e.g., \"illegal\" religious instruction to a child).",
        [
         "Bastanipour v. INS (7th Cir. 1992): an Iranian facing the death penalty for drug trafficking and for apostasy. Drug trafficking is a common crime, even when the punishment is death, so that prosecution was not persecution. Punishment for religious conversion was a basis for asylum."
        ]
@@ -2839,7 +2840,7 @@ window.COURSES["asylum"] = {
        ]
       ]
      ],
-     "tip": "Slides note that the unable-or-unwilling standard was followed by the BIA and every circuit until June 2018. On a Fifth Circuit fact pattern, check three things: did the applicant report (and if not, is there objective evidence it was futile or dangerous)? Did police make any effort? Is the apathy local or countrywide?",
+     "tip": "Slides note that the unable-or-unwilling standard was followed by the BIA and every circuit until June 2018. On a Fifth Circuit fact pattern, check three things: whether the applicant reported (and if not, whether there is objective evidence reporting was futile or dangerous), whether police made any effort, and whether the apathy is local or countrywide.",
      "check": {
       "status": "complete",
       "note": ""
@@ -2877,186 +2878,1046 @@ window.COURSES["asylum"] = {
    ]
   },
   {
+   "title": "The Nexus Requirement",
+   "overview": [
+    "A person can suffer terrible harm and still not qualify for asylum or withholding. The harm also has to be connected to one of five protected grounds: race, religion, nationality, membership in a particular social group, or political opinion. That connection is called nexus. The Refugee Convention says “for reasons of” a ground; U.S. law says “on account of” a ground.",
+    "The big question in this unit is what “on account of” means. One reading looks at the persecutor’s motive: whether the persecutor wanted to harm this person because of the ground. The other reading looks at causation: whether the person was harmed because of their status or belief, whatever the persecutor was thinking. UNHCR (the United Nations High Commissioner for Refugees), the EU, and many other countries do not require proof of motive. The United States does, since INS v. Elias-Zacarias (1992).",
+    "The unit follows the U.S. path: early Fifth and Ninth Circuit cases that took different approaches (Campos-Guardado, Lazo-Majano, Hernandez-Ortiz), the Supreme Court’s adoption of a motive test in Zacarias, the critique of that test, the mixed-motive doctrine, and the REAL ID Act’s “at least one central reason” standard. It ends with open questions (animus, but-for causation, whether the standard applies to withholding) and the international view.",
+    "On the exam, nexus is the “on account of what” part of the case framing: the respondent fears persecution (harm) by who on account of what. A claim fails on nexus no matter how severe or likely the harm is, so prove the persecutor’s motive with direct or circumstantial evidence, and if there are several motives, show that a protected ground is at least one central reason."
+   ],
+   "check": {
+    "status": "complete",
+    "note": "The outline has no nexus section, so this unit is built from the Day 10 reading notes (casebook pp. 365–402 and the UNHCR Sepet submission). No “DAY 10 CLASS NOTES” file exists in the Asylum notes folder (searched by title and listed the folder; only the Day 11 class notes are there), and no slides exist for Ch. 5. The Day 10 notes pick up Hernandez-Ortiz mid-case (“cont.”) and skip Lazo-Majano and the body of the Musalo article, so those facts and arguments were filled from the Ch. 5 casebook text in Drive (pp. 282–286, 295–297)."
+   },
+   "blocks": [
+    {
+     "title": "What Nexus Requires",
+     "explain": [
+      "Nexus is the link between the persecution a person fears and one of the five protected grounds: race, religion, nationality, membership in a particular social group (PSG), or political opinion. Without that link, harm alone does not make someone a refugee.",
+      "The requirement comes from the Refugee Convention and runs through U.S. law. Every state party agrees nexus is required. They disagree about what the linking words (“for reasons of” and “on account of”) mean."
+     ],
+     "items": [
+      [
+       "Refugee Convention Art. 1",
+       "Defines a refugee as someone with a well-founded fear of being persecuted “for reasons of” one of the five grounds."
+      ],
+      [
+       "Art. 33 (non-refoulement)",
+       "Bars returning a refugee to a place where their life or freedom would be “threatened on account of” one of the five grounds. Non-refoulement means the duty not to send a refugee back to danger."
+      ],
+      [
+       "U.S. law",
+       "Nexus appears in two places: the refugee definition in INA (Immigration and Nationality Act) § 101(a)(42)(A), which governs asylum, and the withholding of removal provision in INA § 241(b)(3). Both use “on account of.”"
+      ],
+      [
+       "Source of the grounds",
+       "The five grounds come from human rights law. In Anker’s words, they “represent protected civil and political rights and statuses, defined by immutable characteristics or protected beliefs basic to identity.” They protect who a person is and what a person believes."
+      ]
+     ],
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
+    },
+    {
+     "title": "Two Readings of “On Account Of”",
+     "explain": [
+      "States split over how to prove the link. Under the motive or intent reading, the applicant must show the persecutor was motivated to harm her because of the ground, which means proving what was in the persecutor’s mind. Under the causation reading, it is enough that she suffered harm because of her status or belief, regardless of the persecutor’s motivation.",
+      "The choice matters because persecutors rarely announce their reasons. A motive test denies protection to people who cannot prove the persecutor’s state of mind, even when the harm plainly falls on them because of who they are."
+     ],
+     "items": [
+      [
+       "(i) Motive / intent",
+       "The persecutor must be motivated to harm the applicant because of the protected ground. This is the U.S. approach after INS v. Elias-Zacarias (1992)."
+      ],
+      [
+       "(ii) Causation",
+       "The applicant suffered harm because of her status or belief, whatever the persecutor’s motivation. The focus is on why the harm fell on her, measured by effect."
+      ],
+      [
+       "International position",
+       "UNHCR, the EU, and many other states parties do not require proof of the persecutor’s intent or motive."
+      ],
+      [
+       "Goodwin-Gill",
+       "Nowhere in the 1951 Convention’s drafting history is the persecutor’s motive or intent “ever to be considered as a controlling factor.” This supports the causation reading as the original understanding."
+      ]
+     ],
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
+    },
+    {
+     "title": "The U.S. Path to a Motive Test",
+     "explain": [
+      "U.S. nexus law moved from a split among adjudicators to a firm Supreme Court rule requiring evidence of motive, and then to a statutory standard for cases where the persecutor has more than one motive.",
+      "The result is that more U.S. cases are denied on nexus than on any other ground. Some pre-Zacarias cases in the casebook are no longer good law; they are studied to show a different way of analyzing nexus."
+     ],
+     "items": [
+      [
+       "1980s",
+       "The BIA (Board of Immigration Appeals) consistently required proof of the persecutor’s motivation, and most circuits followed. The Ninth Circuit read “on account of” more broadly."
+      ],
+      [
+       "INS v. Elias-Zacarias (1992)",
+       "The Supreme Court adopted the BIA’s approach. Every applicant must provide evidence of the persecutor’s intent."
+      ],
+      [
+       "Mixed motive",
+       "Courts later recognized that persecutors can have more than one motive. Nexus is met if a protected ground is a motivating factor."
+      ],
+      [
+       "REAL ID Act of 2005",
+       "In mixed-motive cases, the protected ground must be “at least one central reason” for the persecution."
+      ],
+      [
+       "Effect of the motive test",
+       "Proving the persecutor’s intent is hard, so more cases are denied on nexus. A Musalo et al. study of 500+ decisions from 1992 to 2016 found lack of nexus was the reason for denial in 75% of cases with credible applicants.",
+       [
+        "Many of those applicants suffered egregious harm but could not prove the persecutor’s motivation.",
+        "Critics say the U.S. approach undermines the Convention’s humanitarian objectives."
+       ]
+      ]
+     ],
+     "tip": "When a fact pattern has severe, credible harm, do not stop at persecution. Nexus is where most credible U.S. claims fail (75% in the Musalo study).",
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
+    },
+    {
+     "title": "Campos-Guardado v. INS (5th Cir. 1987)",
+     "explain": [
+      "Campos-Guardado shows how a strict focus on the persecutor’s intent can defeat a claim with extreme, politically charged harm. The Fifth Circuit upheld the BIA’s finding that the attack was not on account of the applicant’s own actual or imputed political opinion.",
+      "The case also states the civil strife limit: Congress did not intend asylum for everyone harmed in civil disturbances, so the question is whether the political side of the harm rises to persecution on account of political opinion."
+     ],
+     "items": [
+      [
+       "Facts",
+       "A Salvadoran woman entered illegally in 1984, conceded deportability, and applied for asylum and withholding. In early 1984 she visited her uncle’s home to repay a debt her father owed.",
+       [
+        "Her uncle chaired a local agricultural cooperative formed through the controversial agrarian land reform. The day before, two men had demanded the co-op’s money and he refused.",
+        "An older woman and two young men with rifles broke down the door, dragged the family to the farm’s waste pit, tied everyone, and gagged the women.",
+        "The men hacked the uncle and a male cousin with machetes and shot them to death while forcing the women to watch. The male attackers raped the women, including Campos, while the women with them shouted political slogans.",
+        "The victims were told to flee or be killed. Campos had a nervous breakdown and was hospitalized for 15 days.",
+        "On a visit home she recognized one attacker, whom her mother introduced as a cousin who had fled the guerrillas. He sought her out several times and threatened to kill her and her family if she revealed his identity.",
+        "Guerrillas burned down her workplace in San Salvador. She would not move back near her cousin-assailant and came to the U.S. The IJ (immigration judge) and BIA denied asylum and withholding."
+       ]
+      ],
+      [
+       "Issue",
+       "Whether the BIA construed “political opinion” too narrowly. Campos argued she was persecuted for political opinion imputed to her, rightly or wrongly, because of her family and its association with land reform, and that as an eyewitness to a political assassination she would be a target in the future.",
+       [
+        "Her particular social group (family) claim depended on the attackers attributing political opinions to the family, so the court analyzed only political opinion."
+       ]
+      ],
+      [
+       "BIA reasoning",
+       "The BIA assumed her account was true and that the attack resulted from the uncle’s political views, but found she “had not shown that the attackers harmed her in order to overcome any of her own political opinions.”",
+       [
+        "She was unlikely to have been targeted because the attackers could not have expected her to be at the house that day.",
+        "The attackers may have had political goals, such as intimidating peasants involved in land reform, but nothing showed she was persecuted for an opinion she held “or was believed by the attackers to possess.”",
+        "The cousin-assailant’s threats were personal, meant to keep her from exposing him, and were not based on political opinion or any other ground."
+       ]
+      ],
+      [
+       "Holding",
+       "Affirmed. Substantial evidence supports denial of withholding and the finding that she is statutorily ineligible for asylum.",
+       [
+        "The BIA did not rest on a “single fatal flaw” (that she did not personally hold the opinion); it also rejected imputed opinion.",
+        "The BIA did consider the family relationship, the uncle’s co-op leadership, and the land-reform and human rights evidence. It found them insufficient."
+       ]
+      ],
+      [
+       "Civil strife limit",
+       "Congress never defined “political opinion,” and the Refugee Act of 1980 dropped “displaced persons” (people displaced by military or civil disturbances) from the refugee definition. The court read this to mean Congress did not intend asylum for everyone harmed by civil disturbances, which always have political implications.",
+       [
+        "The question becomes whether the political implications behind the fear rise to “political opinion” or are civil strife outside the statute."
+       ]
+      ],
+      [
+       "Deference",
+       "Evaluating a nation’s political conditions is “a task for which courts are not well-suited,” so the court deferred to the agency."
+      ],
+      [
+       "Burden of proof",
+       "Withholding requires a “clear probability” of harm (more likely than not, under Stevic). The BIA never reached likelihood. It denied because the harm she fears, “no matter how likely,” is not on account of a protected ground."
+      ],
+      [
+       "Lessons from the notes",
+       "The case shows how hard it is to prove intent: rape, being forced to watch the killings, political slogans shouted, an uncle active in land reform, and still no nexus.",
+       [
+        "Failure of nexus defeats the claim regardless of how severe or likely the harm is. On these facts she likely could have shown past persecution and a well-founded fear.",
+        "Political opinion can be actual or imputed (the persecutor erroneously attributes the opinion to the victim). Covered in Ch. 6.",
+        "The BIA’s “they could not have expected her there” rationale assumes targeting requires advance knowledge of who the victim is. Persecutors can reach conclusions about a victim’s opinion during the attack, for example apartheid-era police assuming everyone at an anti-apartheid leader’s home held anti-apartheid views.",
+        "Applied too broadly, the civil-disturbance principle denies protection even where nexus exists. It is an open question whether Campos’s harm was civil disturbance or was directed at her as someone perceived to hold political opinions."
+       ]
+      ]
+     ],
+     "tip": "Campos-Guardado is a Fifth Circuit case. Use it as the example of a nexus failure despite severe, likely harm, and be ready to attack the BIA’s “no advance knowledge” reasoning with the apartheid-police example.",
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
+    },
+    {
+     "title": "The Ninth Circuit’s Flexible Approach: Lazo-Majano and Hernandez-Ortiz",
+     "explain": [
+      "Before Zacarias, the Ninth Circuit read “on account of” broadly. It looked at both sides of the relationship: the political views and actions of the persecutor as well as the victim’s, and the relationship between the two. Hernandez-Ortiz also created a rebuttable presumption that helped applicants prove political motive when a government used force against people with no legitimate reason to do so.",
+      "These cases are included to show a different way of analyzing nexus. Zacarias and the REAL ID Act rejected much of this approach."
+     ],
+     "items": [
+      [
+       "Lazo-Majano v. INS (9th Cir. 1987)",
+       "A Salvadoran woman was coerced into a sexual relationship with Zuñiga, a Salvadoran military officer, who raped, beat, and threatened her over an extended period. The court held she was persecuted on account of political opinion.",
+       [
+        "The court looked at the persecutor’s motivations and beliefs as well as the victim’s. It found Zuñiga held the “political opinion that a man has a right to dominate” a woman, which in effect treated machismo as a political opinion.",
+        "Compare Campos-Guardado: both arose from the Salvadoran civil war, but the Fifth Circuit asked only whether the persecutors intended to punish the victim for her own actual or imputed opinion."
+       ]
+      ],
+      [
+       "Hernandez-Ortiz v. INS (9th Cir. 1985): facts",
+       "A Salvadoran woman who entered without inspection in 1977 was found deportable. After those proceedings, Salvadoran security forces murdered her brother (a teacher) and his wife; soldiers threatened her grandparents with submachine guns and robbed their store; and National Guard members kidnapped and beat her brother-in-law’s wife and threatened to kill the couple.",
+       [
+        "The INS erroneously deported her in 1982 while her petition for review was pending. She was held at the Salvadoran airport until she paid an official about $200, and said the authorities now regarded her as a traitor.",
+        "She moved to reopen to apply for asylum and withholding. The BIA denied the motion, finding her fears were only about “political upheaval and random violence” and that no threat was related to political opinion, because neither she nor her relatives belonged to political groups or took part in the conflict."
+       ]
+      ],
+      [
+       "Hernandez-Ortiz: holding",
+       "The BIA abused its discretion in denying the motion to reopen. It (i) wrongly found her facts insufficient to show, prima facie, a clear probability that her life or freedom would be threatened in El Salvador, and (ii) erred as a matter of law in finding no prima facie showing that the threat was related to political opinion.",
+       [
+        "Threats or violence against several family members can support a conclusion that the applicant’s own life or freedom is endangered.",
+        "Because all the incidents were inflicted by government forces on one family, the inference that they were connected and politically motivated was appropriate.",
+        "Whether the victim’s view is neutrality or disapproval of the government is irrelevant, and so is whether she actually holds the view, as long as the government believes she does."
+       ]
+      ],
+      [
+       "The rebuttable presumption",
+       "“When a government exerts its military strength against an individual or a group within its population and there is no reason to believe that the individual or group has engaged in any criminal activity or other conduct that would provide a legitimate basis for governmental action, the most reasonable presumption is that the government’s actions are politically motivated.”",
+       [
+        "A presumption is a legal rule that assumes certain facts from proof of other facts. Rebuttable means the opposing party can overcome it with countervailing facts.",
+        "Open question from the notes: whether it is reasonable to presume a government’s motive is political when it persecutes innocent citizens.",
+        "Eliminating this presumption was one motivation for the REAL ID Act of 2005. Members of Congress said it “improperly favor[ed] asylum applicants who claim that they have been accused of engaging in terrorist, militant, or guerrilla activity” (Matter of J-B-N- & S-M-, BIA 2007)."
+       ]
+      ],
+      [
+       "Motion to reopen",
+       "Hernandez-Ortiz arose on a motion to reopen, the same device used in INS v. Stevic (Ch. 3). A motion to reopen is used to apply for relief not previously requested, or to submit new, previously unavailable evidence on an existing claim. The applicant must show a prima facie case for the relief sought.",
+       [
+        "She had not raised asylum or withholding at her first hearing; she applied because of events after those proceedings. In other cases, failure to apply comes from ineffective counsel.",
+        "Since the 1996 changes, an applicant generally gets only one motion to reopen, filed within 90 days of the removal order.",
+        "Exception: changed country conditions, if the evidence is “material” and was unavailable at the prior proceeding. INA § 240(c)(7)(C); 8 C.F.R. § 1003.2(c)."
+       ]
+      ]
+     ],
+     "check": {
+      "status": "complete",
+      "note": "Day 10 notes start Hernandez-Ortiz at the holding and do not cover Lazo-Majano; facts for both came from the Ch. 5 casebook text (pp. 282–286)."
+     }
+    },
+    {
+     "title": "INS v. Elias-Zacarias (1992)",
+     "explain": [
+      "Zacarias is the Supreme Court case that made the persecutor’s motive the center of U.S. nexus law. A Guatemalan man feared guerrillas who tried to recruit him. The Ninth Circuit found persecution on account of political opinion; the Supreme Court reversed.",
+      "The rule: “persecution on account of political opinion” means on account of the victim’s political opinion, not the persecutor’s. Because the statute makes motive critical, the applicant must provide some evidence, direct or circumstantial, that the persecutor will harm him because of that opinion."
+     ],
+     "items": [
+      [
+       "Zacarias I (9th Cir. 1990)",
+       "The Ninth Circuit held Elias established eligibility for asylum (but not entitlement to withholding) and remanded for the BIA to exercise its discretion on asylum. It looked at both sides of the “persecutor equation”: persecution was on account of political opinion “because the person resisting forced recruitment is expressing a political opinion hostile to the persecutor and because the persecutors’ motive in carrying out the kidnapping is political.”",
+       [
+        "The decision was unremarkable under Lazo-Majano and Hernandez-Ortiz, but it became the vehicle for the government’s position that nexus requires proof of the persecutor’s motivation. The government petitioned for certiorari."
+       ]
+      ],
+      [
+       "Issue",
+       "Whether a guerrilla organization’s attempt to coerce a person into military service necessarily constitutes “persecution on account of ... political opinion” under INA § 101(a)(42)."
+      ],
+      [
+       "Facts",
+       "In January 1987, when he was 18, two armed, uniformed guerrillas with handkerchiefs partly covering their faces came to his home in Guatemala and asked him and his parents to join. All refused. The guerrillas said they would be back and the family should think it over.",
+       [
+        "He refused because the guerrillas are against the government and he feared the government would retaliate against him and his family if he joined.",
+        "He left at the end of March 1987, afraid the guerrillas would return, and was apprehended in July 1987 for entering without inspection.",
+        "The IJ found the claim rested on “this one attempted recruitment” and denied asylum and withholding. The BIA dismissed on procedural grounds and denied reopening even with new evidence that the guerrillas had twice returned to recruit him."
+       ]
+      ],
+      [
+       "Standard of review",
+       "The BIA’s determination must be upheld if “supported by reasonable, substantial, and probative evidence on the record considered as a whole.” It can be reversed only if a reasonable factfinder would have to conclude the requisite fear of persecution existed."
+      ],
+      [
+       "Holding",
+       "Reversed. Of the Ninth Circuit’s two-part rationale, the Court said, “The first half of this seems to us untrue, and the second half irrelevant.”"
+      ],
+      [
+       "(i) Resisting recruitment is not necessarily political",
+       "Even a guerrilla supporter might resist for non-political reasons: fear of combat, wanting to stay with family and friends, or wanting a better civilian living.",
+       [
+        "The record showed the opposite of a political motive: he refused because he feared government retaliation.",
+        "Nothing indicated the guerrillas erroneously believed his refusal was political. The Court assumed, without deciding, that imputed opinion would suffice."
+       ]
+      ],
+      [
+       "(ii) The persecutor’s own politics are irrelevant",
+       "The guerrillas wanted to fill their ranks to fight the government and pursue political goals. That generalized political motive does not make forced recruitment persecution on account of political opinion; it “goes far to refute” it.",
+       [
+        "Plain meaning: the statute refers to the victim’s political opinion. A Nazi regime persecuting Jews is not persecution on account of political opinion, and a fundamentalist Moslem regime persecuting democrats is not persecution on account of religion, even though the persecutors hold political or religious views."
+       ]
+      ],
+      [
+       "Neutrality",
+       "Neutrality is not ordinarily a political opinion. Political opinion is distinct from “indifference, indecisiveness and risk-averseness.”",
+       [
+        "The Court did not decide whether he held a political opinion. Even if he did, he had to show the guerrillas would persecute him because of that opinion, rather than because of his refusal to fight with them, and he did not."
+       ]
+      ],
+      [
+       "Proof of motive",
+       "Direct proof of the persecutor’s motive is not required. “But since the statute makes motive critical, he must provide some evidence of it, direct or circumstantial.”",
+       [
+        "For a court to reverse the BIA, the evidence must be “so compelling that no reasonable factfinder could fail to find the requisite fear of persecution.”"
+       ]
+      ]
+     ],
+     "tip": "Separate the two Zacarias moves on the exam: (1) refusing to join is not automatically a political opinion, and (2) the persecutor’s political goals do not supply nexus. The applicant needs evidence that the persecutor targets him because of his own actual or imputed opinion.",
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
+    },
+    {
+     "title": "Zacarias Dissent (Stevens, J.)",
+     "explain": [
+      "Justice Stevens, joined by Justices Blackmun and O’Connor, would have affirmed. He accepted that Elias had a well-founded fear of harm caused by the guerrillas’ displeasure at his refusal to join, so the only question was whether that fear was “on account of ... political opinion.” His answer was yes, for two reasons."
+     ],
+     "items": [
+      [
+       "(i) Political opinion can be expressed negatively",
+       "Refusing to support a cause, such as staying home on election day, refusing an oath of allegiance, or refusing to step forward at an induction center, can express a political opinion as effectively as affirmative conduct.",
+       [
+        "Even if the refusal comes from a simple desire to keep living an ordinary life with one’s family, it is the kind of political expression the asylum provisions protect.",
+        "Bolanos-Hernandez: “Choosing to remain neutral is no less a political decision than is choosing to affiliate with a particular political faction.”",
+        "Requiring identification with one of two warring factions would frustrate the Refugee Act’s goal of protecting all victims regardless of ideology; moderates who sit out a battle would not qualify.",
+        "The majority’s “narrow, grudging construction” conflicts with Cardoza-Fonseca’s generous approach, including construing lingering ambiguities in deportation statutes in favor of the alien."
+       ]
+      ],
+      [
+       "(ii) Nexus follows “as night follows day”",
+       "The implied threat to “take” or “kill” him if he did not change his position is threatened persecution on account of that opinion.",
+       [
+        "Bolanos-Hernandez: “It does not matter to the persecutors what the individual’s motivation is.” Persecution for an overt manifestation of a political opinion is persecution because of political opinion.",
+        "The statute does not require proof of exactly why persecutors would act, only a “reasonable possibility” of persecution on account of political opinion (Cardoza-Fonseca; Stevic)."
+       ]
+      ]
+     ],
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
+    },
+    {
+     "title": "Critique of Zacarias",
+     "explain": [
+      "Zacarias looks only at the persecutor: persecution is on account of a ground only if the persecutor is motivated to harm the applicant because of her actual or imputed status or belief. The casebook calls it a watershed with a major impact on who gets protection.",
+      "The critique has two parts. First, the intent requirement creates problems of proof and of coverage. Second, the Court’s plain-meaning reasoning is contestable, and Karen Musalo argues the statute’s language, Congress’s purpose, and refugee-law policy all point away from an intent requirement."
+     ],
+     "items": [
+      [
+       "Problem (i): evidentiary",
+       "The applicant must prove what was in the persecutor’s mind. Circumstantial evidence is allowed in theory, but cases are often denied without compelling direct evidence, which is rarely available.",
+       [
+        "“Persecutors are hardly likely to provide their victims with affidavits attesting to their acts of persecution.” Bolanos-Hernandez.",
+        "Campos-Guardado (pre-Zacarias) illustrates the difficulty."
+       ]
+      ],
+      [
+       "Problem (ii): failure of protection",
+       "Protection fails where the persecutor has no intent to persecute for a protected ground but the effect is persecution for a protected ground. The actor may not think it is causing harm, while the effect is harmful."
+      ],
+      [
+       "Plain meaning and deference",
+       "Before Loper Bright (2024), Chevron allowed a court to defer to an agency’s reasonable interpretation of ambiguous statutory language. Zacarias upheld the BIA’s reading without framing it as deference. It held “on account of” unambiguous, with an obvious plain meaning that requires proof of intent."
+      ],
+      [
+       "Musalo: plain language",
+       "The dictionary defines “on account of” as “for the sake of, by reason of, because of.” That requires a causal connection between the harm and the victim’s status or belief, but a causal connection does not logically translate into proof of the persecutor’s motivation.",
+       [
+        "Anti-discrimination statutes with similar language do not always require intent. The Equal Pay Act (“on the basis of sex”) looks at effects, and Title VII (“because of”) can be satisfied by intent or effects."
+       ]
+      ],
+      [
+       "Musalo: congressional intent",
+       "Congress meant the Refugee Act to bring the U.S. into compliance with the 1967 Protocol, whose phrase “for reasons of” is broad enough to find causation without proof of motive.",
+       [
+        "The UNHCR Handbook, which Congress knew of, notes applicants may not even be able to identify why they are persecuted.",
+        "UNHCR’s amicus brief in Zacarias argued refugee examiners “are not called upon to decide the criminal guilt or liability of the persecutor, and refugee status is not dependent on such proof.”"
+       ]
+      ],
+      [
+       "Musalo: policy",
+       "Statutes are construed to accomplish their purpose, here protecting people with a reasonable fear of persecution related to a protected ground. Other fields have relaxed intent requirements to serve their goals: criminal law has modified mens rea, tort law moved toward strict liability, and Title VII adopted an effects analysis."
+      ]
+     ],
+     "check": {
+      "status": "complete",
+      "note": "Day 10 notes list Musalo’s three arguments by name only; their content came from the Ch. 5 casebook excerpt (pp. 295–297)."
+     }
+    },
+    {
+     "title": "Notes on the Musalo Critique: Causation vs. Intent",
+     "explain": [
+      "The notes ask whether the Supreme Court adequately justified its jump from causation (“because of”) to intention (the persecutor’s motive). Comparative scholarship and U.S. anti-discrimination law both suggest the two can be separated."
+     ],
+     "items": [
+      [
+       "Foster (2002)",
+       "Surveying Canada, the U.K., Australia, and New Zealand, Foster found nexus analysis involves a “conflation of the elements of causation and intent.” “[C]ausation does not necessarily involve any element of intent in other areas of law,” and the “leap from causation to intention is seldom identified or justified.”"
+      ],
+      [
+       "Title VII analogy",
+       "Title VII uses “on the basis of” where the refugee statute uses “on account of.” A Title VII claim can be brought two ways:",
+       [
+        "Disparate impact, first recognized in Griggs v. Duke Power Co.: no proof of intent is needed; the claim rests on effects on a protected class.",
+        "Disparate treatment: traditionally requires conscious intent to treat someone differently because of protected-class membership."
+       ]
+      ],
+      [
+       "But-for principle",
+       "Recent Supreme Court cases are moving away from conscious intent toward a “but-for principle”: the law is violated where the outcome would be different “but for” protected status (Eyer (2021); Bostock v. Clayton County (2020)).",
+       [
+        "Anti-discrimination law is still in a “conceptual crisis,” but the erosion of the conscious-intent requirement points toward an asylum nexus test not anchored in proof of intent."
+       ]
+      ]
+     ],
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
+    },
+    {
+     "title": "Mixed Motives",
+     "explain": [
+      "After Zacarias, courts faced persecutors driven by several motives at once, for example punishing a political opponent and also extracting information. The mixed-motive doctrine holds that nexus can be met even if a protected ground is only one of the persecutor’s motives.",
+      "The doctrine softens Zacarias: the applicant still proves motive, but does not have to prove the protected ground was the only motive."
+     ],
+     "items": [
+      [
+       "Matter of S-P- (BIA 1996)",
+       "A Sri Lankan man was forced to collaborate with the Tamil Tigers. The Sri Lankan Army captured him in a raid on the Tigers’ camp and interrogated and brutalized him in at least eight sessions, holding a gun to his head four times and sometimes accusing him of being a Tiger.",
+       [
+        "Issue: whether the harm was on account of imputed political opinion or meant to extract information about the Tigers.",
+        "Held: mixed motives accepted. Nexus is established if at least one of the persecutor’s motives is a statutory ground."
+       ]
+      ],
+      [
+       "Osorio v. INS (2d Cir. 1994)",
+       "Quoted in S-P-: persecution “on account of the victim’s political opinion” does not mean persecution “solely” on account of it."
+      ],
+      [
+       "Lukwago v. Ashcroft (3d Cir. 2003)",
+       "A persecutor may have multiple motivations but must be motivated “at least in part” by an enumerated ground."
+      ],
+      [
+       "Misapplying the doctrine is error",
+       "Mohideen v. Gonzales (7th Cir. 2005): the BIA failed to evaluate evidence of “dual motive.” Menghesha v. Gonzales (4th Cir. 2006): the IJ erred by not considering all possible motives after finding one legitimate motive."
+      ]
+     ],
+     "tip": "When a persecutor has an obvious non-protected motive (money, information, recruitment), do not concede nexus. Look for a second, protected motive and argue mixed motives.",
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
+    },
+    {
+     "title": "“At Least One Central Reason” (REAL ID Act of 2005)",
+     "explain": [
+      "The REAL ID Act of 2005 codified the mixed-motive approach for asylum but raised the bar: the protected ground must be “at least one central reason” for the persecution, 8 U.S.C. § 1158(b)(1)(B)(i). A ground that is only one of several minor reasons no longer suffices.",
+      "Two questions follow: what “central” means (see the next block), and whether the same standard applies to withholding of removal, where the circuits are split."
+     ],
+     "items": [
+      [
+       "Background",
+       "From 2000 on, there were efforts to require that the ground be a central factor, not just one of several.",
+       [
+        "The 2000 proposed regulations (never finalized) required the protected characteristic to be “central to the persecutor’s motivation to act against the applicant.”",
+        "An early REAL ID bill said “the central motive.” The final text, “at least one central reason,” is slightly less demanding than “the central reason.”"
+       ]
+      ],
+      [
+       "“Motive” vs. “reason”",
+       "The change from “motive” to “reason” is arguably significant. Chase: a “reason” is the “cause of an event or situation” and could “cover more territory than ‘motive,’” which looks only to the persecutor’s mind. That could move the analysis away from Zacarias toward international standards.",
+       [
+        "That broader reading has not appeared in cases decided since the REAL ID Act."
+       ]
+      ],
+      [
+       "Mixed motives survive",
+       "The Conference Report says asylum may be granted where there is more than one motive, “as long as at least one central reason” is a protected ground."
+      ],
+      [
+       "Application to withholding",
+       "The circuits split.",
+       [
+        "BIA, Matter of C-T-L- (2010): yes, “one central reason” applies to withholding.",
+        "Ninth Circuit, Barajas-Romero v. Lynch (2017): no. Congress added “one central reason” to the asylum statute but not to withholding. Withholding requires only “a reason,” which “is a less demanding standard than ‘one central reason.’”",
+        "The Sixth Circuit followed Barajas-Romero in Guzman-Vazquez v. Barr (2020); a later Sixth Circuit panel criticized that ruling but applied it in Vasquez-Rivera v. Garland (2024).",
+        "The First, Second, Third, Fourth, Fifth, Seventh, Eighth, and Eleventh Circuits have rejected the argument or applied “one central reason” to withholding.",
+        "Fifth Circuit: Vazquez-Guerra v. Garland (2021) rejected the argument that withholding has a “less demanding” nexus standard."
+       ]
+      ]
+     ],
+     "tip": "In the Fifth Circuit, the same “one central reason” nexus standard governs asylum and withholding (Vazquez-Guerra). Only the Ninth and Sixth Circuits use the lower “a reason” standard for withholding.",
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
+    },
+    {
+     "title": "What “Central” Means: Dominance, But-For Causation, and Triggers",
+     "explain": [
+      "Courts agree that “central” does not mean dominant. The protected ground does not have to be the main, only, or most important reason; it only has to be more than an incidental, tangential, or superficial reason.",
+      "Courts have also rejected a strict but-for test, and have held that the ground does not have to be the immediate trigger for the harm if it was the reason the person was targeted in the first place."
+     ],
+     "items": [
+      [
+       "Not dominant",
+       "There is no required “hierarchy of motivations” (Ndayshimiye, 3d Cir. 2009).",
+       [
+        "The BIA had required the ground to be more than “incidental, tangential, superficial, or subordinate.” Including “subordinate” was error because it implies the protected reason must be dominant.",
+        "The rest stands: the protected ground cannot be an “incidental, tangential, or superficial” reason.",
+        "Parussimova v. Mukasey (9th Cir. 2008): the applicant need not prove the ground was the most important reason. Lagos v. Barr (4th Cir. 2019): it need not be the only, dominant, or primary reason. Perez-Sanchez (11th Cir. 2019): the applicant need not prove which reason was dominant."
+       ]
+      ],
+      [
+       "But-for causation",
+       "One route to nexus is showing the persecutor would not have harmed the applicant but for the protected ground. The ground must still be more than incidental or tangential.",
+       [
+        "Problem: when there are multiple causes, each of which would suffice alone, none is strictly a but-for cause.",
+        "Manzano v. Garland (9th Cir. 2024): a motive is a central reason if it alone would have been sufficient for the persecutor to harm the applicant, even if it is not a strict but-for cause. Quituizaca v. Garland (2d Cir. 2022) also rejects a but-for requirement."
+       ]
+      ],
+      [
+       "The ground need not be the trigger",
+       "If the protected ground is why the person was targeted in the first place, it can be a central reason even if some other event triggered the attack.",
+       [
+        "Rivera v. Garland (8th Cir. 2024): a pastor preached to gang members; the gangs told him to stop and watched who attended his church. He grew close to Granadeno, an MS-13 member who joined his church. Gang members killed Granadeno, saying he “belonged to them, not to Christ,” and tried to kill Rivera.",
+        "The IJ and BIA found religion was not one central reason. The Eighth Circuit vacated because the BIA failed to consider religion as one of multiple central reasons. Even if the trigger was Granadeno leaving the gang, religion could still be an underlying central reason.",
+        "Accord Chicas-Machado v. Garland (4th Cir. 2023)."
+       ]
+      ]
+     ],
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
+    },
+    {
+     "title": "Animus",
+     "explain": [
+      "The animus question is whether it is enough that the persecutor chose the victim because of a protected ground, or whether the persecutor must also hold ill will toward the victim or the group. Most precedent rejects an animus or punitive-intent requirement. Matter of M-R-M-S- (BIA 2023) went the other way and has been widely criticized.",
+      "The majority view: nexus asks why the person was targeted. If a protected ground is at least one central reason, the inquiry ends, even if the person was selected as a means to some other end."
+     ],
+     "items": [
+      [
+       "No animus required",
+       "Precedent rejects any animus or punitive-intent requirement.",
+       [
+        "Matter of Kasinga (BIA 1996): nexus in an FGC (female genital cutting) case even though practitioners had no ill will and believed the ritual was for the woman’s good.",
+        "Pitcherskaia v. INS (9th Cir. 1997): threatened electroshock of a Russian lesbian was persecution even though the authorities wanted to “cure” her."
+       ]
+      ],
+      [
+       "Matter of M-R-M-S- (BIA 2023)",
+       "A cartel forced a family off its land and killed their grandson. The family claimed persecution on account of family as a particular social group. The BIA found no nexus because the persecutors had no animus toward the family and only wanted the land; targeting the family was a means to an end.",
+       [
+        "Widely criticized and on appeal. The BIA and federal courts have largely rejected an animus requirement.",
+        "Mazariegos-Rodas v. Garland (6th Cir. 2024) criticized and rejected M-R-M-S-. Family-based PSG claims are covered further in Ch. 9."
+       ]
+      ]
+     ],
+     "tip": "If a fact pattern has a persecutor who targets a family or group to get something else (land, money), argue that the protected ground is still a central reason for choosing the victim, and cite Kasinga, Pitcherskaia, and Mazariegos-Rodas against M-R-M-S-.",
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
+    },
+    {
+     "title": "International & Comparative Practice",
+     "explain": [
+      "The U.S. is an outlier. Its nexus test depends entirely on proof of the persecutor’s intent or motivation, while UNHCR guidance and peer countries allow a broader, more flexible approach. UNHCR has consistently rejected requiring proof of intent or motive, including in its amicus brief in Zacarias and many later interventions.",
+      "UNHCR’s submission in Sepet & Bulbul shows the treaty-interpretation argument: read under the Vienna Convention’s rules, Article 1A does not make the persecutor’s motive a condition of refugee status."
+     ],
+     "items": [
+      [
+       "UNHCR Submission in Sepet & Bulbul v. Secretary of State (U.K. Ct. App. 2000)",
+       "UNHCR responded to the U.K. Home Secretary’s argument on nexus.",
+       [
+        "¶ 30: The Home Secretary argued that what matters is the reasons that “motivate the persecutor, not the asylum claimant.”",
+        "¶ 31: That construction is not supported by Art. 1A. The Convention is a treaty, interpreted under VCLT (Vienna Convention on the Law of Treaties) Art. 31(1): “in good faith in accordance with the ordinary meaning to be given to the terms of the treaty in their context and in light of its object and purpose.”",
+        "¶ 32: Art. 1A’s wording does not make the persecutor’s motivation a condition for finding persecution for a Convention reason."
+       ]
+      ]
+     ],
+     "check": {
+      "status": "complete",
+      "note": "Day 10 notes end after ¶ 32 of the UNHCR submission."
+     }
+    }
+   ]
+  },
+  {
    "title": "Convention Against Torture",
+   "overview": [
+    "The Convention Against Torture (CAT) is a third form of protection from removal, alongside asylum and withholding. All three are based on harm. CAT matters most for people who fall through the gaps of asylum law: someone who cannot prove nexus to a protected ground under Zacarias, or who is barred from asylum and withholding, can still be protected from being sent back to torture.",
+    "CAT is broader than asylum and withholding because it requires no nexus and the asylum and withholding bars do not stop it. It is narrower because it covers only torture, which is more severe than persecution, and the applicant must show torture is more likely than not.",
+    "A CAT claim has three elements: (a) the harm is torture, meaning severe pain or suffering, inflicted with specific intent, for an impermissible purpose; (b) sufficient state action, meaning a public official inflicts, instigates, consents to, or acquiesces in it; and (c) torture is more likely than not. A successful claim leads to CAT withholding or, for barred applicants, CAT deferral.",
+    "On the exam, run CAT as a separate claim whenever asylum or withholding fails. Kamalthas holds that an asylum denial, even on credibility, does not automatically defeat CAT, because country conditions alone can carry a CAT claim."
+   ],
+   "check": {
+    "status": "complete",
+    "note": "Built from the Day 11 reading notes (casebook pp. 416–427), the Day 11 class notes, and the outline’s CAT references (lawful sanctions, reasonable-fear screening, the June 2024 framework, and review of CAT denials). The Day 11 class notes say to rely on slides for the CAT rule outline, but no slides exist for Ch. 5, so the reading notes are the main source."
+   },
    "blocks": [
     {
      "title": "Why CAT Matters",
+     "explain": [
+      "CAT is an alternative source of protection when a rigid nexus reading (Zacarias) leaves people facing serious human rights violations unprotected. Asylum, withholding, and CAT all rest on harm, but CAT protects a different set of people under different rules.",
+      "Compared with asylum and withholding, CAT is broader in who it covers and narrower in what harm counts."
+     ],
      "items": [
       [
        "Alternative protection",
-       "covers people a rigid nexus reading (Zacarias) leaves unprotected"
+       "CAT covers people that a rigid nexus reading (Zacarias) leaves unprotected, such as an applicant who faces serious harm but cannot prove the persecutor’s motive was a protected ground."
       ],
       [
        "Broader",
-       "no nexus to a protected ground; the asylum/withholding statutory bars don’t preclude relief"
+       "Two ways:",
+       [
+        "No nexus to race, religion, nationality, political opinion, or particular social group is required.",
+        "The statutory bars to asylum and withholding (Ch. 11) do not preclude CAT relief."
+       ]
       ],
       [
        "Narrower",
-       "only harm that meets the definition of torture; must show torture is more likely than not"
+       "Two ways:",
+       [
+        "CAT protects only against harm that meets the definition of “torture,” not all persecution.",
+        "There is no well-founded-fear standard; the applicant must show torture is “more likely than not.”"
+       ]
       ],
       [
        "Background",
-       "prohibition on torture is jus cogens; UN adopted CAT in 1984; U.S. joined 1994; implemented by FARRA (1998)"
+       "The prohibition on torture is a peremptory (jus cogens) norm, meaning no state may derogate from it. The UN adopted CAT in 1984, the U.S. joined in 1994, and Congress implemented it through FARRA (the Foreign Affairs Reform and Restructuring Act of 1998)."
       ]
-     ]
+     ],
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
     },
     {
-     "title": "CAT Art. 1 · Torture",
+     "title": "CAT Art. 1 · Definition of Torture",
      "multi": true,
-     "text": "Any act by which severe pain or suffering, physical or mental, is intentionally inflicted for a purpose such as:",
+     "explain": [
+      "Article 1 defines torture as “any act by which severe pain or suffering, whether physical or mental, is intentionally inflicted on a person” for a listed purpose, with state involvement. Each part must be met: severe pain or suffering, intentional infliction, a listed purpose, and state action.",
+      "Article 3 is the non-refoulement duty that makes CAT a basis for protection from removal."
+     ],
      "items": [
       [
-       "Information or confession",
-       "from him or a third person"
+       "Severe pain or suffering, intentionally inflicted",
+       "The pain or suffering can be physical or mental, must be severe, and must be inflicted intentionally."
       ],
       [
-       "Punishment",
-       "for an act he or a third person committed or is suspected of"
+       "Purpose: information or confession",
+       "Obtaining information or a confession from the victim or a third person."
       ],
       [
-       "Intimidation or coercion",
-       "of him or a third person"
+       "Purpose: punishment",
+       "Punishing the victim for an act he or a third person committed or is suspected of committing."
       ],
       [
-       "Discrimination",
-       "“any reason based on discrimination of any kind”"
+       "Purpose: intimidation or coercion",
+       "Intimidating or coercing the victim or a third person."
+      ],
+      [
+       "Purpose: discrimination",
+       "“Any reason based on discrimination of any kind.”"
       ],
       [
        "State action",
-       "by, at the instigation of, or with the consent or acquiescence of a public official or person acting in an official capacity"
+       "The pain or suffering must be inflicted “by or at the instigation of or with the consent or acquiescence of a public official or other person acting in an official capacity.”"
+      ],
+      [
+       "Lawful sanctions exclusion",
+       "Torture does not include pain or suffering “arising only from, inherent in or incidental to lawful sanctions.” The outline states the U.S. version: 8 C.F.R. § 1208.18(a)(3) excludes pain or suffering arising from or inherent in lawful sanctions."
+      ],
+      [
+       "Art. 3 (non-refoulement)",
+       "No State Party shall expel, return, or extradite a person to another State “where there are substantial grounds for believing that he would be in danger of being subjected to torture.”"
       ]
      ],
-     "tip": "Excludes pain arising only from, inherent in, or incidental to lawful sanctions. Art. 3: no return where there are “substantial grounds for believing” the person would be in danger of torture."
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
     },
     {
      "title": "U.S. Regulations (8 C.F.R. § 208.18)",
+     "explain": [
+      "The U.S. regulations adopt the Article 1 definition but add provisos that narrow it. Each proviso makes it harder to qualify than the treaty text alone would.",
+      "The class discussion flagged two features as standing out in U.S. CAT practice: the treatment of the death penalty, and diplomatic assurances."
+     ],
      "items": [
       [
        "Death penalty",
-       "expressly a lawful sanction, not torture"
+       "The death penalty is expressly a “lawful sanction” and so is not torture. Class discussion raised whether the U.S. death penalty itself would count as torture without this proviso."
       ],
       [
        "Mental pain",
-       "only “prolonged mental harm” from threatened severe physical pain, mind-altering procedures, threat of imminent death, or threats against another person"
+       "Mental pain counts only as “prolonged mental harm” caused by one of four things:",
+       [
+        "intentional or threatened infliction of severe physical pain;",
+        "mind-altering substances or procedures “calculated to disrupt profoundly the senses or personality”;",
+        "the threat of imminent death; or",
+        "the threat that another person will be subjected to any of those."
+       ]
       ],
       [
        "Custody",
-       "victim must be in the perpetrator’s custody or physical control"
+       "The victim must be in the perpetrator’s “custody or physical control.”"
       ],
       [
        "Acquiescence",
-       "official aware before the torture and breaches a legal responsibility to intervene"
+       "The official must be aware of the torture before it happens and then breach a legal responsibility to intervene."
       ],
       [
        "Diplomatic assurances",
-       "Secretary of State + AG can find assurances “sufficiently reliable” and preclude or end the claim"
+       "A CAT claim can be precluded or terminated if the Secretary of State obtains assurances from the receiving country that the person will not be tortured and, with the AG (Attorney General), finds them “sufficiently reliable.”",
+       [
+        "Flagged in the reading notes.",
+        "From class: diplomatic assurances are not discoverable, so in theory anything can suffice."
+       ]
       ]
-     ]
+     ],
+     "tip": "Diplomatic assurances were flagged: the government can end a CAT claim with assurances the applicant cannot see or challenge in discovery.",
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
     },
     {
      "title": "Two Forms of CAT Relief",
+     "explain": [
+      "An applicant who proves torture is more likely than not gets one of two forms of relief, depending on whether a bar applies. The bars are the ones in INA § 241(b)(3)(B), the same bars that apply to withholding of removal.",
+      "Two forms exist because of a conflict between FARRA and the treaty. FARRA told the agencies to exclude people barred from withholding “[t]o the maximum extent consistent with” U.S. obligations under CAT, but CAT’s prohibition on return is absolute. Deferral keeps barred people from being returned to torture while giving them less."
+     ],
      "items": [
       [
-       "CAT withholding (§ 208.16(c))",
-       "likelihood of torture + not within the § 241(b)(3)(B) bars; harder to terminate; generally no detention; work authorization possible"
+       "CAT withholding (8 C.F.R. § 208.16(c))",
+       "The greater form. For applicants who prove the likelihood of torture and are not within the INA § 241(b)(3)(B) bars. It is harder to terminate, the person generally is not detained, and the person may qualify for work authorization.",
+       [
+        "CAT withholding is a separate form of relief from Refugee Act withholding of removal, even though both use the name."
+       ]
       ],
       [
-       "CAT deferral (§ 208.17)",
-       "likelihood of torture but barred; easily terminated; may stay detained"
+       "CAT deferral (8 C.F.R. § 208.17)",
+       "The lesser form. For applicants who prove the likelihood of torture but fall within a § 241(b)(3)(B) bar. It is easily terminated, and the person can remain in detention."
       ],
       [
-       "Why two",
-       "FARRA excludes barred people “to the maximum extent consistent with” CAT, but CAT’s ban on return is absolute"
+       "Why two forms",
+       "FARRA directs exclusion of barred people as far as CAT allows, and CAT’s ban on return is absolute. Deferral is the minimum the treaty requires for someone who is barred: no return to torture, with fewer benefits."
       ]
-     ]
+     ],
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
     },
     {
-     "title": "Element 1 · Is It Torture?",
+     "title": "Asylum vs. Withholding vs. CAT",
+     "explain": [
+      "The casebook’s Figure 1 compares the three forms of protection on six points. Use it to spot which claim a fact pattern supports and what the applicant gets."
+     ],
+     "items": [
+      [
+       "Harm",
+       "Asylum: persecution. Withholding: a threat to life or freedom. CAT: torture."
+      ],
+      [
+       "State action",
+       "Asylum and withholding: the persecutor is the government, or the government is unable or unwilling to protect. CAT: instigation, consent, or acquiescence of a public official."
+      ],
+      [
+       "Likelihood",
+       "Asylum: well-founded fear. Withholding: more likely than not. CAT: more likely than not."
+      ],
+      [
+       "Causation",
+       "Asylum and withholding: nexus to a protected ground required. CAT: no nexus."
+      ],
+      [
+       "Relief",
+       "Asylum: release from detention, work authorization, a path to LPR (lawful permanent resident) status and then citizenship, and derivative status for spouse and children. Withholding: only withholds return to that country, plus work authorization. CAT: CAT withholding or CAT deferral."
+      ],
+      [
+       "Bars",
+       "The bars defeat asylum and withholding, and they bar CAT withholding, but the applicant stays eligible for CAT deferral."
+      ]
+     ],
+     "tip": "An applicant with a bar (Ch. 11) still has CAT deferral. Always check it before concluding there is no relief.",
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
+    },
+    {
+     "title": "Element 1 · Torture",
      "multi": true,
-     "text": "Three factors:",
+     "explain": [
+      "The first element asks whether the harm meets the definition of torture. Three factors must all be present: the gravity of the pain and suffering, specific intent to cause it, and an impermissible purpose.",
+      "Torture is a severe form of harm, so some acts that can be persecution, such as restricting or forbidding religious practice, are not grave enough to be torture."
+     ],
      "items": [
       [
        "Severe pain or suffering",
-       "no bright line; a single severe occurrence can be enough (Hernandez-Martinez); violent physical harm far likelier to qualify; rape can be torture (Zubeda)"
+       "There is no bright line. Like persecution, it is a fact-based inquiry into the particulars of the case.",
+       [
+        "Enough: sustained, severe beatings for a month plus cigarette burns over 8 to 10 days (Al Saher v. INS, 9th Cir. 2001).",
+        "Not enough: an arrest with beatings with wooden sticks and leather belts (Kumar v. Gonzalez, 9th Cir. 2005).",
+        "Violent physical harm is much more likely to be torture than nonphysical harm. Torture: “cutting off ears, noses, hands, arms, and legs of noncombatants as a deliberate terror tactic” (Kamara, 3d Cir. 2005).",
+        "Not torture: lack of mental health care on par with the U.S. (Ruffington v. Cangemi, 8th Cir. 2005); verbal harassment and threats by police and army against a vulnerable ethnic minority, even where torture of that minority is reported (Rashiah v. Ashcroft, 7th Cir. 2004).",
+        "Sexual violence can be torture: “severe pain and suffering endemic to rape” (Zubeda v. Ashcroft, 3d Cir. 2003).",
+        "No duration or frequency requirement: a single occurrence is enough if it is severe enough (Hernandez-Martinez v. Garland, 1st Cir. 2023)."
+       ]
       ],
       [
        "Specific intent",
-       "intent to cause the severe pain, not just the act (Auguste; Matter of J-E-); why prison-conditions claims usually fail"
+       "The actor must intend the consequences of the act (the severe pain and suffering), in addition to the act itself (general intent). “[I]f the actor intended the act but did not intend the consequences of the act, i.e., the infliction of severe pain and suffering, although such pain and suffering may have been a foreseeable consequence, the specific intent standard would not be satisfied” (Auguste v. Ridge, 3d Cir. 2005).",
+       [
+        "Matter of J-E- (BIA 2002), the first decision: a Haitian criminal deportee argued detention conditions (no adequate food, water, or medical care; police brutality) were torture. Held: not extreme enough, and even if they were, not imposed with specific intent to torture.",
+        "Early circuit rejections of specific intent were overruled. Zubeda (3d Cir. 2003) said requiring specific intent “could impose insurmountable obstacles” to CAT; overruled by Auguste (3d Cir. 2005). Habtemicael (8th Cir. 2004) found intent if torture is purposeful or the foreseeable result of a deliberate act; overruled by Cherichel v. Holder (8th Cir. 2010).",
+        "Auguste and Cherichel, both about Haitian prison conditions, adopted J-E-: the applicant must show the authorities specifically intended to inflict cruel and inhumane treatment.",
+        "Same problem as nexus: proving state of mind. Board member Rosenberg’s J-E- dissent said the criticisms of requiring proof of intent in asylum are “particularly apt” in CAT, where the applicant must prove what will be in the torturer’s mind in the future."
+       ]
       ],
       [
        "Impermissible purpose",
-       "listed purposes or discrimination; calling it a lawful sanction doesn’t insulate it (Nuru)"
+       "The definition lists purposes (obtaining information, punishment, intimidation, coercion) plus reasons “based on discrimination of any kind.” Pain from “lawful sanctions” is excluded as permissible.",
+       [
+        "A country calling something a lawful sanction does not insulate it: “torture is never a lawful means of punishment.”",
+        "Nuru v. Gonzales (9th Cir. 2005): an Eritrean who opposed the war with Sudan was bound, beaten, and left naked in the sun for 25 days. The BIA’s lawful-punishment finding was reversed."
+       ]
       ]
      ],
-     "tip": "Prison conditions fail without targeted intent (Abdoulaye; Gallina) unless the applicant would be singled out beyond ordinary detainees (Jean-Pierre; Eneh). Police abuse to extract confessions is torture (Kouzam)."
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
+    },
+    {
+     "title": "Prison and Detention Conditions",
+     "explain": [
+      "Claims based on inhumane prison or institutional conditions almost never succeed. The main reason is specific intent: courts treat bad conditions as the result of limited government resources, not an intent to torture.",
+      "The exception is an applicant who would be singled out for treatment beyond what detainees normally experience, because then the harm is targeted."
+     ],
+     "items": [
+      [
+       "General rule",
+       "Harsh prison conditions are not a basis for relief without “some sort of targeted intent to harm the applicant” (Abdoulaye v. Holder, 7th Cir. 2013).",
+       [
+        "Settenda v. Ashcroft (1st Cir. 2004): Ugandan conditions were “harsh and life threatening” but not torture.",
+        "Gallina v. Wilkinson (2d Cir. 2021): highly restrictive conditions causing mental suffering, including prolonged solitary confinement, were not “procedures calculated to disrupt profoundly the senses or the personality.”",
+        "Many later decisions reject prison or institutional-conditions claims (Goudet, 1st Cir.; Pierre, 2d Cir.; Gonzales v. Garland, 8th Cir.; Villegas, 9th Cir.).",
+        "Matter of R-A-F- (A.G. 2020) vacated a BIA holding that poor conditions in a Mexican mental health facility were torture."
+       ]
+      ],
+      [
+       "Police abuse distinguished",
+       "Harsh mistreatment by police to extract confessions is torture (Kouzam v. Ashcroft, 2d Cir. 2004). It is intentional and serves a listed purpose."
+      ],
+      [
+       "Exception: singled out",
+       "A claim can succeed if the applicant would be singled out for treatment beyond what detainees normally experience.",
+       [
+        "Jean-Pierre (11th Cir. 2007): remand on whether a mentally ill, HIV-positive Haitian would be singled out.",
+        "Eneh v. Holder (9th Cir. 2010): remand on whether an HIV-positive Nigerian would be intentionally deprived of medication and singled out in prison."
+       ]
+      ]
+     ],
+     "tip": "For a prison-conditions fact pattern, the issue is specific intent. Look for facts showing the applicant personally would be targeted (singled out), as in Jean-Pierre and Eneh.",
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
     },
     {
      "title": "Element 2 · State Action",
+     "explain": [
+      "Torture must be “by or at the instigation of or with the consent or acquiescence of a public official.” Government agents can carry it out or instigate it, or they can consent to or acquiesce in torture by non-state actors such as guerrillas, gangs, or smugglers.",
+      "The main dispute is how much the government must know for acquiescence. The BIA and Attorney General require willful acceptance; most circuits accept willful blindness."
+     ],
      "items": [
       [
        "BIA/AG: willful acceptance",
-       "actual knowledge + willful breach of the duty to prevent (Matter of S-V-)"
+       "Acquiescence requires that the government willfully accept the torturous activity, meaning actual knowledge plus a willful breach of the responsibility to prevent it.",
+       [
+        "Matter of S-V- (BIA 2000): Colombia does not “willfully accept” the guerrillas’ torturous activities, so there was no prima facie case. In re Y-L-, A-G-, R-S-R- (BIA 2002): same."
+       ]
       ],
       [
        "Circuits: willful blindness",
-       "government knew or should have known and failed to act (Zheng, 9th Cir.; followed by the 8th, 10th, 4th, 3d)"
+       "Zheng v. Ashcroft (9th Cir. 2003): acquiescence does not require willful acceptance. It is shown if the government knew or should have known of the torture and failed to act.",
+       [
+        "Facts: a Chinese national feared torture by his smugglers in retaliation for testifying against them in a U.S. court, and argued China acquiesced in the smuggling enterprise. The IJ granted relief; the BIA reversed under willful acceptance; the Ninth Circuit reversed the BIA.",
+        "Followed by the 8th, 10th, 4th, and 3d Circuits, among others."
+       ]
       ],
       [
        "Public official",
-       "the § 1983 “under color of law” standard"
+       "The § 1983 “under color of law” standard applies: a “misuse of authority, ‘made possible only because the wrongdoer is clothed with the authority’ of law.”"
       ],
       [
        "Rogue officer",
-       "covered even if acting against local law and policy (Matter of O-F-A-S-)"
+       "CAT covers torture by a rogue police officer exercising official authority, even without state sanction and in violation of local law and policy (Matter of O-F-A-S-, A.G. 2020; followed by the 2d, 3d, and 9th Circuits)."
       ]
-     ]
+     ],
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
     },
     {
      "title": "Element 3 · Likelihood",
+     "explain": [
+      "CAT Article 3 requires “substantial grounds for believing” the person would be tortured. The Senate understood that to mean “more likely than not,” the withholding standard, which is higher than asylum’s well-founded fear.",
+      "Unlike asylum and withholding, past torture does not create a presumption of future torture. It is one piece of evidence, and country conditions must show the applicant personally faces the risk."
+     ],
      "items": [
       [
        "Standard",
-       "more likely than not (Senate’s reading of “substantial grounds”)"
+       "More likely than not, the Senate’s reading of “substantial grounds for believing.”"
       ],
       [
        "Aggregate risk",
-       "total probability from all sources exceeds 50% (Velasquez-Samayoa, 9th Cir.); the 7th Cir. rejects percentages (Rodriguez-Molinero)"
+       "Literal approach: “the total probability that the applicant will be tortured, considering all potential sources of and reasons for torture, exceeds 50 percent” (Velasquez-Samayoa, 9th Cir. 2022). The risks from different sources are added together.",
+       [
+        "Rejected by others: percentages cannot be attached to a risk of torture, and a 50% threshold is inconsistent with CAT’s language and produces absurd distinctions (Rodriguez-Molinero v. Lynch, 7th Cir. 2015)."
+       ]
       ],
       [
-       "Evidence (§ 1208.16(c)(3))",
-       "past torture; internal relocation; gross, flagrant, or mass human rights violations"
+       "Evidence (8 C.F.R. § 1208.16(c)(3))",
+       "The adjudicator considers:",
+       [
+        "past torture;",
+        "the possibility of internal relocation; and",
+        "“gross, flagrant or mass violations of human rights within the country of removal.”"
+       ]
       ],
       [
        "No presumption",
-       "past torture is one consideration, not a presumption (Dawson)"
+       "Past torture does not create a regulatory presumption of future torture, unlike past persecution in asylum and withholding. It is one relevant consideration (Dawson v. Garland, 9th Cir. 2021)."
       ],
       [
        "Personal risk",
-       "country conditions must show the applicant personally at risk (Omar)"
+       "Country conditions are relevant, but the evidence must show the applicant personally would more likely than not be tortured. “Specific grounds must exist that indicate the individual would be personally at risk” (Omar v. Barr, 8th Cir. 2020)."
       ]
-     ]
+     ],
+     "tip": "Do not carry the past-persecution presumption over to CAT. Past torture is evidence only, and general country reports need a link to this applicant.",
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
     },
     {
      "title": "Kamalthas v. INS (9th Cir. 2001)",
-     "text": "Tamil man found not credible for asylum; BIA denied his CAT motion to reopen.",
+     "explain": [
+      "Kamalthas holds that a CAT claim is analytically separate from asylum. An applicant found not credible for asylum can still win CAT, because CAT does not require nexus and country conditions alone can play a decisive role.",
+      "The limit: when the asylum and CAT claims rest on exactly the same facts, the asylum credibility finding can defeat CAT too."
+     ],
      "items": [
       [
+       "Facts",
+       "Kamalthas, a 25-year-old Tamil man from Sri Lanka, arrived in 1996 with a false passport and applied for asylum and withholding. He testified that Tamil Tiger rebels tried to recruit him and beat him when he refused, and then Sri Lankan police captured him as a Tamil male and tortured him for five days.",
+       [
+        "The IJ found him not credible: his “wooden manner of speech,” others had told “the exact same story,” and at the airport he told an INS inspector he never had problems with the police. The BIA and the Ninth Circuit affirmed, but the court stayed the mandate so he could move to reopen under CAT.",
+        "The BIA denied the motion to reopen: he submitted only his old asylum application and an unsigned affidavit, “state[d] no new facts,” and so did not show torture was more likely than not."
+       ]
+      ],
+      [
+       "Issue",
+       "Whether an applicant found ineligible for asylum necessarily fails to qualify for CAT relief. This was a question of first impression in the Ninth Circuit."
+      ],
+      [
        "Holding",
-       "an asylum denial doesn’t necessarily defeat CAT; the BIA abused its discretion by conflating the standards and ignoring country conditions"
+       "No. An asylum denial does not necessarily defeat CAT. The BIA abused its discretion by conflating the asylum and CAT standards and ignoring country conditions. Country conditions alone can play a decisive role in CAT relief, and CAT does not require that the risk of torture be on account of a protected ground. Vacated and remanded."
+      ],
+      [
+       "Reasoning",
+       "8 C.F.R. § 208.16(c)(3) requires that “all evidence relevant to the possibility of future torture shall be considered,” apart from prior asylum findings. The BIA never considered the documented country conditions corroborating widespread torture of Tamil males.",
+       [
+        "CAT is broader (no “on account of” requirement) and narrower (torture, not just persecution, must be more likely than not), so it is not a subset of asylum or withholding.",
+        "Mansour v. INS (7th Cir. 2000), on similar facts: “we are not comfortable with allowing a negative credibility determination in the asylum context to wash over the torture claim.” Country conditions might lend credence to the applicant’s account."
+       ]
       ],
       [
        "Rule",
-       "prima facie CAT case: substantial grounds for believing he’d be tortured, including past torture, gross human rights violations, and country conditions"
+       "A petitioner makes a prima facie CAT case by presenting evidence of “substantial grounds for believing that he [or she] would be in danger of being subjected to torture,” including past torture, “gross, flagrant or mass violations of human rights,” and other country-conditions information."
       ],
       [
        "Followed",
-       "Ramsameachire (2d); Zubeda (3d); Quintero (4th); Mapouya (6th)"
+       "Widely followed:",
+       [
+        "Ramsameachire (2d Cir. 2004): an adverse credibility finding dooms asylum but “may not be a particularly significant aspect of the CAT inquiry.”",
+        "Zubeda (3d Cir. 2003): error to let “the taint of the earlier adverse credibility determination” bleed into the CAT claim.",
+        "Quintero v. Garland (4th Cir. 2021): failing to fully consider country conditions for CAT is reversible error.",
+        "Mapouya v. Gonzales (6th Cir. 2007): the adverse credibility finding “erroneously infected” the CAT analysis."
+       ]
       ],
       [
        "Limit",
-       "same factual predicate for both claims → asylum credibility finding can sink CAT (Singh; Yang)"
+       "Where the asylum and CAT claims rest on the same factual predicate, the CAT claim also turns on credibility, and the judge may rely on the asylum credibility finding to deny CAT.",
+       [
+        "Singh v. Lynch (9th Cir. 2015): the claimed attack by Sikh militants was not credible and not supported by country reports.",
+        "Yang v. U.S. Dep’t of Just. (2d Cir. 2005): the forced-sterilization claim, found not credible, was crucial to both claims."
+       ]
       ]
-     ]
+     ],
+     "tip": "After an adverse credibility finding, ask whether the CAT claim can stand on country conditions independent of the discredited testimony. If yes, Kamalthas; if the CAT claim depends on the same story, Singh and Yang.",
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
+    },
+    {
+     "title": "CAT in the Process",
+     "explain": [
+      "CAT also appears in the procedural units. These outline points show where CAT claims are screened, preserved, and reviewed."
+     ],
+     "items": [
+      [
+       "Separate protection",
+       "The outline lists CAT as a separate form of protection from removal, apart from asylum and withholding."
+      ],
+      [
+       "Reasonable fear screening",
+       "A reasonable possibility of persecution or torture is the screening threshold for people with reinstated removal orders and certain administrative-removal orders. Passing it leads to withholding and CAT proceedings; asylum is unavailable on this route."
+      ],
+      [
+       "June 2024 border framework",
+       "The Securing the Border framework restricted asylum during specified border-encounter levels but still allowed requests for withholding and CAT."
+      ],
+      [
+       "Review of CAT denials",
+       "Factual challenges to CAT denials receive federal appellate review under the substantial-evidence standard, even in the criminal-removal context."
+      ]
+     ],
+     "check": {
+      "status": "complete",
+      "note": ""
+     }
     }
    ]
   }
@@ -3352,239 +4213,910 @@ window.COURSES["asylum"] = {
  "cards": [
   [
    "CAT torture definition",
-   "Severe pain or suffering, intentionally inflicted, for an impermissible purpose, by or with acquiescence of a public official; not lawful sanctions."
+   "Severe physical or mental pain or suffering, intentionally inflicted, for a purpose such as obtaining information or a confession, punishment, intimidation or coercion, or discrimination, by or with the consent or acquiescence of a public official. Pain arising only from lawful sanctions is excluded.",
+   7
   ],
   [
    "CAT standard",
-   "More likely than not; no nexus; past torture creates no presumption."
+   "The applicant must show torture is more likely than not. No nexus to a protected ground is required, and past torture is evidence only; it creates no presumption of future torture.",
+   7
   ],
   [
    "CAT withholding vs. deferral",
-   "Withholding (§ 208.16(c)) if not barred; deferral (§ 208.17) if barred: easily terminated, may stay detained."
+   "CAT withholding (8 C.F.R. § 208.16(c)) goes to applicants who prove likely torture and are not within the INA § 241(b)(3)(B) bars. CAT deferral (§ 208.17) goes to barred applicants: it is easily terminated and the person can stay detained, but it still bars return to torture.",
+   7
   ],
   [
    "Willful acceptance vs. willful blindness",
-   "BIA/AG: actual knowledge + willful breach. Circuits (Zheng): knew or should have known and failed to act."
+   "The BIA and AG require willful acceptance for acquiescence: actual knowledge plus a willful breach of the duty to intervene (Matter of S-V-). Most circuits, following Zheng v. Ashcroft (9th Cir.), accept willful blindness: the government knew or should have known of the torture and failed to act.",
+   7
   ],
   [
    "Specific intent (CAT)",
-   "Intent to cause severe pain, not just the act (Auguste; J-E-). Why prison-conditions claims fail."
+   "The actor must intend the severe pain and suffering itself, not just the act; a foreseeable result is not enough (Auguste v. Ridge; Matter of J-E-). This is why claims based on poor prison conditions caused by scarce resources usually fail.",
+   7
   ],
   [
-   "Kamalthas",
-   "Asylum credibility loss doesn’t automatically defeat CAT; consider country conditions. Not where both claims share one factual predicate."
+   "Kamalthas v. INS",
+   "An asylum denial, even on credibility, does not automatically defeat CAT, because CAT needs no nexus and country conditions alone can carry the claim; the BIA must consider them. Exception: where both claims rest on the same factual predicate, the credibility finding can defeat CAT too.",
+   7
   ],
   [
    "INA § 101(a)(42)(A)",
-   "Outside country; unable/unwilling to return or get protection; because of persecution or well-founded fear; on account of race, religion, nationality, PSG, political opinion."
+   "A refugee is a person outside the country of nationality (or last habitual residence, if stateless) who is unable or unwilling to return to it or accept its protection, because of persecution or a well-founded fear of persecution on account of race, religion, nationality, membership in a particular social group, or political opinion.",
+   1
   ],
   [
    "Five protected grounds",
-   "Race, religion, nationality, membership in a particular social group, political opinion."
+   "Race, religion, nationality, membership in a particular social group, and political opinion. The harm must be on account of one of them (nexus); harm for any other reason does not qualify for asylum or withholding.",
+   1
   ],
   [
    "Asylum standard",
-   "Well-founded fear: subjective fear + objectively reasonable (reasonable possibility)."
+   "A well-founded fear of persecution: the applicant subjectively fears persecution and the fear is objectively reasonable, meaning a reasonable possibility of persecution. It can be met well below 50% (Cardoza-Fonseca's one-in-ten example).",
+   2
   ],
   [
    "Withholding standard",
-   "Clear probability: more likely than not (> 50%)."
+   "A clear probability of persecution: persecution must be more likely than not (over 50%), under INS v. Stevic. Once met, withholding is mandatory unless a bar applies.",
+   2
   ],
   [
    "Credible fear",
-   "Significant possibility of establishing asylum eligibility."
+   "The expedited-removal screen: a significant possibility, considering the credibility of the person's statements and other known facts, that the person could establish asylum eligibility. Passing it only leads to fuller adjudication.",
+   2
   ],
   [
    "Reasonable fear",
-   "Reasonable possibility of persecution or torture; for reinstated/administrative removal; leads to withholding/CAT only."
+   "A reasonable possibility of persecution or torture. It is the screen for people with reinstated or certain administrative removal orders (and those under the Circumvention of Lawful Pathways rule), and a positive finding leads only to withholding and CAT, not asylum.",
+   2
   ],
   [
-   "Art. 33",
-   "Non-refoulement on a protected ground; not extraterritorial (Haitian interdiction)."
+   "Article 33 (non-refoulement)",
+   "No state may expel or return a refugee to territories where life or freedom would be threatened on a protected ground. It bars return but does not require admission. Sale v. Haitian Centers Council held it does not apply to U.S. action on the high seas.",
+   1
   ],
   [
    "Last-in-time rule",
-   "Later inconsistent statute controls domestically; the U.S. stays bound internationally."
+   "A later federal statute that conflicts with a treaty supersedes the treaty as domestic law, but the U.S. remains bound internationally. Domestic nullification does not equal international discharge.",
+   1
   ],
   [
-   "Charming Betsy",
-   "Don’t read a statute to violate IL if another reading is possible."
+   "Charming Betsy canon",
+   "A statute should never be construed to violate the law of nations if any other possible construction remains. Restatement (Fourth) § 309(1) states the modern version: construe statutes to avoid treaty conflicts where fairly possible.",
+   1
   ],
   [
    "Pattern or practice",
-   "Group similarly situated persecuted on a protected ground + applicant is in the group."
+   "If there is a pattern or practice of persecution of a group similarly situated to the applicant on a protected ground, and the applicant shows inclusion in and identification with that group, she need not show she would be singled out individually.",
+   3
   ],
   [
    "Past persecution rebuttal",
-   "DHS, by preponderance: fundamental change or safe, reasonable relocation."
+   "Past persecution creates a presumption of future persecution on the same ground. DHS can rebut it by a preponderance of the evidence by showing a fundamental change in circumstances, or that safe internal relocation is possible and reasonable.",
+   3
   ],
   [
    "Humanitarian asylum",
-   "After rebuttal: severity of past persecution (Chen) or reasonable possibility of other serious harm."
+   "After DHS rebuts the past-persecution presumption, asylum can still be granted in discretion for compelling reasons arising from the severity of the past persecution (Matter of Chen) or a reasonable possibility of other serious harm. Both routes require past persecution, and withholding has no equivalent.",
+   3
   ],
   [
-   "Discretion standard",
-   "Danger of persecution outweighs all but the most egregious adverse factors."
+   "Discretion standard (Matter of Pula)",
+   "Asylum is discretionary, but 'the danger of persecution should generally outweigh all but the most egregious of adverse factors.' The adjudicator weighs the totality of the circumstances of flight, and the applicant bears the burden of showing favorable discretion.",
+   2
   ],
   [
    "USRAP priorities",
-   "P-1 individual referral; P-2 groups; P-3 family; P-4 Welcome Corps (suspended 2025)."
+   "P-1: individual referrals by UNHCR, an NGO, or a U.S. embassy (the only priority open to any nationality). P-2: groups of special humanitarian concern. P-3: family members. P-4: Welcome Corps private sponsorship, suspended February 2025.",
+   1
   ],
   [
-   "Mathews factors",
-   "Private interest; risk of erroneous deprivation & value of safeguards; government interest & burden."
+   "Mathews v. Eldridge factors",
+   "Procedural adequacy balances (1) the private interest affected, (2) the risk of erroneous deprivation under current procedures and the value of added safeguards, and (3) the government's interest, including the cost and burden of more process.",
+   4
   ],
   [
    "Fifth Circuit due process",
-   "Notice; hearing; fair opportunity to be heard; plus substantial prejudice."
+   "A removal proceeding must give notice of the charges, a hearing before an executive or administrative tribunal, and a fair opportunity to be heard. The noncitizen must also make an initial showing of substantial prejudice from the defect.",
+   4
   ],
   [
    "Lozada requirements",
-   "Affidavit of agreement; counsel notified and allowed to respond; bar complaint or explanation; plus prejudice."
+   "To reopen for ineffective assistance: (1) an affidavit describing the agreement with counsel, (2) proof counsel was notified and allowed to respond, and (3) a bar complaint or an explanation for not filing one. The respondent must also show prejudice.",
+   4
   ],
   [
    "Substantial evidence",
-   "Findings stand unless a reasonable adjudicator would be compelled to conclude otherwise."
+   "The circuit court standard for agency fact-finding: findings stand unless any reasonable adjudicator would be compelled to conclude otherwise. Evidence that merely supports another result is not enough to reverse.",
+   4
   ],
   [
    "Bond burden",
-   "Respondent shows she is not a flight risk or danger. Minimum $1,500."
+   "At a bond hearing before the IJ, the respondent must show she is not a flight risk and not a danger to the community; a danger finding makes her ineligible. Minimum bond is $1,500.",
+   4
   ],
   [
    "§ 236(c) vs. § 236(a)",
-   "Mandatory detention (criminal/terrorism) vs. bond-eligible."
+   "Section 236(c) mandates detention, with no bond, for certain criminal and terrorism grounds. Section 236(a) is the general rule: a person is bond-eligible if she is not a danger and not likely to abscond.",
+   4
   ],
   [
    "Work authorization clock",
-   "File at 150 days; eligible at 180 days pending."
+   "An asylum applicant may file for work authorization at 150 days and becomes eligible once the application has been pending 180 days. The 2020 rules extending the wait to 365 days were vacated in 2022.",
+   4
   ],
   [
-   "Elements of persecution claim",
-   "Serious harm; nexus to a ground; state actor or unable/unwilling; well-founded fear."
+   "Elements of a persecution claim",
+   "(1) Harm rising to persecution, (2) nexus to a protected ground, (3) a persecutor who is the government or an actor the government is unable or unwilling to control, and (4) a well-founded fear of future persecution, which past persecution presumes.",
+   5
   ],
   [
-   "UNHCR ¶ 54",
-   "Discrimination = persecution if substantially prejudicial: livelihood, religion, education."
+   "UNHCR Handbook ¶ 54",
+   "Discrimination is persecution when it leads to substantially prejudicial consequences, such as serious restrictions on the right to earn a livelihood, practise one's religion, or access normally available education.",
+   5
   ],
   [
-   "Prosecution → persecution factors",
-   "Nature of offense; extent of punishment; legitimacy of process."
+   "Prosecution vs. persecution factors",
+   "Prosecution is not persecution unless the offense is in substance a Convention-protected activity, the punishment is excessive, or the process is illegitimate because the law violates human rights or is applied in a discriminatory way.",
+   5
   ],
   [
-   "Punitive intent?",
-   "Not required. Objective test. Motive matters only for nexus."
+   "Punitive intent and persecution",
+   "Punitive intent is not required. Under Pitcherskaia v. INS, persecution is judged objectively, by whether a reasonable person would regard the harm as offensive. A motive to 'cure' or help does not matter; the persecutor's motive matters only for nexus.",
+   5
   ],
   [
-   "Matter of A-B-",
-   "Government condoned the acts or was completely helpless to protect (reinstated 2025)."
+   "Matter of A-B- (reinstated 2025)",
+   "For harm by private actors, the applicant must show the government condoned the acts or was completely helpless to protect. Matter of S-S-F-M- (2025) vacated A-B- III and returned to A-B- I and II. Government efforts, light sentences, or local apathy do not meet the test.",
+   5
   ],
   [
    "Economic persecution",
-   "Deliberate severe economic disadvantage or deprivation of essentials, for a protected reason; beyond what society at large faces."
+   "The deliberate imposition of severe economic disadvantage, or deprivation of liberty, food, housing, employment, or other essentials of life, for a protected reason, beyond what society as a whole faces. Total loss of livelihood is not required.",
+   5
+  ],
+  [
+   "Asylum vs. non-refoulement",
+   "Asylum is a state's discretionary grant of formal legal status to a refugee. Non-refoulement is an absolute duty not to return a refugee to a place where life or freedom would be threatened. A state can refuse asylum lawfully but cannot return the refugee.",
+   0
+  ],
+  [
+   "Three bodies of international law",
+   "Refugee law (1951 Convention and 1967 Protocol) covers people displaced across borders. Humanitarian law (1949 Geneva Convention) governs armed conflict only. Human rights law (for example, the 1984 CAT) applies in war or peace.",
+   0
+  ],
+  [
+   "Three perspectives on the refugee definition (Hathaway)",
+   "Juridical (1920s): a person lacking legal protection from any government. Social (1930s): a member of a group harmed by a social or political event. Individualist (1940s to present): individualized fear of persecution, which became Article 1 of the 1951 Convention.",
+   0
+  ],
+  [
+   "Durable solutions",
+   "UNHCR's three solutions are voluntary repatriation (preferred, if return is reasonably safe), local settlement in the host country (requires the host's agreement), and third-country resettlement (when neither return nor staying is safe).",
+   0
+  ],
+  [
+   "Crystallization of the regime (1921 to 1951)",
+   "Three phases: early efforts from 1921 (Nansen as League High Commissioner for Russian Refugees), the IRO in 1946 (the first agency to handle every aspect of refugee problems), and UNHCR from 1951.",
+   0
+  ],
+  [
+   "Right to seek vs. right to receive asylum",
+   "A refugee has a right to seek asylum, and states must not obstruct access to asylum procedures. No universal treaty gives an individual a right to receive asylum; granting it is a sovereign choice.",
+   0
+  ],
+  [
+   "1967 Protocol",
+   "Incorporates the 1951 Convention's well-founded-fear definition, removes its time and place limits, and binds parties to Articles 2 to 34. The U.S. acceded in 1968, and Article 33 is its most significant obligation.",
+   1
+  ],
+  [
+   "Article 34",
+   "States 'shall as far as possible facilitate' the assimilation and naturalization of refugees. The words 'as far as possible' make it encouragement only: it does not require granting status or citizenship.",
+   1
+  ],
+  [
+   "Sale v. Haitian Centers Council (1993)",
+   "The Court held 8-1 that neither former INA § 243(h) nor Article 33 applies to Coast Guard action on the high seas, so interdicting and returning Haitians without screening was lawful under U.S. law. It left open whether non-refoulement binds as customary law.",
+   1
+  ],
+  [
+   "ABC settlement rule",
+   "In deciding well-founded fear, foreign policy, border enforcement, U.S. relations with the applicant's government, and U.S. agreement with the applicant's beliefs are not relevant, and one standard applies to all nationalities. Foreign policy may still shape overseas USRAP selection.",
+   1
+  ],
+  [
+   "Temporary Protected Status (INA § 244)",
+   "Temporary, work-authorized status for nationals of a country facing armed conflict, environmental disaster, or other extraordinary and temporary conditions. Only those in the U.S. on the designation date qualify; extensions keep that date, and redesignation moves it.",
+   1
+  ],
+  [
+   "INS v. Stevic (1984)",
+   "Withholding requires a clear probability of persecution (more likely than not). Refugee status alone does not entitle a person to withholding, because the withholding provision does not refer to the refugee definition.",
+   2
+  ],
+  [
+   "INS v. Cardoza-Fonseca (1987)",
+   "Asylum's well-founded fear is more generous than withholding's clear probability; a fear can be well-founded with less than a 50% chance. The Court relied on the different statutory words ('fear' vs. 'would be threatened'), structure, and legislative history, and gave no Chevron deference.",
+   2
+  ],
+  [
+   "Matter of Mogharrabi (BIA 1987)",
+   "Well-founded fear means subjective fear plus an objectively reasonable basis: whether a reasonable person in the applicant's circumstances would fear persecution on a protected ground. Credible, detailed testimony can supply the objective basis without documents, subject to REAL ID corroboration rules.",
+   2
+  ],
+  [
+   "Reasonable probability",
+   "A screening standard added by the June 2024 Securing the Border rule for people limited to withholding and CAT: substantially more than a reasonable possibility but somewhat less than more likely than not. It is the highest of the three screens.",
+   2
+  ],
+  [
+   "Asylum vs. withholding: what each gives",
+   "Asylum is discretionary but leads to permanent residence and citizenship and covers a spouse and children. Withholding is mandatory once proven but only bars removal to the country of threat (removal to a third country is allowed) and has no derivatives.",
+   2
+  ],
+  [
+   "Past persecution presumption",
+   "Past persecution on a protected ground creates a presumption of a well-founded fear (asylum) or threat to life or freedom (withholding) on the same ground. The feared future harm need not match the past harm (the Attorney General's 2008 decision vacating the BIA's Matter of A-T-).",
+   3
+  ],
+  [
+   "Internal relocation",
+   "A claim fails if the applicant could avoid persecution by moving within the country and it would be reasonable to expect her to do so. If the persecutor is the government, relocation is presumed unreasonable and DHS must rebut by a preponderance.",
+   3
+  ],
+  [
+   "Disfavored-group approach (Ninth Circuit)",
+   "A member of a group facing discrimination and mistreatment, short of a pattern or practice of persecution, may meet the burden with a lesser showing of individual risk. The First, Third, and Eleventh Circuits rejected it.",
+   3
+  ],
+  [
+   "Standard of proof vs. burden of persuasion",
+   "The standard of proof is the likelihood of harm that must be shown (reasonable possibility for asylum, more likely than not for withholding). The burden of persuasion is how convinced the factfinder must be; the applicant bears the burden of proof, and credible testimony alone can suffice.",
+   3
+  ],
+  [
+   "DHS v. Thuraissigiam (2020)",
+   "A noncitizen caught just inside the border with no prior lawful admission has only the admission-related procedural rights Congress supplied, and limits on habeas review of expedited removal do not violate the Suspension Clause.",
+   4
+  ],
+  [
+   "Flores settlement order of release",
+   "Children are released without unnecessary delay, in order of preference, to a parent, a legal guardian, an adult relative, an adult or entity the parent designates, a licensed program, or another adult or entity, and held in the least restrictive appropriate setting.",
+   4
+  ],
+  [
+   "Arriving aliens and bond (Matter of M-S-)",
+   "A person in expedited removal who establishes credible fear must be detained unless paroled. ICE treats arriving aliens as bond-ineligible and says IJs lack custody jurisdiction, so parole is the only route out.",
+   4
+  ],
+  [
+   "Appointed counsel: who gets it",
+   "Mentally incompetent detainees are entitled to counsel at government expense (Franco-Gonzalez v. Holder). Children have no right to appointed counsel, and whether due process requires it for unaccompanied minors remains open.",
+   4
+  ],
+  [
+   "BIA standards of review",
+   "The BIA reviews IJ findings of fact for clear error and reviews questions of law, discretion, and judgment de novo. Streamlining in 2002 changed factual review from de novo to clear error.",
+   4
+  ],
+  [
+   "Kovac v. INS (9th Cir. 1969)",
+   "A probability of deliberate imposition of substantial economic disadvantage on a protected ground is enough for persecution. Loss of all means of livelihood is not required, and the harm need not be physical.",
+   5
+  ],
+  [
+   "Matter of Chen (BIA 1989)",
+   "Atrocious past persecution supports asylum even after changed conditions rebut the presumption of future fear, now codified at 8 C.F.R. § 208.13(b)(1)(iii)(A). Chen counted harm to the applicant's family; the Fifth Circuit does not (Shehu v. Gonzales).",
+   5
+  ],
+  [
+   "Korablina v. INS (9th Cir. 1998)",
+   "Discrimination rises to persecution based on (1) the cumulative nature of the violence and harassment and (2) the societal context of widespread harassment and violence. Several incidents together can be persecution even if one alone is not.",
+   5
+  ],
+  [
+   "Unable or unwilling (UNHCR ¶ 65)",
+   "Acts by private people are persecution if the authorities knowingly tolerate them or refuse, or prove unable, to offer effective protection. The applicant bears the burden, and failure to report is excused if reporting would be futile or dangerous.",
+   5
+  ],
+  [
+   "Denying vs. divesting citizenship",
+   "Statelessness or denial of citizenship alone is not persecution (Faddoul v. INS). Stripping citizenship because of religion or ethnicity is persecution and creates a presumption of a well-founded fear (Haile).",
+   5
+  ],
+  [
+   "Nexus",
+   "The link between the persecution and a protected ground. The Convention says 'for reasons of'; U.S. law (INA §§ 101(a)(42)(A) and 241(b)(3)) says 'on account of.' A claim fails without nexus no matter how severe or likely the harm.",
+   6
+  ],
+  [
+   "Motive vs. causation readings",
+   "The motive reading requires proof the persecutor wanted to harm the applicant because of the ground (the U.S. rule since Elias-Zacarias). The causation reading asks only whether the harm fell on her because of her status or belief; UNHCR, the EU, and many states use it.",
+   6
+  ],
+  [
+   "INS v. Elias-Zacarias (1992)",
+   "Persecution on account of political opinion means the victim's opinion, not the persecutor's. Resisting recruitment is not necessarily political, and the applicant must give some evidence, direct or circumstantial, of the persecutor's motive.",
+   6
+  ],
+  [
+   "Mixed motives (Matter of S-P-)",
+   "A persecutor can have more than one motive. Nexus is met if at least one motive is a protected ground; 'on account of' does not mean 'solely' on account of (Osorio).",
+   6
+  ],
+  [
+   "At least one central reason",
+   "The REAL ID Act of 2005 requires the protected ground to be at least one central reason for the persecution. It need not be dominant or a strict but-for cause. It must be more than incidental, tangential, or superficial.",
+   6
+  ],
+  [
+   "Nexus standard for withholding",
+   "The circuits split. The Ninth (Barajas-Romero) and Sixth Circuits require only 'a reason' for withholding. The BIA and most circuits, including the Fifth (Vazquez-Guerra v. Garland), apply 'one central reason.'",
+   6
+  ],
+  [
+   "Animus",
+   "Most precedent rejects any requirement that the persecutor bear ill will toward the victim (Kasinga; Pitcherskaia). Matter of M-R-M-S- (BIA 2023) required animus and is widely criticized; Mazariegos-Rodas (6th Cir. 2024) rejected it.",
+   6
+  ],
+  [
+   "Hernandez-Ortiz presumption",
+   "Pre-Zacarias Ninth Circuit rule: when a government uses military force against people with no legitimate basis for doing so, its actions are presumed politically motivated. Eliminating it was one motivation for the REAL ID Act.",
+   6
+  ],
+  [
+   "Three elements of a CAT claim",
+   "(1) The harm is torture: severe pain or suffering, specific intent, and an impermissible purpose. (2) State action: a public official inflicts, instigates, consents to, or acquiesces in it. (3) Torture is more likely than not.",
+   7
+  ],
+  [
+   "Lawful sanctions and the death penalty",
+   "Torture excludes pain arising from or inherent in lawful sanctions, and the U.S. regulations expressly treat the death penalty as a lawful sanction. A country's label does not protect actual torture: 'torture is never a lawful means of punishment' (Nuru v. Gonzales).",
+   7
+  ],
+  [
+   "Prison conditions under CAT",
+   "Harsh prison conditions are not torture without targeted intent to harm the applicant, because poor conditions from scarce resources lack specific intent. The exception is an applicant who would be singled out beyond what detainees normally experience (Jean-Pierre; Eneh).",
+   7
+  ],
+  [
+   "Rogue officer (Matter of O-F-A-S-)",
+   "CAT covers torture by a police officer exercising official authority, even without state sanction and in violation of local law, because the misuse of authority is made possible by the office (the § 1983 'under color of law' test).",
+   7
+  ],
+  [
+   "Mental pain under 8 C.F.R. § 208.18",
+   "Counts only as prolonged mental harm caused by threatened or inflicted severe physical pain, mind-altering substances or procedures, the threat of imminent death, or the threat that another person will suffer any of these.",
+   7
   ]
  ],
  "quiz": [
   {
-   "q": "An applicant is barred from withholding under § 241(b)(3)(B) but proves torture is more likely than not. Result?",
+   "q": "A state refuses to give a recognized refugee permanent legal status. It lets her stay temporarily and does not send her back to the country where her life would be threatened. Under the principles in Chapter 1, has the state broken an international rule?",
    "o": [
-    "No protection",
-    "CAT deferral",
-    "CAT withholding",
-    "Asylum"
+    "Yes: every refugee has an individual right to receive asylum, and the state denied it",
+    "Yes: refusing status is itself a form of refoulement under Article 33",
+    "No: asylum is discretionary, and the state met the firm duty, which is non-refoulement",
+    "No, but only because the state has one year to offer a durable solution"
    ],
-   "a": 1,
-   "e": "Barred applicants still get deferral (§ 208.17); CAT’s ban on return is absolute."
+   "a": 2,
+   "why": [
+    "Goodwin-Gill separates a state's sovereign right to grant asylum from an individual right to receive it, and no universal treaty recognizes the individual right. A refugee has a right to seek asylum; no state must grant it.",
+    "Article 33 forbids expelling or returning a refugee to territories where life or freedom would be threatened. It prohibits return; it does not require admission or a grant of status, so refusing status without returning her is not refoulement.",
+    "Correct. Asylum is the provision of formal legal status, and contemporary asylum is discretionary. Non-refoulement is the absolute obligation not to return a refugee to a place where life or freedom would be threatened. The state kept her safe from return, so it met the firm duty.",
+    "No source sets a time limit for offering a durable solution. Durable solutions are UNHCR goals that depend on state political will and resources; they are not a deadline that decides whether a rule was broken."
+   ],
+   "e": "The Chapter 1 materials call asylum and non-refoulement the two most fundamental principles of refugee law, and they are different kinds of rules. Asylum is formal legal status that a state may give at its discretion. Non-refoulement is an absolute duty not to return a refugee to a place where life or freedom would be threatened. The state here declined to give status but did not return her, so it complied: protection from return does not equal a right to remain.",
+   "unit": 0
   },
   {
-   "q": "Haiti’s prisons lack food and medical care because of scarce resources. A deportee seeks CAT relief. Most likely:",
+   "q": "Which conception of the refugee, in Hathaway's three-stage account, crystallized in Article 1 of the 1951 Convention and later shaped U.S. law?",
    "o": [
-    "Granted: conditions are severe",
-    "Denied: no specific intent to inflict severe pain",
-    "Granted: discrimination",
-    "Denied: no nexus"
+    "The juridical perspective: a person lacking formal legal protection from any government",
+    "The social perspective: a member of a large group harmed by a particular social or political event",
+    "The individualist perspective: status determined case by case on an individualized fear of persecution",
+    "The accountability perspective: harm counts only if the state is responsible for it"
    ],
-   "a": 1,
-   "e": "Matter of J-E-; Auguste. Exception: singled out beyond ordinary detainees."
+   "a": 2,
+   "why": [
+    "The juridical perspective governed in the 1920s (Nansen's tenure). It defined refugees by ethnic or territorial origin plus the absence of de jure national protection, such as stateless people. It was the first stage, and later stages replaced it.",
+    "The social perspective governed in the 1930s. Eligibility turned on belonging to an affected group, and members could still have legal protection but lack practical protection. The 1951 Convention moved away from group determination.",
+    "Correct. The individualist perspective (1940s to present) asks whether the person has an individualized fear of persecution, focused on the conflict between the applicant's characteristics or convictions and the political system at home. It appears in the IRO definition and the UNHCR Statute and crystallized in Article 1.",
+    "The accountability (complicity) approach is the EU's older theory about non-state agents of persecution, covered with the source of persecution. It is not one of Hathaway's three stages of the refugee definition."
+   ],
+   "e": "The casebook, drawing on James Hathaway, describes three conceptions of who is a refugee: juridical (1920s), social (1930s), and individualist (1940s to present). The individualist model, which Hathaway calls revolutionary in its rejection of group determination, became Article 1 of the 1951 Convention. That is why a U.S. applicant must prove a personal fear of persecution. Professor Gilman's proposal for group status is described as a return toward the social conception.",
+   "unit": 0
   },
   {
-   "q": "Cartel members torture people while local police know and do nothing. Under the Ninth Circuit’s Zheng approach:",
+   "q": "According to the Chapter 1 materials, which durable solution does UNHCR treat as the preferred one?",
    "o": [
-    "No state action without willful acceptance",
-    "Acquiescence can be shown: government knew or should have known and failed to act",
-    "CAT never covers private actors",
-    "Only if police were paid"
+    "Local settlement in the host country",
+    "Voluntary repatriation, if refugees can return in reasonable safety",
+    "Third-country resettlement",
+    "Naturalization under Article 34, which the Convention requires of every party"
    ],
    "a": 1,
-   "e": "Willful blindness (circuits) vs. willful acceptance (BIA/AG)."
+   "why": [
+    "Local settlement (local integration) is used when return is unlikely. It requires the host government's agreement and has become more restricted as numbers rise, so it is a fallback.",
+    "Correct. Voluntary repatriation is the preferred solution. UNHCR does not actively promote return unless refugees can go back in reasonable safety, though it may assist spontaneous returns.",
+    "Third-country resettlement is for refugees who can neither go home nor safely stay where they are. It is normally used only when no other option guarantees their legal or physical security.",
+    "Article 34 only encourages naturalization: states 'shall as far as possible facilitate' it. It is not a mandatory duty and is not listed as one of the three durable solutions."
+   ],
+   "e": "UNHCR's statute gives it two functions: protect refugees and promote durable solutions, whose success depends on states' political will and money. The three durable solutions are voluntary repatriation (preferred), local settlement, and third-country resettlement. Repatriation is preferred, but UNHCR promotes it only when return can happen in reasonable safety.",
+   "unit": 0
   },
   {
-   "q": "An IJ finds the applicant not credible and denies asylum, then denies CAT without looking at reports of widespread torture of his ethnic group. Under Kamalthas:",
+   "q": "A student must match each body of international law to its treaty. Which treaty belongs to international human rights law, the field that applies in war or peace?",
    "o": [
-    "Proper: credibility controls both",
-    "Error: CAT is analytically separate and country conditions must be considered",
-    "Proper unless he showed nexus",
-    "Error only if he was tortured before"
+    "The 1951 Convention relating to the Status of Refugees",
+    "The 1984 Convention Against Torture",
+    "The 1949 Geneva Convention relative to the Protection of Civilian Persons in Time of War",
+    "The 1967 Protocol relating to the Status of Refugees"
    ],
    "a": 1,
-   "e": "Unless both claims rest on the exact same factual predicate."
+   "why": [
+    "The 1951 Convention is the central treaty of international refugee law, which concerns state obligations to people forcibly displaced across borders.",
+    "Correct. The slides list the 1984 Convention Against Torture (CAT) as the human rights treaty. Human rights law applies in war or peace and protects the dignity, integrity, equality, and liberty of all individuals. CAT later becomes a separate form of protection from removal in U.S. law.",
+    "The 1949 Geneva Convention belongs to international humanitarian law (the law of armed conflict), which applies only during armed conflict.",
+    "The 1967 Protocol is part of international refugee law. It removed the 1951 Convention's time and place limits."
+   ],
+   "e": "The casebook presents three overlapping bodies of law. Refugee law centers on the 1951 Convention and 1967 Protocol; humanitarian law on the 1949 Geneva Convention, which applies only in war; human rights law on instruments such as the 1984 CAT, which applies in war or peace. U.S. asylum law builds on all three traditions.",
+   "unit": 0
+  },
+  {
+   "q": "Which body was the first international agency to deal with every aspect of refugee problems, including registration, status determination, repatriation, resettlement, and legal and political protection?",
+   "o": [
+    "The International Refugee Organization (IRO, 1946)",
+    "The League of Nations High Commissioner for Russian Refugees (Nansen, 1921)",
+    "UNRRA, the United Nations Relief and Rehabilitation Administration (1943)",
+    "UNHCR, the United Nations High Commissioner for Refugees (1951)"
+   ],
+   "a": 0,
+   "why": [
+    "Correct. The IRO, a UN specialized agency that operated from 1946 to 1951, was the first international agency to handle every aspect of refugee problems. Post-war politics shifted it from repatriation toward resettlement, and only 18 of 54 UN members funded it.",
+    "Nansen's office defined refugees' legal status, organized repatriation or placement, and ran relief work for particular groups (Russians, then Armenians and others). It did not handle every aspect of refugee problems.",
+    "UNRRA returned millions home after World War II. Its work was repatriation and relief, and many people refused to return to states under new political ideologies.",
+    "UNHCR came after the IRO. Its statute made international protection the primary task and material assistance a narrower one, and it was created because states opposed continuing the IRO."
+   ],
+   "e": "The casebook divides 1921 to 1951 into three phases: early efforts (1921 to 1946, starting with Nansen), the IRO (1946), and UNHCR (1951). The IRO was the first agency to cover registration, status determination, repatriation, resettlement, and legal and political protection. Opposition to it led the General Assembly to create UNHCR as a subsidiary organ starting January 1, 1951.",
+   "unit": 0
+  },
+  {
+   "q": "The U.S. interdicts Haitians on the high seas and returns them to Haiti without screening. Under Sale v. Haitian Centers Council (1993):",
+   "o": [
+    "The returns violate Article 33 of the Refugee Convention",
+    "The returns violate neither former INA § 243(h) nor Article 33, because neither applies to Coast Guard action on the high seas",
+    "The returns violate the Charming Betsy canon",
+    "The Coast Guard must conduct credible fear interviews at sea"
+   ],
+   "a": 1,
+   "why": [
+    "The Court read Article 33 as territorial: 'expel' covers someone inside the country and 'refouler' means turning back at the frontier. Because Article 33 says nothing about actions outside a state's territory, it does not prohibit them.",
+    "Correct. The Court held 8-1 that neither § 243(h) nor Article 33 applies to Coast Guard action on the high seas. Section 243(h) constrained only the Attorney General, 'deport or return' are domestic terms, and the presumption against extraterritoriality applied; Article 33 was read as limited to a state's territory.",
+    "Charming Betsy is a rule of construction: a statute should not be read to violate the law of nations if another construction remains. Blackmun invoked it in criticizing Sale, but the majority held the statute and treaty do not reach the high seas.",
+    "Credible fear interviews belong to expedited removal under INA § 235, for people arriving in or present in the U.S. The Kennebunkport Order directed return with no screening at all, and Sale upheld those returns."
+   ],
+   "e": "In Sale, the Court held that neither former INA § 243(h) nor Article 33 applies to action taken by the Coast Guard on the high seas, so interdiction and return were lawful under U.S. law. The holding rested on where the statute and treaty apply, not on any finding that the Haitians were safe. Sale left open whether non-refoulement binds the U.S. as customary international law, and the IACHR (Inter-American Commission on Human Rights) later held Article 33 applies in international waters.",
+   "unit": 1
+  },
+  {
+   "q": "Congress passes a statute that conflicts with an earlier self-executing treaty, and no reading of the statute avoids the conflict. What is the result?",
+   "o": [
+    "The statute controls as domestic law, but the U.S. remains bound by the treaty internationally",
+    "The treaty controls, because the Supremacy Clause ranks treaties above statutes",
+    "The statute is void because it violates the law of nations",
+    "Both are suspended until the Senate re-ratifies the treaty"
+   ],
+   "a": 0,
+   "why": [
+    "Correct. Under the last-in-time rule, a later federal statute that conflicts with a treaty supersedes it as domestic law. Restatement (Fourth) § 309(3) adds that a superseding statute does not relieve the U.S. of its international obligation: domestic nullification does not equal international discharge.",
+    "Article VI makes treaties part of the supreme law of the land, which puts them on equal footing with federal statutes, not above them. When the two conflict, the later in time controls domestically.",
+    "Courts try to avoid conflict by construing statutes consistently with treaties where fairly possible (Restatement (Fourth) § 309(1), the modern form of Charming Betsy). When no such reading exists, the later statute governs at home; it is not void.",
+    "No source describes a suspension pending re-ratification. International law, not U.S. law, decides when a treaty obligation is validly suspended or ended (Restatement (Fourth) § 309 cmt. d)."
+   ],
+   "e": "Treaties and federal statutes have equal rank under Article VI. Courts first try to read the statute to avoid conflict where fairly possible. If they cannot, the last-in-time rule lets the later statute control domestically, but the U.S. stays bound to the other treaty parties. Both limiting principles (self-execution and last in time) apply to treaties, not to customary international law.",
+   "unit": 1
+  },
+  {
+   "q": "Before the 1980 Refugee Act, why did withholding of deportation under former INA § 243(h) fall short of Article 33 of the Convention?",
+   "o": [
+    "It applied only on the high seas",
+    "It required a well-founded fear instead of a clear probability",
+    "It was discretionary ('may … withhold') and covered only race, religion, and political opinion",
+    "It was limited to people fleeing communism or the Middle East"
+   ],
+   "a": 2,
+   "why": [
+    "Nothing in the sources says § 243(h) applied on the high seas; Sale later held it did not. Its shortfalls were its discretionary form and its missing grounds.",
+    "Pre-1980 courts required a 'clear probability' or 'likelihood' of persecution for § 243(h). The well-founded-fear standard came from the Convention's refugee definition and was not part of § 243(h).",
+    "Correct. Section 243(h) let the Attorney General withhold deportation 'in his opinion,' making it discretionary, while Article 33 is mandatory. It also covered three grounds where the Protocol has five (nationality and particular social group were missing). The 1980 amendment fixed both.",
+    "The ideological and geographic limits belonged to conditional entry (§ 203(a)(7)), which failed Article 1's neutral definition. That is a different pre-1980 tool."
+   ],
+   "e": "The casebook tests the Matter of Dunar claim that U.S. law already complied with the Protocol in 1968 by walking each pre-1980 tool against the article it fails. Section 243(h) failed Article 33 because it was discretionary and covered only three grounds. Conditional entry and parole failed Article 1 because of ideological and geographic limits. The 1980 Act made withholding mandatory and added nationality and particular social group.",
+   "unit": 1
+  },
+  {
+   "q": "In a defensive asylum hearing, the IJ (immigration judge) notes that the applicant's home government is a close U.S. ally and that the U.S. disagrees with the applicant's politics, and counts both against her well-founded fear. Under the ABC settlement:",
+   "o": [
+    "Proper, because foreign policy may play a role in all refugee decisions",
+    "Proper only if the State Department Human Rights Report agrees",
+    "Improper: foreign policy and U.S. agreement with the applicant's beliefs are not relevant to well-founded fear",
+    "Improper only because the applicant is Salvadoran or Guatemalan"
+   ],
+   "a": 2,
+   "why": [
+    "Foreign policy may legally play a role in the overseas USRAP (U.S. Refugee Admissions Program) process, where the Executive selects regions and priorities. In-country adjudication of asylum and withholding is different.",
+    "The slides ask whether the State Department report is consistent with the ABC rule; they do not make it a condition for considering foreign policy. Under ABC, U.S. relations with the applicant's government are not relevant at all.",
+    "Correct. The ABC (American Baptist Churches v. Thornburgh) settlement stipulates that foreign policy and border enforcement considerations, U.S. support for the applicant's government, and whether the U.S. agrees with the applicant's beliefs are not relevant to well-founded fear.",
+    "The fourth ABC proposition says the same standard applies to Salvadorans and Guatemalans as to all other nationalities. The rule against considering foreign policy is not limited to those nationalities."
+   ],
+   "e": "ABC was a nationwide class action alleging discrimination against Salvadoran and Guatemalan applicants, which INS settled by agreeing to readjudicate denied claims. Its four propositions bar considering foreign policy and border enforcement, U.S. relations with the applicant's government, and U.S. agreement with the applicant's beliefs, and require one standard for all nationalities. The rule to state: foreign policy is barred from in-country adjudication but allowed in USRAP selection.",
+   "unit": 1
+  },
+  {
+   "q": "Which USRAP priority category is the only one open to any nationality without regional restriction?",
+   "o": [
+    "P-1: individual referrals by UNHCR, a designated NGO, or a U.S. embassy",
+    "P-2: groups of special humanitarian concern",
+    "P-3: family members of U.S. citizens or others with specified status",
+    "P-4: the Welcome Corps private sponsorship program"
+   ],
+   "a": 0,
+   "why": [
+    "Correct. P-1 covers individual referrals by UNHCR, a designated NGO (non-governmental organization), or U.S. embassy personnel for specified and compelling reasons, and it is the only priority open to any nationality.",
+    "P-2 covers groups of special humanitarian concern, usually specified subgroups within particular nationalities (for example, certain Iraqis associated with the U.S.). It is defined by nationality.",
+    "P-3 is family reunification for relatives of U.S. citizens or others with specified status. The sources do not describe it as open to any nationality.",
+    "P-4, the Welcome Corps, is a public-private partnership with private sponsors, and it was suspended in February 2025."
+   ],
+   "e": "Under INA § 207, the President sets annual refugee numbers and regional allocations after consulting Congress. Priorities make a person eligible to be considered, but approval still requires an overseas interview with a USCIS Refugee Corps officer, and denial is not appealable. P-1 individual referrals are the only priority open to any nationality.",
+   "unit": 1
+  },
+  {
+   "q": "An arriving noncitizen in expedited removal receives a negative credible fear finding from an asylum officer. What review is available?",
+   "o": [
+    "An appeal to the BIA (Board of Immigration Appeals) within 30 days",
+    "A petition for review in the circuit court",
+    "No review of any kind",
+    "De novo review by an IJ, as quickly as possible and no later than 7 days, with no further administrative or judicial review"
+   ],
+   "a": 3,
+   "why": [
+    "The statute bars any further administrative review after the IJ, so there is no BIA appeal of a negative credible fear finding.",
+    "Judicial review is barred. Only people already granted asylum, admitted as refugees, or holding LPR (lawful permanent resident) status can challenge a wrongful expedited removal order in federal court.",
+    "IJ review is available. The bar applies to review beyond the IJ.",
+    "Correct. An IJ reviews a negative credible fear finding de novo, as quickly as possible and no later than 7 days after the determination. The statute bars further administrative (BIA) or judicial review, and a 2020 Supreme Court decision upheld those limits."
+   ],
+   "e": "Expedited removal, created by IIRIRA in 1996, lets officers order some people removed without a hearing. The only exit for an asylum seeker is to express fear and pass a credible fear interview. A negative finding gets de novo IJ review within 7 days, and nothing after that: no BIA appeal and no federal court review.",
+   "unit": 1
+  },
+  {
+   "q": "A hurricane hits a country on January 1, and the AG designates it for TPS (Temporary Protected Status) on January 15. A national of that country first arrives in the U.S. on January 20. Six months later the designation is extended. Is she eligible?",
+   "o": [
+    "No, because only nationals present in the U.S. on the designation date benefit, and an extension keeps the original date",
+    "Yes, because the hurricane makes return unsafe for all nationals",
+    "Yes, because the extension moves the designation date forward",
+    "Yes, if she files within 180 days of arriving"
+   ],
+   "a": 0,
+   "why": [
+    "Correct. Only people already in the U.S. on the designation date benefit (the casebook's hurricane example uses January 15). An extension keeps the original date; only a redesignation moves it. She arrived after January 15, so she does not qualify.",
+    "TPS protects nationals facing a threat from conflict, disaster, or extraordinary conditions, but only those already in the U.S. on the designation date. Unsafe conditions alone do not make a later arrival eligible.",
+    "An extension keeps the original date. Only a redesignation moves it forward.",
+    "No source sets a filing window that makes a post-designation arrival eligible. The 180-day figure belongs to asylum work authorization."
+   ],
+   "e": "TPS under INA § 244 lets the AG grant temporary, work-authorized status to nationals of a country facing armed conflict, an environmental disaster, or other extraordinary and temporary conditions. Eligibility turns on presence in the U.S. on the designation date. Designations last 6 to 18 months and may be extended without changing that date, and there is generally no judicial review of designation decisions.",
+   "unit": 1
+  },
+  {
+   "q": "Under INA § 101(a)(42)(A), which of the following is NOT an element of the refugee definition?",
+   "o": [
+    "Being outside the country of nationality (or last habitual residence, if stateless)",
+    "Selection by the President within an annual regional allocation",
+    "Being unable or unwilling to return to, or to avail oneself of the protection of, that country",
+    "Persecution or a well-founded fear of persecution on account of one of five protected grounds"
+   ],
+   "a": 1,
+   "why": [
+    "This is an element. The applicant must have left the home country; part (B) is the narrow exception that lets the President designate certain in-country refugees.",
+    "Correct. Presidential allocation belongs to USRAP under INA § 207, the overseas track. The definition itself has no regional or numerical limit, and in-country adjudication has no cap.",
+    "This is an element. 'Unable' covers a person whose government cannot protect her; 'unwilling' covers a person who will not seek protection because of the fear.",
+    "This is an element. Either past persecution or a well-founded fear of future persecution qualifies, and it must be on account of race, religion, nationality, membership in a particular social group, or political opinion."
+   ],
+   "e": "The 1980 Refugee Act wrote a definition into the INA that is virtually identical to the Convention's. A refugee is outside the home country, unable or unwilling to return or seek its protection, because of persecution or a well-founded fear of persecution on account of a protected ground. The definition is geographically and ideologically neutral. Selection and caps belong to USRAP; asylum and withholding have none.",
+   "unit": 1
   },
   {
    "q": "An applicant proves a 30% chance of persecution on account of political opinion. She qualifies for:",
    "o": [
+    "Asylum only, subject to discretion",
     "Asylum and withholding",
-    "Asylum only (subject to discretion)",
     "Withholding only",
     "Neither"
    ],
-   "a": 1,
-   "e": "Well-founded fear can be met below 50%; withholding needs more likely than not."
+   "a": 0,
+   "why": [
+    "Correct. Under INS v. Cardoza-Fonseca, a well-founded fear can exist when the chance of persecution is well under 50%; the Court used a one-in-ten example. A 30% chance on account of political opinion makes her eligible for asylum, which remains a discretionary grant.",
+    "Withholding requires a clear probability, meaning persecution is more likely than not (over 50%), under INS v. Stevic. A 30% chance falls short.",
+    "Withholding has the higher standard. Here she meets asylum's well-founded-fear standard but not withholding's more-likely-than-not standard, so this reverses the result.",
+    "She meets the asylum standard. Cardoza-Fonseca holds that an applicant need not prove persecution is more likely than not to have a well-founded fear."
+   ],
+   "e": "Asylum requires a well-founded fear, which the regulations call a reasonable possibility of persecution. Withholding requires a clear probability, more likely than not. Cardoza-Fonseca held these are different standards and that a fear can be well-founded below 50%. A 30% chance satisfies asylum eligibility but not withholding, and the asylum grant is still discretionary.",
+   "unit": 2
   },
   {
-   "q": "Which relief is mandatory once eligibility is shown and no bar applies?",
+   "q": "Which form of relief must be granted once the applicant proves eligibility and no bar applies?",
    "o": [
     "Asylum",
     "Humanitarian asylum",
-    "Withholding of removal",
-    "Humanitarian parole"
+    "Humanitarian parole",
+    "Withholding of removal"
+   ],
+   "a": 3,
+   "why": [
+    "Asylum is discretionary: under INA § 208(b)(1) the government 'may grant' it to an eligible refugee, and Matter of Pula lets serious adverse factors justify denial.",
+    "Humanitarian asylum is a discretionary grant of asylum after the government rebuts the past-persecution presumption (8 C.F.R. § 208.13(b)(1)(iii)). It is not mandatory.",
+    "Humanitarian parole under INA § 212(d)(5) is temporary permission to enter given at the government's discretion. It is not a protection that must be granted on any showing.",
+    "Correct. Since the 1980 amendment ('The Attorney General shall not deport or return'), withholding must be granted if the applicant shows a clear probability of persecution and no bar applies."
+   ],
+   "e": "Asylum and withholding trade off. Asylum has the easier standard and gives more (a path to permanent residence and citizenship, plus derivatives), but it is discretionary. Withholding has the harder standard and gives less (country-specific protection, no derivatives), but it is mandatory once proven. Cardoza-Fonseca relied on that difference to explain why the greater benefit has the easier standard.",
+   "unit": 2
+  },
+  {
+   "q": "An asylum applicant bought another person's passport to escape persecution and enter the U.S. How does that fraud affect discretion under Matter of Pula?",
+   "o": [
+    "It requires denial of asylum",
+    "It is relevant but carries little weight and cannot overwhelm the analysis",
+    "It is irrelevant because § 208(a)(1) allows applications 'irrespective of status'",
+    "It converts the asylum claim into a withholding-only claim"
+   ],
+   "a": 1,
+   "why": [
+    "Pula withdrew from Matter of Salim, which treated circumventing orderly procedures as an extremely adverse factor that only the most unusual equities could overcome. Fraud cannot require denial in nearly every case.",
+    "Correct. Under Pula, fraudulent entry is relevant but cannot overwhelm the analysis, and using false documents to escape persecution carries little adverse weight. Fraudulently obtaining a U.S. passport and assuming U.S. citizenship is much more serious.",
+    "The Pula majority read 'irrespective of status' as protecting the right to apply. It did not read the phrase as removing discretion to weigh how the person entered; that was Heilman's separate view.",
+    "Discretion affects whether asylum is granted; it does not change the claim into another form of relief. If asylum is denied in discretion, withholding may still be granted on its own standard."
+   ],
+   "e": "Pula sets the discretion framework: weigh the totality of the circumstances of flight, and remember that 'the danger of persecution should generally outweigh all but the most egregious of adverse factors.' Factors include available protection elsewhere, time and safety in transit countries, attempts to enter lawfully, family ties, the seriousness of any fraud, age, and health. Escape documents weigh little. In Pula itself, the BIA granted asylum despite a purchased travel document.",
+   "unit": 2
+  },
+  {
+   "q": "What did INS v. Stevic (1984) identify as the Second Circuit's mistaken premise?",
+   "o": [
+    "That withholding of deportation is discretionary",
+    "That asylum requires a clear probability of persecution",
+    "That a motion to reopen requires a prima facie showing",
+    "That every person who qualifies as a refugee is also entitled to withholding of deportation"
+   ],
+   "a": 3,
+   "why": [
+    "After 1980, withholding was mandatory, and Stevic did not treat it as discretionary. The dispute was about the standard of proof.",
+    "Stevic did not define the asylum standard. It accepted only that well-founded fear is more generous than clear probability, which left the question for Cardoza-Fonseca.",
+    "The prima facie requirement for reopening is correct law (INA § 240(c)(7)). For withholding, Stevic required a prima facie showing of a clear probability; the Court did not call the requirement itself a mistake.",
+    "Correct. Stevic held that the Second Circuit rested on 'the mistaken premise that every alien who qualifies as a refugee is also entitled to a withholding of deportation.' Withholding requires a clear probability of persecution (more likely than not), and refugee status alone is not enough."
+   ],
+   "e": "Stevic held that withholding requires a clear probability of persecution. The withholding provision never uses the term 'refugee' or cross-references § 101(a)(42)(A), it turns on 'would' rather than 'might,' and the 1980 change was a conforming amendment that kept the old standard. Its central holding, that a refugee can still be removed if she cannot show persecution is more likely than not, puts the U.S. at odds with UNHCR and nearly all other signatories.",
+   "unit": 2
+  },
+  {
+   "q": "Which of the following was NOT part of the Court's reasoning in INS v. Cardoza-Fonseca (1987)?",
+   "o": [
+    "'Fear' has a subjective component, while 'would be threatened' has none",
+    "The same Congress used different words in § 208(a) and § 243(h), and different wording in one act is presumed intentional",
+    "Congress rejected a Senate bill that would have limited asylum to people who met the withholding standard",
+    "The Court deferred under Chevron to the BIA's view that the two standards are the same"
+   ],
+   "a": 3,
+   "why": [
+    "This was part of the plain-language reasoning: 'fear' turns partly on the applicant's state of mind, while 'would be threatened' requires objective proof.",
+    "This was part of the structural reasoning, citing Russello v. United States.",
+    "This was part of the legislative history: Congress rejected S. 643, along with relying on lenient practice under § 203(a)(7) and adding 'well-founded' to conform to the Protocol.",
+    "Correct. The Court refused Chevron deference. Whether the two standards are the same is a pure question of statutory construction for the courts, the agency had changed positions several times, and Congress's intent was clear. Only application to particular facts was left to the agency."
+   ],
+   "e": "Cardoza-Fonseca held that asylum's well-founded fear is more generous than withholding's clear probability. It relied on plain language, statutory structure, and legislative history, and declined to defer to the BIA. It also explained that a lower standard for asylum is not anomalous because meeting § 208(a) only makes a person eligible for a discretionary grant, while meeting § 243(h) entitles the person to withholding. Chevron was later overruled in Loper Bright (2024).",
+   "unit": 2
+  },
+  {
+   "q": "An asylum applicant has no documents about his political activity, but his testimony is detailed, plausible, coherent, and credible. Under Matter of Mogharrabi and the later statute:",
+   "o": [
+    "He can establish the objective basis through testimony, though the IJ may require corroboration that he has or can reasonably obtain",
+    "He fails, because the objective element requires documentary proof",
+    "He succeeds automatically, because an IJ may never require corroboration of credible testimony",
+    "He fails unless he suffered past physical harm"
+   ],
+   "a": 0,
+   "why": [
+    "Correct. Under Mogharrabi, credible and specific testimony can supply the objective basis for a well-founded fear. The REAL ID Act of 2005 lets the factfinder require corroboration of otherwise credible testimony, which must be provided unless the applicant does not have it and cannot reasonably obtain it (INA § 208(b)(1)(B)(ii)).",
+    "Mogharrabi rejected this. 'Objective evidence' does not mean documents; credible, specific testimony can establish the objective facts, reflecting how hard it is for asylum seekers to gather evidence.",
+    "The REAL ID Act limited Mogharrabi's rule by allowing the factfinder to require reasonably available corroboration even of credible testimony.",
+    "Proof of past harm helps but is not required (Garcia-Ramos). Lim v. INS shows that a person who escaped harm can still reasonably fear future persecution."
+   ],
+   "e": "Mogharrabi adopted a subjective/objective test with a reasonable-person standard: whether a reasonable person in the applicant's circumstances would fear persecution on a protected ground. The objective basis can come from credible testimony without documents. The REAL ID Act adds that the IJ may require corroboration unless the applicant lacks it and cannot reasonably obtain it.",
+   "unit": 2
+  },
+  {
+   "q": "A former intelligence officer helped arrest a rebel leader. For six years he received death threats and others involved in the investigation were killed, but he was never harmed. Under Lim v. INS (9th Cir. 2000), which relief does he meet the standard for?",
+   "o": [
+    "Asylum, but not withholding",
+    "Neither, because six years without harm shows his fear is unreasonable",
+    "Both asylum and withholding",
+    "Withholding, but not asylum"
+   ],
+   "a": 0,
+   "why": [
+    "Correct. In Lim, the applicant met the asylum standard but not withholding. The continuing threats and killings of others made his fear reasonable, but six years without harm meant he could not show persecution was more likely than not.",
+    "Lim rejected this. Surviving unharmed lowered the probability of persecution without eliminating a reasonable fear, which the court illustrated with Russian roulette: a player reasonably fears death even though only one of six chambers is loaded.",
+    "Withholding requires a clear probability (more likely than not). The court found the evidence did not reach that level.",
+    "Withholding has the higher standard, so a person who fails asylum cannot meet withholding. Here the result is the reverse."
+   ],
+   "e": "Lim shows that the same facts can win asylum and lose withholding. A well-founded fear requires only a reasonable possibility of persecution, while withholding requires more likely than not. Threats plus the killing of similarly situated people supported a reasonable fear even though the applicant himself had escaped harm. Garcia-Ramos makes the same point: evidence that fails withholding can still establish well-founded fear if believed.",
+   "unit": 2
+  },
+  {
+   "q": "Rank the three screening thresholds from lowest to highest.",
+   "o": [
+    "Reasonable fear, credible fear, reasonable probability",
+    "Credible fear, reasonable probability, reasonable fear",
+    "Reasonable probability, reasonable fear, credible fear",
+    "Credible fear, reasonable fear, reasonable probability"
+   ],
+   "a": 3,
+   "why": [
+    "Credible fear is the lowest screen: a significant possibility of establishing asylum eligibility. Reasonable fear (a reasonable possibility of persecution or torture) is higher.",
+    "Reasonable probability (substantially more than a reasonable possibility, somewhat less than more likely than not) is the highest of the three. Reasonable fear sits below it.",
+    "This reverses the order. Reasonable probability is the highest screen and credible fear is the lowest.",
+    "Correct. Credible fear asks only for a significant possibility of meeting the already low asylum standard. Reasonable fear requires a reasonable possibility of persecution or torture, the same level as the asylum standard itself. Reasonable probability, added by the June 2024 Securing the Border rule, requires substantially more than a reasonable possibility."
+   ],
+   "e": "Screening standards decide whether a person in fast-track removal can apply for protection at all, and passing a screen only leads to further adjudication. Credible fear is used in expedited removal. Reasonable fear is used for reinstated and certain administrative removal orders and leads only to withholding and CAT. Reasonable probability was added for people limited to withholding and CAT under the June 2024 rule. The casebook notes all three are on hold after the January 2025 suspension of entries under INA § 212(f).",
+   "unit": 2
+  },
+  {
+   "q": "An IJ grants an Afghan applicant withholding of removal as to Afghanistan. DHS then seeks to remove him to Pakistan, which will accept him. Under Matter of Salim:",
+   "o": [
+    "Removal to Pakistan is barred, because withholding bars removal anywhere",
+    "Removal to Pakistan is permitted only under a safe third country agreement",
+    "Removal to Pakistan is permitted, because withholding only bars removal to the country where the threat exists",
+    "Removal to Pakistan is permitted only after asylum is denied on the merits"
    ],
    "a": 2,
-   "e": "Withholding is mandatory; asylum is discretionary."
+   "why": [
+    "Withholding is country-specific. It protects against return to the country where life or freedom would be threatened and does not bar removal elsewhere.",
+    "Salim did not rest on a safe third country agreement. The point is that withholding by its nature does not protect against removal to other countries.",
+    "Correct. Withholding only bars removal to the country where the threat exists, so the person can be removed to a third country. In Salim, the Board granted withholding as to Afghanistan but ordered removal to Pakistan if Pakistan would accept him.",
+    "The ability to remove to a third country comes from the nature of withholding itself, whether or not asylum was also sought or denied."
+   ],
+   "e": "Withholding under INA § 241(b)(3) is mandatory but narrow: it only prevents removal to the specific country of threat and gives no derivative protection. Asylum, by contrast, leads to permanent residence and protects a spouse and children. This gap is one reason 8 C.F.R. § 1208.16(e) asks for reconsideration when asylum is denied solely in discretion but withholding is granted.",
+   "unit": 2
   },
   {
    "q": "The government persecuted the applicant in the past. On internal relocation:",
    "o": [
-    "Applicant must prove relocation is unreasonable",
-    "Relocation is presumed unreasonable; DHS must rebut by a preponderance",
-    "Relocation is irrelevant",
-    "IJ must deny unless she tried relocating first"
+    "Relocation is presumed unreasonable, and DHS must rebut by a preponderance of the evidence",
+    "The applicant must prove relocation is unreasonable",
+    "Relocation is irrelevant once past persecution is shown",
+    "The IJ must deny unless she tried relocating first"
    ],
-   "a": 1,
-   "e": "Government persecution creates a presumption against reasonable relocation."
+   "a": 0,
+   "why": [
+    "Correct. If the persecutor is the government, there is a rebuttable presumption that persecution is countrywide and relocation unreasonable, because a government has nationwide reach. DHS (the Department of Homeland Security) must rebut it by a preponderance of the evidence.",
+    "When the persecutor is the government, the burden is not on the applicant. The regulations presume persecution is countrywide and relocation unreasonable.",
+    "Relocation is one of the two ways DHS can rebut the past-persecution presumption, so it stays relevant. The government-persecutor rule only shifts who must prove it.",
+    "UNHCR guidance says asylum is not a last resort, and a person need not try every refuge in her own country first. The regulations ask whether relocation would avoid persecution and be reasonable; they do not require a prior attempt."
+   ],
+   "e": "Internal relocation defeats a claim only if moving would avoid the persecution and it would be reasonable to expect the applicant to move (8 C.F.R. §§ 1208.13(b)(3), 1208.16(b)(3)). Reasonableness considers factors such as age, health, gender, family ties, civil strife, infrastructure, and cultural constraints. When the government is the persecutor, relocation is presumed unreasonable and DHS must rebut by a preponderance.",
+   "unit": 3
   },
   {
-   "q": "DHS rebuts the presumption of future fear with fundamental changed circumstances. The applicant suffered atrocious past persecution. Best path?",
+   "q": "DHS rebuts the presumption of future persecution by showing a fundamental change in circumstances. The applicant suffered atrocious past persecution. What is her best remaining path?",
    "o": [
-    "Withholding",
-    "Humanitarian asylum based on severity (Chen)",
+    "Withholding of removal",
+    "Humanitarian asylum based on the severity of the past persecution (Matter of Chen)",
     "CAT only",
-    "None, the claim is over"
+    "None; the claim is over"
    ],
    "a": 1,
-   "e": "Compelling reasons from the severity of past persecution. Withholding has no humanitarian version."
+   "why": [
+    "Withholding has no humanitarian version. Once DHS rebuts the presumption, the withholding claim fails.",
+    "Correct. After rebuttal, asylum can still be granted in discretion if the applicant has compelling reasons for being unwilling to return arising out of the severity of the past persecution (8 C.F.R. § 208.13(b)(1)(iii)(A)), the rule from Matter of Chen.",
+    "CAT requires showing future torture is more likely than not. It does not rest on the severity of past persecution, and nothing here indicates future torture.",
+    "Rebuttal ends withholding, but asylum survives through humanitarian asylum where the past persecution was severe or the applicant faces other serious harm."
+   ],
+   "e": "Past persecution creates a presumption of future persecution that DHS can rebut by a preponderance, through fundamental change or reasonable relocation. After rebuttal, asylum and withholding split. Humanitarian asylum remains available for compelling reasons arising from the severity of past persecution, or for a reasonable possibility of other serious harm. The concept traces to Convention Art. 1.C(6), written with Holocaust survivors in mind.",
+   "unit": 3
   },
   {
-   "q": "Under the Fifth Circuit’s approach, a due process claim in removal proceedings also requires:",
+   "q": "A Honduran transgender applicant shows that people similarly situated to her are systematically persecuted on account of a protected ground, and that she belongs to and identifies with that group. She has no evidence she personally was singled out. Under the regulations:",
    "o": [
-    "A Mathews balancing in every case",
-    "A showing of substantial prejudice",
-    "Exhaustion before the Supreme Court",
-    "Proof of bad faith"
+    "She need not show she would be singled out individually",
+    "She fails, because every applicant must show individual targeting",
+    "She qualifies only in the Ninth Circuit under the disfavored-group approach",
+    "She is automatically granted asylum without any discretionary analysis"
    ],
-   "a": 1,
-   "e": "Notice, hearing, fair opportunity, plus an initial showing of substantial prejudice."
+   "a": 0,
+   "why": [
+    "Correct. Under 8 C.F.R. §§ 1208.13(b)(2)(iii) and 1208.16(b)(2), if there is a pattern or practice of persecution of a group similarly situated to the applicant on a protected ground, and she establishes inclusion in and identification with that group, she need not show she would be singled out. The reading cites Aguilar (10th Cir. 2022), where a Honduran transgender applicant made this showing.",
+    "Individual risk is the default rule, but pattern or practice is an exception for both asylum and withholding.",
+    "The disfavored-group approach is a separate Ninth Circuit doctrine that lowers the individual showing for members of groups that face mistreatment short of a pattern or practice. Pattern or practice is in the regulations and applies everywhere.",
+    "Pattern or practice establishes the well-founded fear (or threat to life or freedom). Asylum still remains discretionary."
+   ],
+   "e": "The regulations normally require individual risk. Pattern or practice replaces that showing entirely when the applicant proves (1) a pattern or practice of persecution of a similarly situated group on a protected ground and (2) her own inclusion in and identification with the group. The disfavored-group approach only lowers the individual showing, and only in the Ninth Circuit.",
+   "unit": 3
   },
   {
-   "q": "The BIA reviews an IJ’s finding that the applicant was beaten twice. Standard?",
+   "q": "An applicant in the Eleventh Circuit belongs to an ethnic group that faces discrimination and mistreatment, but the mistreatment does not amount to a pattern or practice of persecution. She argues for a reduced showing of individual risk under the disfavored-group approach. Likely result?",
+   "o": [
+    "Accepted, because every circuit follows the disfavored-group approach",
+    "Accepted, because the approach is codified in the regulations",
+    "Rejected, because group membership is never relevant to well-founded fear",
+    "Rejected, because the Eleventh Circuit has rejected the approach as a departure from the statute's plain language"
+   ],
+   "a": 3,
+   "why": [
+    "The disfavored-group approach is a Ninth Circuit doctrine (Sael v. Ashcroft; Hoxha v. Ashcroft). Most other circuits have rejected it or not addressed it.",
+    "The regulations codify pattern or practice. The disfavored-group approach is circuit case law built on top of it.",
+    "Group membership matters a great deal: pattern or practice rests on it, and Mogharrabi asks what happened to similarly situated people. The issue is only whether a lesser individual showing is allowed for a disfavored group.",
+    "Correct. The First, Third, and Eleventh Circuits rejected the approach, and the Eleventh called it a departure from the statute's plain language. Outside the Ninth Circuit, she needs either a pattern or practice or an individualized showing."
+   ],
+   "e": "The Ninth Circuit's disfavored-group approach lets a member of a group facing discrimination and mistreatment meet the burden with a lesser showing of individual risk, even without a pattern or practice of persecution. The First, Third, and Eleventh Circuits rejected it. Older Fourth and Eighth Circuit cases give some support: the more egregious the group persecution, the less individualized evidence is needed.",
+   "unit": 3
+  },
+  {
+   "q": "A woman who suffered female genital cutting (FGC) because of a gender-defined social group seeks asylum. DHS argues the past-persecution presumption is rebutted because FGC can happen only once. After the Attorney General's 2008 decision in Matter of A-T-:",
+   "o": [
+    "DHS wins, because the feared future harm must be the same type as the past harm",
+    "DHS wins, because FGC is not persecution",
+    "DHS loses only if she shows she will suffer FGC again",
+    "DHS loses: the presumption covers future persecution on the same protected ground, which need not be the same type of harm"
+   ],
+   "a": 3,
+   "why": [
+    "The BIA took this view in 2007, but Attorney General Mukasey vacated it. The presumption is tied to the protected ground, not to repeating the same harm.",
+    "Nothing in the sources treats FGC as outside persecution; Kasinga treats FGM as persecution even when inflicted in the victim's supposed best interest.",
+    "She does not have to show repetition of FGC. The presumption covers any persecution on the same ground.",
+    "Correct. Mukasey vacated the BIA's A-T- decision in 2008: FGC can be repeated, and more basically, the feared future harm does not have to match the past harm. A woman who suffered FGC because of a gender-defined social group is presumed to face other persecution on account of that group."
+   ],
+   "e": "Under 8 C.F.R. § 1208.13(b)(1), past persecution on a protected ground creates a presumption of a well-founded fear of future persecution on that same ground. The presumption is about the ground, not the type of harm. DHS must rebut by a preponderance through fundamental change or reasonable relocation; arguing that the specific harm cannot recur is not enough.",
+   "unit": 3
+  },
+  {
+   "q": "An applicant suffered no past persecution. She argues she faces a reasonable possibility of 'other serious harm' if returned and asks for humanitarian asylum. Result?",
+   "o": [
+    "Granted, because other serious harm needs no nexus",
+    "Granted, because other serious harm is a freestanding asylum claim",
+    "Denied, because humanitarian asylum is available only for withholding",
+    "Denied, because both humanitarian asylum routes require qualifying past persecution"
+   ],
+   "a": 3,
+   "why": [
+    "It is true that other serious harm does not need to be on account of a protected ground. But that route is available only to someone who first shows qualifying past persecution.",
+    "The sources state that other serious harm is not a freestanding asylum claim.",
+    "Humanitarian relief exists only for asylum. Withholding has no humanitarian version.",
+    "Correct. Both humanitarian asylum routes (severity of past persecution and other serious harm) require qualifying past persecution. Other serious harm is not a freestanding claim, so a person with no past persecution cannot use it."
+   ],
+   "e": "Humanitarian asylum under 8 C.F.R. § 208.13(b)(1)(iii) applies after the government rebuts the past-persecution presumption. It covers compelling reasons arising from the severity of past persecution, or a reasonable possibility of other serious harm that equals the severity of persecution but needs no nexus (Kone v. Holder; Boer-Sedano v. Gonzales). Both routes start from past persecution.",
+   "unit": 3
+  },
+  {
+   "q": "Under the Fifth Circuit's approach, a due process claim in removal proceedings requires notice, a hearing, and a fair opportunity to be heard. What else must the noncitizen show?",
+   "o": [
+    "A Mathews v. Eldridge balancing in every case",
+    "An initial showing of substantial prejudice",
+    "Exhaustion before the Supreme Court",
+    "Proof that the IJ acted in bad faith"
+   ],
+   "a": 1,
+   "why": [
+    "Mathews is the general due process test the casebook uses to evaluate procedures. The Fifth Circuit's stated test for removal proceedings adds substantial prejudice to the three procedural guarantees.",
+    "Correct. The Fifth Circuit requires notice of the charges, a hearing before an executive or administrative tribunal, and a fair opportunity to be heard, plus an initial showing that the defect substantially prejudiced her case.",
+    "Supreme Court review is by discretionary certiorari. It is not an exhaustion requirement for a due process claim.",
+    "The test focuses on the procedural defect and its effect on the case. No source lists bad faith as an element."
+   ],
+   "e": "The outline states the Fifth Circuit test: notice of the charges, a hearing before an executive or administrative tribunal, and a fair opportunity to be heard, with an initial showing of substantial prejudice, in proceedings that meet standards of fundamental fairness. The prejudice requirement parallels interpretation claims (Perez-Lastor) and ineffective-assistance claims (Lozada), which also require showing the defect affected the result.",
+   "unit": 4
+  },
+  {
+   "q": "The BIA reviews an IJ's finding that the applicant was beaten twice. What standard applies?",
    "o": [
     "De novo",
     "Clear error",
@@ -3592,106 +5124,644 @@ window.COURSES["asylum"] = {
     "Arbitrary and capricious"
    ],
    "a": 1,
-   "e": "BIA: clear error for facts; de novo for law, discretion, judgment."
+   "why": [
+    "The BIA reviews questions of law, discretion, and judgment de novo. Since the 2002 streamlining reforms, it no longer reviews IJ fact-finding de novo.",
+    "Correct. Whether the applicant was beaten twice is a finding of fact, and the BIA reviews IJ fact-finding for clear error: it defers unless the finding is clearly wrong.",
+    "Substantial evidence is the standard circuit courts apply to the agency's factual findings on a petition for review.",
+    "Arbitrary and capricious is the standard circuit courts apply to discretionary decisions."
+   ],
+   "e": "There are two layers of review. The BIA reviews IJ facts for clear error and law, discretion, and judgment de novo. Circuit courts review law de novo, facts for substantial evidence, and discretion as arbitrary and capricious. Streamlining in 2002 changed BIA factual review from de novo to clear error.",
+   "unit": 4
   },
   {
-   "q": "Which is NOT a Lozada requirement?",
+   "q": "Which is NOT a requirement for a motion to reopen for ineffective assistance of counsel under Matter of Lozada?",
    "o": [
-    "Affidavit describing the agreement with counsel",
-    "Notice to counsel and chance to respond",
-    "A bar complaint or explanation for not filing",
-    "Proof prior counsel was disbarred"
+    "An affidavit describing the agreement with counsel",
+    "Proof that prior counsel was notified of the allegations and given a chance to respond",
+    "A bar complaint, or an explanation for why none was filed",
+    "Proof that prior counsel was disbarred"
    ],
    "a": 3,
-   "e": "Plus prejudice. Disbarment is not required."
-  },
-  {
-   "q": "A student lost a university job for her religion but works steadily as a translator with no violence. Most likely:",
-   "o": [
-    "Economic persecution",
-    "Not persecution: loss of one job with other steady work",
-    "Persecution per se under ¶ 51",
-    "Persecution because intent to punish is shown"
+   "why": [
+    "This is required. The affidavit pins down what the lawyer agreed to do and did not do.",
+    "This is required. Notice gives former counsel a chance to respond and screens out collusive claims.",
+    "This is required where counsel's conduct was an ethical or legal violation; if no complaint was filed, the respondent must explain why.",
+    "Correct. Lozada requires the three procedural steps plus prejudice. It does not require that prior counsel have been disciplined or disbarred."
    ],
-   "a": 1,
-   "e": "No bright line, but keeping steady other work with no significant violence usually falls short."
+   "e": "Lozada lets a respondent reopen for ineffective assistance only if the proceeding was so fundamentally unfair that she was prevented from reasonably presenting her case. She must file an affidavit about the agreement, show counsel was notified and allowed to respond, and file a bar complaint or explain why not. She must also show prejudice: competent counsel would have acted differently and it affected the outcome. Matter of Compean (2009), which rejected any right to effective assistance, was vacated the same year.",
+   "unit": 4
   },
   {
-   "q": "Relatives forced FGM on a daughter “to protect her future.” The persecution analysis:",
-   "o": [
-    "Fails, no punitive intent",
-    "Succeeds: intent to punish isn’t required; harm in one’s “best interest” is still persecution",
-    "Depends only on nexus",
-    "Requires a government actor"
-   ],
-   "a": 1,
-   "e": "Objective test. Motive goes to nexus, not to whether harm is persecution."
-  },
-  {
-   "q": "Police took a report but haven’t solved the attack after a month. Under A-B-, this shows:",
-   "o": [
-    "Government unable to control",
-    "Not enough: efforts and slow investigation don’t show condoning or complete helplessness",
-    "Per se state action",
-    "Futility of reporting"
-   ],
-   "a": 1,
-   "e": "Inability to solve a crime quickly isn’t necessarily inability to control."
-  },
-  {
-   "q": "A person with a reinstated removal order expresses fear. Which screen, and what relief?",
+   "q": "A person whose prior removal order has been reinstated tells the officer she fears return. Which screen applies, and what relief can a positive screen lead to?",
    "o": [
     "Credible fear; asylum",
-    "Reasonable fear; withholding/CAT only",
-    "No screen; removal",
+    "No screen; immediate removal",
+    "Reasonable fear; withholding and CAT only",
     "Reasonable probability; asylum"
    ],
-   "a": 1,
-   "e": "Asylum is unavailable in that route."
-  },
-  {
-   "q": "A citizen was prosecuted for theft and sentenced under a fair process to a normal term. Persecution?",
-   "o": [
-    "Yes, any imprisonment",
-    "No: prosecution isn’t persecution absent excessive punishment, a Convention reason, or illegitimate process",
-    "Yes if she disagrees with the law",
-    "Only if tortured"
+   "a": 2,
+   "why": [
+    "Credible fear is the screen for arriving applicants in expedited removal. People with reinstated orders get the higher reasonable fear screen, and asylum is unavailable to them.",
+    "Fear screening applies. A person with a reinstated order who expresses fear gets a reasonable fear interview before removal.",
+    "Correct. People with reinstated removal orders or certain administrative removal orders get a reasonable fear interview, which asks for a reasonable possibility of persecution or torture. A positive finding leads only to withholding and CAT proceedings; asylum is unavailable on this route.",
+    "Reasonable probability was added by the June 2024 Securing the Border rule for people limited to withholding and CAT. It never leads to asylum."
    ],
-   "a": 1,
-   "e": "Nature of the offense, extent of punishment, legitimacy of process."
-  },
-  {
-   "q": "The U.S. interdicts Haitians on the high seas and returns them. Under the Haitian interdiction rule:",
-   "o": [
-    "Violates art. 33",
-    "Doesn’t violate § 243(h) or art. 33: art. 33 isn’t extraterritorial",
-    "Violates Charming Betsy",
-    "Requires credible fear interviews at sea"
-   ],
-   "a": 1,
-   "e": "Neither provision prohibits interdiction and return on the high seas."
-  },
-  {
-   "q": "An asylum applicant used a fake passport to escape. For discretion:",
-   "o": [
-    "Mandatory denial",
-    "Relevant but little weight; can’t overwhelm the analysis",
-    "Irrelevant",
-    "Converts the claim to withholding"
-   ],
-   "a": 1,
-   "e": "Escape documents weigh little; fraudulently claiming U.S. citizenship is more serious."
+   "e": "The screen depends on the route. Credible fear (a significant possibility of asylum eligibility) applies in expedited removal. Reasonable fear (a reasonable possibility of persecution or torture, a higher bar) applies to reinstatement and certain administrative removal, and leads only to withholding and CAT. Passing either screen only gets the person a fuller hearing.",
+   "unit": 4
   },
   {
    "q": "When may an asylum applicant receive work authorization?",
    "o": [
+    "After the application has been pending 180 days (she may file at 150 days)",
     "Immediately on filing",
-    "After the application has been pending 180 days (may file at 150)",
     "After 365 days",
-    "Only after a grant"
+    "Only after a grant of asylum"
+   ],
+   "a": 0,
+   "why": [
+    "Correct. Under the 1995 rule, an applicant becomes eligible once the asylum application has been pending more than 180 days, and she may file at 150 days. Approval takes 4 to 6 weeks or longer.",
+    "Before January 1995, applicants with non-frivolous claims could get work authorization. The 1995 rule replaced that with the 180-day wait, to stop baseless claims filed only for work permits.",
+    "The June 2020 rules extended the wait to 365 days, but AsylumWorks v. Mayorkas (D.D.C. 2022) vacated them because acting Secretary Chad Wolf lacked authority to issue them.",
+    "Work authorization is available while the claim is pending. A denial within the 180 days, however, generally forecloses it."
+   ],
+   "e": "The federal government gives asylum seekers no social benefits, so work authorization is the main lifeline. Since 1995 it waits until the application has been pending 180 days, with filing allowed at 150. In practice most applicants cannot work lawfully for 10 to 12 months. The 2020 rules that extended the wait to 365 days were vacated in 2022.",
+   "unit": 4
+  },
+  {
+   "q": "On a petition for review, the record would support either the IJ's finding that the applicant was not targeted or a finding that he was. What should the circuit court do with the factual finding?",
+   "o": [
+    "Reverse, because the evidence supports a different result",
+    "Review it de novo, because asylum findings are mixed questions",
+    "Uphold it, because findings stand unless any reasonable adjudicator would be compelled to conclude otherwise",
+    "Remand automatically for the BIA to explain its reasoning"
+   ],
+   "a": 2,
+   "why": [
+    "Evidence that merely supports a different result is not enough to reverse under substantial-evidence review.",
+    "Circuit courts review questions of law de novo. Findings of fact, such as whether he was targeted, get substantial-evidence review.",
+    "Correct. Under the substantial-evidence standard, the agency's factual findings stand unless any reasonable adjudicator would be compelled to reach the opposite conclusion. A record that permits either result does not compel reversal.",
+    "No source describes automatic remand when the record supports both outcomes. The question is whether the record compels the opposite result, and here it does not."
+   ],
+   "e": "Circuit courts review law de novo, facts for substantial evidence, and discretionary decisions as arbitrary and capricious. Substantial evidence is a deferential standard. The question is whether the record compels the opposite result; a record that only permits it is not enough. Nasrallah v. Barr confirms that factual challenges to CAT denials get this review even in criminal-removal cases.",
+   "unit": 4
+  },
+  {
+   "q": "An arriving noncitizen in expedited removal passes her credible fear interview and is placed in removal proceedings. She asks an IJ for a bond hearing. Under Matter of M-S- (A.G. 2019):",
+   "o": [
+    "The IJ must hold a bond hearing within 7 days, with DHS bearing the burden",
+    "She is bond-eligible under INA § 236(a) if she is not a flight risk or danger",
+    "She must be detained unless paroled; the IJ has no custody jurisdiction to set bond",
+    "She must be released under the Flores settlement"
+   ],
+   "a": 2,
+   "why": [
+    "That was the Padilla v. ICE district court order, affirmed by the Ninth Circuit in 2020. The Supreme Court vacated and remanded in light of Thuraissigiam, so no such hearings occur meanwhile.",
+    "Section 236(a) is the general bond rule, but ICE treats arriving aliens with positive credible fear findings as outside it, under INA § 235(b).",
+    "Correct. M-S-, overruling Matter of X-K-, held that a person in expedited removal who establishes credible fear must be detained unless paroled. ICE treats arriving aliens as ineligible for bond and says IJs lack jurisdiction over their custody, so parole is the only route out.",
+    "Flores governs the release of children. Nothing in the facts indicates she is a child."
+   ],
+   "e": "Release depends on the detention statute. Section 236(a) allows bond if the person is not a danger or flight risk, with the respondent bearing the burden and a $1,500 minimum. Section 236(c) mandates detention for criminal and terrorism grounds. Arriving aliens and people with positive credible fear findings in expedited removal get no bond after M-S-, and can leave only through parole under 8 C.F.R. § 212.5.",
+   "unit": 4
+  },
+  {
+   "q": "Which group has been held entitled to counsel at government expense in immigration proceedings?",
+   "o": [
+    "All indigent noncitizens in removal proceedings",
+    "Unaccompanied children in adversarial immigration court",
+    "Mentally incompetent detainees in the Franco-Gonzalez class",
+    "Applicants at an affirmative asylum office interview"
+   ],
+   "a": 2,
+   "why": [
+    "The right to counsel exists only at no expense to the government (INA § 292), and no court has ordered funded counsel for indigent noncitizens generally.",
+    "Children have no right to appointed counsel. J.E.F.M. v. Lynch sent such claims to individual petitions for review, and in C.J.L.G. the en banc Ninth Circuit declined to decide the question. It remains open.",
+    "Correct. Franco-Gonzalez v. Holder (C.D. Cal. 2013) held mentally incompetent detainees are entitled to counsel at government expense. ICE and EOIR then adopted the National Qualified Representative Program; the class covers unrepresented, detained individuals in Arizona, California, and Washington.",
+    "At the asylum office, counsel is allowed only at no government expense: the applicant may bring a lawyer, but the government will not supply one."
+   ],
+   "e": "There is a right to counsel in removal proceedings only at no expense to the government. Representation is the most important factor in outcomes (for example, represented detainees won relief 49% of the time versus 23%). The exception is mentally incompetent detainees under Franco-Gonzalez. Whether due process requires appointed counsel for unaccompanied children remains open.",
+   "unit": 4
+  },
+  {
+   "q": "A Sri Lankan asylum seeker is caught 25 yards inside the southern border, receives a negative credible fear finding affirmed by an IJ, and files a habeas petition claiming the process was unfair. Under DHS v. Thuraissigiam (2020):",
+   "o": [
+    "He is entitled to full Fifth Amendment due process because he is physically inside the U.S.",
+    "He has only the admission-related procedural rights Congress supplied, and the habeas limits do not violate the Suspension Clause",
+    "He is entitled to a new credible fear interview with counsel",
+    "His case must be heard in regular removal proceedings under INA § 240"
    ],
    "a": 1,
-   "e": "The 2020 365-day rule was vacated in 2022."
+   "why": [
+    "The Court held that being physically just inside the border does not require more constitutional process. That was the dissent's view (Sotomayor and Kagan).",
+    "Correct. The Court held that a noncitizen in his position has only the procedural rights Congress supplied, and that habeas secures release from unlawful custody, not admission or further asylum proceedings, so the statutory limits did not suspend the writ. Breyer and Ginsburg concurred only on the narrow facts of someone caught right at the border.",
+    "The Court did not order any new interview. Statutory habeas covers only alienage, whether an expedited removal order exists, and whether the person is outside expedited removal.",
+    "Passing to § 240 proceedings requires a positive credible fear finding. His finding was negative, and the Court rejected his challenge."
+   ],
+   "e": "Thuraissigiam limits due process for someone caught immediately at the border with no prior lawful admission to what Congress provides. The live question is how far it reaches. The Sandra hypothetical tests that: list facts matching Thuraissigiam (caught at the border, no lawful admission) and facts that differ (years of prior residence, ties, a pending application), then apply the Breyer/Ginsburg concurrence's narrower line.",
+   "unit": 4
+  },
+  {
+   "q": "An IJ ridicules a traumatized applicant, calls her crying 'histrionics,' and then makes an adverse credibility finding. On review, what is the remedy under Fiadjoe v. Attorney General (3d Cir. 2005)?",
+   "o": [
+    "Remand for a new hearing before a different IJ",
+    "Affirm, because credibility findings receive deference",
+    "Grant asylum outright",
+    "Refer the IJ for discipline under the Model Code, which is binding on IJs"
+   ],
+   "a": 0,
+   "why": [
+    "Correct. In Fiadjoe, IJ Ferlise ridiculed a Ghanaian woman with PTSD (post-traumatic stress disorder) who had been held as a slave. The Third Circuit held the credibility finding could not survive and remanded to a different IJ.",
+    "Fiadjoe held that no credibility finding from a hearing conducted that way can survive review, and the findings also lacked substantial evidence.",
+    "Asylum is discretionary. A court that finds error remands; it does not grant asylum itself.",
+    "The Model Code of Judicial Conduct is not binding on IJs, which the casebook lists as a cause of near impunity. The judicial remedy in Fiadjoe was a new hearing before a different IJ."
+   ],
+   "e": "The data show that the assigned judge often matters more than the merits (Refugee Roulette; TRAC). The legal tools for policing judges are the non-binding Model Code and appellate review. Where a hearing is abusive, Fiadjoe's remedy is a new hearing before a different IJ. Reform proposals center on an independent Article I immigration court.",
+   "unit": 4
+  },
+  {
+   "q": "A noncitizen who is not in removal proceedings and has no lawful status files affirmatively for asylum. The asylum officer does not grant it. What happens next?",
+   "o": [
+    "The application is denied and she must leave within 30 days",
+    "The case is referred to immigration court, where she can seek protection defensively",
+    "She appeals directly to the BIA",
+    "She keeps her status until it expires"
+   ],
+   "a": 1,
+   "why": [
+    "A straight denial is the usual result for an applicant who has lawful status. An applicant without status is referred to immigration court.",
+    "Correct. When an affirmative applicant without lawful status is not granted asylum, the case is referred to immigration court, where she gets another chance to seek protection defensively before an IJ.",
+    "Asylum officer decisions do not go to the BIA. The BIA hears appeals from IJ decisions.",
+    "This describes an applicant with lawful status, such as a valid visa, who ordinarily receives a denial and keeps that status until it expires. She has no status."
+   ],
+   "e": "Affirmative applications go to a USCIS asylum officer in a nonadversarial interview, with counsel allowed at no government expense and the applicant generally supplying her own interpreter. The officer grants, denies, or refers. For an applicant without status, referral moves the claim to immigration court for a fresh hearing, so it is not a final loss.",
+   "unit": 4
+  },
+  {
+   "q": "A student was fired from her university job because of her religion, but she has worked steadily as a translator ever since and has suffered no violence. Most likely:",
+   "o": [
+    "Economic persecution",
+    "Persecution under UNHCR Handbook ¶ 51",
+    "Not persecution: loss of one job, with steady other work and no significant violence, usually falls short",
+    "Persecution, because the employer intended to punish her"
+   ],
+   "a": 2,
+   "why": [
+    "Economic persecution requires the deliberate imposition of severe economic disadvantage beyond what society as a whole faces. Losing one job while keeping steady other work does not reach that level.",
+    "Paragraph 51 says a threat to life or freedom on a protected ground is always persecution. Losing one job with steady other work is not a threat to life or freedom.",
+    "Correct. In Nagoulko v. INS (9th Cir. 2003), a Pentecostal teacher fired for her religion kept steady factory work for seven years and suffered no significant violence, and the court found no persecution. There is no bright line, but keeping steady other work usually falls short.",
+    "Intent to punish is not an element of persecution under Pitcherskaia, and the employer's motive goes to nexus. The issue here is whether the harm is severe enough, and it is not."
+   ],
+   "e": "Economic harm can be persecution without physical injury and without total loss of livelihood (Kovac; T-Z-). It must still be a deliberate imposition of substantial economic disadvantage, above what society as a whole faces. Nagoulko (fired but steadily employed elsewhere) fell short, while Koval (barred from her field and any allied field and reduced to ticket-checking) was reversed in her favor. Under the Grahl-Madsen list, denial of all work suited to one's training can be persecution.",
+   "unit": 5
+  },
+  {
+   "q": "Relatives forced FGM (female genital mutilation) on a daughter 'to protect her future.' On whether the harm is persecution:",
+   "o": [
+    "It fails, because there was no intent to punish",
+    "It depends only on nexus",
+    "It fails unless a government official performed it",
+    "It succeeds: intent to punish is not required, and harm inflicted in one's supposed best interest is still persecution"
+   ],
+   "a": 3,
+   "why": [
+    "Pitcherskaia v. INS rejected any punitive-intent requirement. The test is objective: whether a reasonable person would regard the harm as offensive.",
+    "Nexus is a separate element. Whether the harm is persecution is decided objectively, and the persecutor's motive matters for nexus, not for the harm question.",
+    "Persecution can come from private actors the government is unable or unwilling to control. Who inflicted the harm is a separate element from whether the harm is persecution.",
+    "Correct. Under Pitcherskaia, intent to harm or punish is not an element of persecution, and 'persecution by any other name remains persecution.' In re Kasinga treats FGM as persecution even when inflicted in the victim's supposed best interest."
+   ],
+   "e": "Pitcherskaia holds that the test for persecution is objective, so a motive to cure or help does not change the character of the harm. The persecutor's motive matters only for nexus, which under Elias-Zacarias requires proof that the persecutor acted on a protected ground. Keep two questions separate: is the harm bad enough (objective), and why was it inflicted (nexus).",
+   "unit": 5
+  },
+  {
+   "q": "A woman reported an attack by a private gang. The police took a report but had not solved the crime a month later. Under Matter of A-B- (reinstated in 2025), this evidence shows:",
+   "o": [
+    "Not enough: an investigation that is slow or unsuccessful does not show the government condoned the acts or was completely helpless",
+    "The government is unable to control the gang",
+    "Per se state action",
+    "That reporting was futile"
+   ],
+   "a": 0,
+   "why": [
+    "Correct. A-B- requires that the government condoned the private acts or was completely helpless to protect. A-B- II said the standard is not met where the government made efforts to punish or prevent the harm or was not always successful. Taking a report and investigating shows effort.",
+    "Police inability to complete an investigation quickly (Matter of C-G-T-) or to solve a crime (Bertrand v. Garland) does not necessarily show the government is unable to control private actors.",
+    "Private acts are persecution only if the government is unable or unwilling to control them, and here the government took action. Nothing about a police report makes the gang a state actor.",
+    "She did report. Futility excuses a failure to report; it does not follow from a report the police took and investigated."
+   ],
+   "e": "Private harm counts as persecution only if the government is unable or unwilling to control the persecutor, and the applicant bears that burden. Matter of S-S-F-M- (2025) vacated A-B- III and returned to A-B- I and II: the government must have condoned the acts or been completely helpless. Efforts to investigate, light sentences, imperfect success, or local police apathy do not meet that test, and slow police work alone is not enough.",
+   "unit": 5
+  },
+  {
+   "q": "A citizen was prosecuted for theft and sentenced, under a fair process, to an ordinary prison term. Is that persecution?",
+   "o": [
+    "Yes, because any imprisonment is persecution",
+    "Yes, if she disagrees with the law",
+    "No: prosecution is not persecution absent excessive punishment, prosecution for a Convention reason, or an illegitimate process",
+    "Only if she was tortured in prison"
+   ],
+   "a": 2,
+   "why": [
+    "The general rule is the opposite: prosecution and punishment are not persecution, and a refugee is a victim of injustice, 'not a fugitive from justice' (UNHCR Handbook ¶ 56).",
+    "Disagreeing with a law does not make its enforcement persecution. The question is whether the law or its application violates human rights norms or targets a Convention ground (Handbook ¶¶ 57, 59).",
+    "Correct. Theft is a common crime, the punishment was ordinary, and the process was fair. The three factors (nature of the offense, extent of the punishment, legitimacy of the process) all point to legitimate prosecution.",
+    "Torture would raise a separate question, but nothing suggests it, and the question here is whether the prosecution itself is persecution."
+   ],
+   "e": "Prosecution becomes persecution in three situations, which the outline lists as factors: the offense is in substance a protected activity (for example, illegal religious instruction), the punishment is excessive, or the process is illegitimate because the law violates human rights or is applied in a discriminatory way. Bastanipour shows the line: a death sentence for drug trafficking was prosecution, but punishment for apostasy supported asylum.",
+   "unit": 5
+  },
+  {
+   "q": "In Kovac v. INS (9th Cir. 1969), secret police blocked a chef from chef jobs after he refused to inform on refugees, but he still found work as a ship's cook. What did the court hold?",
+   "o": [
+    "No persecution, because he still had some means of earning a living",
+    "Economic harm can never be persecution without physical harm",
+    "Only a confiscation of property can amount to economic persecution",
+    "A probability of deliberate imposition of substantial economic disadvantage on a protected ground is sufficient; total loss of livelihood is not required"
+   ],
+   "a": 3,
+   "why": [
+    "This was the BIA's reasoning. The Ninth Circuit reversed, calling the all-means-of-livelihood requirement \"clearly wrong.\"",
+    "Congress deleted 'physical' from the withholding statute in 1965, and Kovac relied on that change. Nonphysical economic harm can be persecution.",
+    "Confiscation is one example from T-Z-, alongside onerous fines and sweeping limits on working in an established profession. It is not the only form.",
+    "Correct. Kovac held that 'a probability of deliberate imposition of substantial economic disadvantage' for a protected reason is sufficient. It is cited today for two principles: harm need not be physical, and deprivation of economic opportunity can become persecution without total loss of livelihood."
+   ],
+   "e": "Early law read 'physical persecution' to mean economic harm counted only if it denied all employment. After Congress deleted 'physical' in 1965, Kovac rejected the all-livelihood requirement, and In re T-Z- (BIA 2007) adopted the Kovac standard. The harm must exceed what society as a whole faces; general poverty or trouble finding work in one's field is not enough.",
+   "unit": 5
+  },
+  {
+   "q": "An applicant in the Fifth Circuit seeks humanitarian asylum under Matter of Chen. Her father was executed and her husband shot, but she was not physically harmed herself. How will the Fifth Circuit likely treat the harm to her family?",
+   "o": [
+    "As harm she did not personally suffer, under Shehu v. Gonzales",
+    "As harm she personally suffered, as the BIA did in Chen",
+    "As automatically establishing severe past persecution",
+    "As irrelevant because humanitarian asylum is unavailable in the Fifth Circuit"
+   ],
+   "a": 0,
+   "why": [
+    "Correct. In Shehu v. Gonzales (5th Cir. 2006), an ethnic Albanian whose father was executed and husband shot was denied; harm to her father and husband was not 'personally suffered.' The Fifth Circuit also treats Chen as a baseline requiring extremely high harm.",
+    "The BIA in Chen counted the family's suffering, but the Fifth Circuit has not followed that approach.",
+    "Severity is not automatic. Courts of appeals have required extremely high harm, which the casebook authors call a misapplication of Chen.",
+    "Humanitarian asylum exists in the regulation (8 C.F.R. § 208.13(b)(1)(iii)(A)) and applies everywhere. The Fifth Circuit only reads the severity requirement strictly."
+   ],
+   "e": "Chen allows asylum on past persecution alone where it was so severe that return should not be required, even after changed conditions rebut future fear. Chen did not define 'severe,' counted family harm, and did not require physical harm. Lal v. INS asks whether the harm is roughly comparable to Chen without a mechanical minimum. The Fifth Circuit is stricter: family harm is not personally suffered, and Chen is a high baseline. The authors advise arguing severe past persecution anyway, with medical and psychological evaluations.",
+   "unit": 5
+  },
+  {
+   "q": "Under Korablina v. INS (9th Cir. 1998), what two factors determine whether discrimination rises to persecution?",
+   "o": [
+    "The persecutor's intent to punish and the presence of physical injury",
+    "The cumulative nature of the violence and harassment, and the societal context of widespread harassment and violence",
+    "Whether the discrimination is de jure and whether the applicant reported it",
+    "Whether a single incident required medical care and whether the government took part"
+   ],
+   "a": 1,
+   "why": [
+    "Punitive intent is not an element of persecution (Pitcherskaia), and physical harm is not required.",
+    "Correct. The slides draw these two factors from Korablina: the cumulative nature of the violence and harassment, and the societal context of widespread harassment and violence. A single isolated incident may not be persecution; the cumulative effect of several may be.",
+    "De facto discrimination can qualify along with de jure discrimination, and reporting is part of the unable-or-unwilling analysis, not the discrimination test.",
+    "The analysis is cumulative, so it does not turn on any single incident. The comparison cases suggest medical care may help explain outcomes, but it is not one of the two factors."
+   ],
+   "e": "Discrimination is persecution when its consequences are substantially prejudicial, such as serious limits on earning a living, practising religion, or getting an education (UNHCR Handbook ¶ 54), and lesser measures can add up (¶¶ 53, 55). Korablina, a Jewish woman in Ukraine who faced job discrimination, death threats, and a noose attack, won because the record compelled findings of persecution viewed cumulatively in context. Harassment and denigration alone are not enough (Eduard v. Ashcroft).",
+   "unit": 5
+  },
+  {
+   "q": "A government strips an applicant of her citizenship because of her ethnicity. Under the case law in this unit:",
+   "o": [
+    "Not persecution, because statelessness alone does not warrant asylum (Faddoul)",
+    "Not persecution unless she was also physically harmed",
+    "Persecution: divesting citizenship for a protected reason is persecution and creates a presumption of a well-founded fear (Haile)",
+    "Persecution only if every member of her ethnic group lost citizenship"
+   ],
+   "a": 2,
+   "why": [
+    "Faddoul involved denial of citizenship under laws that applied to all non-Saudis, with no physical harm. Haile draws a 'fundamental distinction' between denying citizenship and divesting it.",
+    "Physical harm is not required. Ouda v. INS found past persecution for a stateless Palestinian who was not personally harmed.",
+    "Correct. Haile v. Gonzales/Holder (7th Cir.) held that stripping citizenship because of religion or ethnicity is persecution and creates a presumption of a well-founded fear.",
+    "No source requires that the whole group lose citizenship. The question is whether she was divested for a protected reason."
+   ],
+   "e": "Statelessness alone is not persecution (Faddoul v. INS), especially where limits apply to everyone in the same position. Divesting someone of citizenship for a protected reason is different, and Haile treats it as persecution that raises a presumption of future fear.",
+   "unit": 5
+  },
+  {
+   "q": "An applicant never reported a private attacker to the police. In the Fifth Circuit, she testifies only that she believed reporting would be pointless. How does that bear on whether the government was unable or unwilling to protect her?",
+   "o": [
+    "Failure to report is always fatal",
+    "Failure to report is irrelevant because the government bears the burden",
+    "Her belief alone proves futility",
+    "Failure to report is not necessarily fatal if reporting would have been futile or dangerous, but her subjective belief alone does not meet her burden"
+   ],
+   "a": 3,
+   "why": [
+    "Reporting is not required where it would have been futile or would have led to further abuse (Matter of C-G-T-).",
+    "The applicant carries the burden of proving the government is unable or unwilling to protect her.",
+    "Sanchez-Amador holds that a subjective belief in futility does not by itself meet the burden.",
+    "Correct. Under Matter of C-G-T- (BIA 2023), failure to report is not necessarily fatal if reporting would have been futile or dangerous. Under Sanchez-Amador v. Garland (5th Cir. 2022), a subjective belief that reporting would be futile does not by itself meet the burden; she needs objective evidence."
+   ],
+   "e": "The applicant must prove the government is unable or unwilling to control a private persecutor. Evidence includes seeking protection and being rebuffed, or documentary evidence of state discrimination (Pavlova). Failure to report can be excused by futility or danger, but the Fifth Circuit requires more than a subjective belief.",
+   "unit": 5
+  },
+  {
+   "q": "In Bastanipour v. INS (7th Cir. 1992), an Iranian faced the death penalty both for drug trafficking and for converting from Islam. How did the court treat the two?",
+   "o": [
+    "Both were persecution because the punishment was death",
+    "Drug-trafficking prosecution was not persecution even with a death sentence, but punishment for religious conversion was a basis for asylum",
+    "Neither was persecution because both were prosecutions under national law",
+    "Only the drug charge mattered because it was the more serious offense"
+   ],
+   "a": 1,
+   "why": [
+    "Severity of punishment alone did not turn the drug prosecution into persecution. Drug trafficking is a common crime.",
+    "Correct. Drug trafficking is a common crime, so prosecuting it was not persecution even when the punishment is death. Punishment for apostasy is prosecution for a Convention reason (religion), which supported asylum.",
+    "A prosecution can be persecution when the 'crime' is a protected activity, such as religious conversion (UNHCR Handbook ¶ 57). National law is one yardstick, along with international human rights instruments (¶ 60).",
+    "A person can fear both prosecution and persecution and still be a refugee (¶ 58). The apostasy charge supported asylum regardless of the drug charge."
+   ],
+   "e": "The nature of the offense is the first factor in separating prosecution from persecution. Prosecution for a common crime is legitimate even if harsh; prosecution for a Convention reason can be persecution. Bastanipour applies both halves to one person.",
+   "unit": 5
+  },
+  {
+   "q": "Armed guerrillas try to recruit a young man. He refuses because he fears the government would retaliate against him and his family if he joined. He seeks asylum based on political opinion. Under INS v. Elias-Zacarias (1992):",
+   "o": [
+    "He wins, because resisting recruitment expresses a political opinion and the guerrillas' motive is political",
+    "He wins, because the guerrillas' political goals supply the nexus",
+    "He loses, because forced recruitment is never harm",
+    "He loses, because he gave no evidence the guerrillas would harm him because of his own political opinion"
+   ],
+   "a": 3,
+   "why": [
+    "That was the Ninth Circuit's two-part rationale. The Supreme Court said the first half 'seems to us untrue, and the second half irrelevant.'",
+    "The Court held the persecutor's own political goals are irrelevant; wanting to fill their ranks to fight the government 'goes far to refute' nexus.",
+    "The Court did not decide the case on whether forced recruitment is harm. It decided that the feared harm was not on account of his political opinion.",
+    "Correct. Persecution on account of political opinion means the victim's opinion. Resisting recruitment is not necessarily political, and here he refused out of fear of government retaliation. Because the statute makes motive critical, he must give some evidence, direct or circumstantial, that the guerrillas would persecute him for his opinion, and he did not."
+   ],
+   "e": "Zacarias made the persecutor's motive the center of U.S. nexus law. The applicant must show the persecutor will harm him because of his own actual or imputed political opinion; neutrality is not ordinarily a political opinion. Direct proof is not required; there must still be some evidence of motive, and to reverse the BIA the evidence must compel the finding. Justice Stevens' dissent argued refusal to join can itself express a political opinion.",
+   "unit": 6
+  },
+  {
+   "q": "An army captures a man in a raid on a rebel camp. Interrogators brutalize him to extract information about the rebels and also accuse him of being a rebel. The IJ finds no nexus because the army's purpose was to gather intelligence. Under Matter of S-P- and the REAL ID Act:",
+   "o": [
+    "Error: nexus can be met if imputed political opinion is at least one central reason, even alongside an intelligence motive",
+    "Correct, because nexus requires that the protected ground be the persecutor's only motive",
+    "Correct, because imputed political opinion never counts",
+    "Error, because any harm during a civil conflict satisfies nexus"
+   ],
+   "a": 0,
+   "why": [
+    "Correct. Matter of S-P- (BIA 1996) accepted mixed motives on similar facts: nexus is established if at least one of the persecutor's motives is a protected ground. The REAL ID Act codified this for asylum but requires the ground to be 'at least one central reason.' Accusations that he was a rebel support imputed political opinion as a central reason.",
+    "Osorio v. INS, quoted in S-P-, holds that 'on account of' does not mean 'solely' on account of. Persecutors can have mixed motives.",
+    "Political opinion can be actual or imputed; S-P- itself turned on imputed political opinion.",
+    "Campos-Guardado states the opposite principle: Congress did not intend asylum for everyone harmed in civil disturbances."
+   ],
+   "e": "After Zacarias, courts recognized that persecutors can have more than one motive (S-P-; Osorio; Lukwago). Failing to evaluate dual motives is error (Mohideen; Menghesha). The REAL ID Act of 2005 requires that the protected ground be at least one central reason. When a persecutor has an obvious non-protected motive, look for a second, protected motive.",
+   "unit": 6
+  },
+  {
+   "q": "An IJ denies asylum because, although the applicant's religion was one reason the gang targeted him, it was not the main reason. Is that a correct application of 'at least one central reason'?",
+   "o": [
+    "Yes, because 'central' means the dominant reason",
+    "Yes, because the protected ground must be a strict but-for cause",
+    "No: the ground need not be the main, only, or dominant reason; it only has to be more than incidental, tangential, or superficial",
+    "No, because any reason, however minor, satisfies the REAL ID Act"
+   ],
+   "a": 2,
+   "why": [
+    "Courts agree that 'central' does not mean dominant. Ndayshimiye (3d Cir. 2009) held there is no required hierarchy of motivations.",
+    "Courts have rejected a strict but-for requirement (Manzano v. Garland; Quituizaca v. Garland). A motive that alone would have been sufficient can be central even without strict but-for causation.",
+    "Correct. The protected ground need not be the most important reason (Parussimova), the only, dominant, or primary reason (Lagos v. Barr), or proven dominant (Perez-Sanchez). It must be more than an incidental, tangential, or superficial reason. Requiring it to be the main reason is error.",
+    "A ground that is only one of several minor reasons no longer suffices after the REAL ID Act. It must be more than incidental or tangential."
+   ],
+   "e": "The REAL ID Act requires the protected ground to be at least one central reason (8 U.S.C. § 1158(b)(1)(B)(i)). The BIA's old formulation, more than 'incidental, tangential, superficial, or subordinate,' was error only in including 'subordinate,' because that implied dominance. The ground also need not be the trigger for the attack if it is why the person was targeted in the first place (Rivera v. Garland).",
+   "unit": 6
+  },
+  {
+   "q": "An applicant in the Fifth Circuit seeks withholding of removal and argues that withholding requires only that a protected ground be 'a reason' for the persecution. Likely result?",
+   "o": [
+    "Accepted, following Barajas-Romero v. Lynch",
+    "Accepted, because the REAL ID Act amended the withholding statute to say 'a reason'",
+    "Rejected, because withholding requires the protected ground to be the sole reason",
+    "Rejected: the Fifth Circuit applies the same 'one central reason' standard to withholding (Vazquez-Guerra v. Garland)"
+   ],
+   "a": 3,
+   "why": [
+    "Barajas-Romero (9th Cir. 2017) adopted the 'a reason' standard for withholding, and the Sixth Circuit followed it. The Fifth Circuit did not.",
+    "Congress added 'one central reason' to the asylum statute only. The 'a reason' argument rests on Congress not changing the withholding text.",
+    "No source requires the sole reason for withholding. The Fifth Circuit applies 'one central reason,' which allows mixed motives.",
+    "Correct. In Vazquez-Guerra v. Garland (2021), the Fifth Circuit rejected the argument that withholding has a less demanding nexus standard. The BIA (Matter of C-T-L-) and most circuits apply 'one central reason' to withholding."
+   ],
+   "e": "The REAL ID Act's 'at least one central reason' language appears in the asylum statute. The circuits split on withholding: the Ninth (Barajas-Romero) and Sixth (Guzman-Vazquez) Circuits require only 'a reason,' while the BIA and the First, Second, Third, Fourth, Fifth, Seventh, Eighth, and Eleventh Circuits apply 'one central reason.' In the Fifth Circuit, the same standard governs both.",
+   "unit": 6
+  },
+  {
+   "q": "A cartel forces a family off its land and kills the grandson. The family claims persecution on account of membership in the family as a particular social group. DHS cites Matter of M-R-M-S- (BIA 2023), arguing there is no nexus because the cartel had no ill will toward the family and only wanted the land. Best response?",
+   "o": [
+    "Concede, because nexus requires animus toward the group",
+    "Argue that most precedent rejects an animus requirement: if the family tie is at least one central reason for choosing the victims, nexus is met even if targeting them was a means to an end",
+    "Argue that motive is irrelevant under U.S. law after Zacarias",
+    "Argue that family can never be a particular social group"
+   ],
+   "a": 1,
+   "why": [
+    "M-R-M-S- is widely criticized and on appeal, and the BIA and federal courts have largely rejected an animus requirement.",
+    "Correct. Precedent rejects any animus or punitive-intent requirement: Kasinga found nexus in an FGC case without ill will, and Pitcherskaia found persecution where authorities wanted to 'cure' the victim. Mazariegos-Rodas v. Garland (6th Cir. 2024) criticized and rejected M-R-M-S-. Nexus asks why the person was targeted.",
+    "Zacarias made motive critical. The argument is about what kind of motive is required, not whether motive matters.",
+    "The family is the social group asserted here, and this response would abandon the claim. Family-based PSG claims are covered further in Chapter 9."
+   ],
+   "e": "The animus question is whether the persecutor must hold ill will toward the victim or group, or only choose the victim because of a protected ground. The majority view is that if a protected ground is at least one central reason for selecting the victim, nexus is met, even if the persecutor's ultimate goal was something else like land or money. M-R-M-S- took the contrary view and is widely criticized.",
+   "unit": 6
+  },
+  {
+   "q": "In Campos-Guardado v. INS (5th Cir. 1987), a woman was raped and forced to watch her uncle, a land-reform cooperative leader, be killed while attackers shouted political slogans. Why did her claim fail?",
+   "o": [
+    "The harm was not severe enough to be persecution",
+    "Her account was found not credible",
+    "No evidence showed the attackers harmed her because of her own actual or imputed political opinion",
+    "She failed to show a clear probability of harm"
+   ],
+   "a": 2,
+   "why": [
+    "The severity of the harm was not the problem. The notes say she likely could have shown past persecution and a well-founded fear.",
+    "Credibility was not the issue: the BIA assumed her account was true and denied on nexus.",
+    "Correct. The BIA assumed the attack resulted from the uncle's political views but found she had not shown the attackers harmed her to overcome any opinion she held or was believed to hold. Her cousin-assailant's threats were personal. The Fifth Circuit affirmed under substantial-evidence review.",
+    "The BIA never reached likelihood. It denied because the harm she feared, 'no matter how likely,' was not on account of a protected ground."
+   ],
+   "e": "Campos-Guardado shows that a nexus failure defeats a claim no matter how severe or likely the harm. The court also stated the civil strife limit: Congress did not intend asylum for everyone harmed in civil disturbances. The notes criticize the BIA's 'they could not have expected her there' reasoning, because persecutors can form conclusions about a victim's opinion during the attack.",
+   "unit": 6
+  },
+  {
+   "q": "Under the pre-Zacarias rebuttable presumption in Hernandez-Ortiz v. INS (9th Cir. 1985), what is presumed?",
+   "o": [
+    "That any harm in a civil war is on account of political opinion",
+    "That when a government uses military force against people with no apparent criminal or other legitimate basis for its action, its actions are politically motivated",
+    "That the applicant's testimony is credible",
+    "That harm to family members is harm to the applicant"
+   ],
+   "a": 1,
+   "why": [
+    "The presumption is narrower. It applies to government force against individuals or groups with no legitimate basis for government action, not to all harm in a civil war.",
+    "Correct. Hernandez-Ortiz held that when a government exerts military strength against an individual or group with no reason to believe they engaged in criminal activity or other conduct giving a legitimate basis for action, the most reasonable presumption is that the actions are politically motivated. The opposing party can rebut it.",
+    "Credibility is a separate inquiry. The presumption concerns the government's motive.",
+    "Hernandez-Ortiz did say threats or violence against family members can support a conclusion that the applicant is endangered, but that is a separate point from the presumption."
+   ],
+   "e": "Before Zacarias, the Ninth Circuit read 'on account of' broadly, looking at the persecutor's and victim's views and the relationship between them (Lazo-Majano; Hernandez-Ortiz). The Hernandez-Ortiz presumption helped applicants prove political motive. Eliminating it was one motivation for the REAL ID Act, whose sponsors said it improperly favored applicants accused of terrorist or guerrilla activity.",
+   "unit": 6
+  },
+  {
+   "q": "An applicant falls within a bar in INA § 241(b)(3)(B), so she cannot receive withholding of removal, but she proves it is more likely than not she will be tortured on return. What relief is available?",
+   "o": [
+    "CAT deferral of removal",
+    "No protection, because the bar defeats every form of relief",
+    "CAT withholding of removal",
+    "Asylum, because CAT claims are decided under the asylum standard"
+   ],
+   "a": 0,
+   "why": [
+    "Correct. CAT deferral (8 C.F.R. § 208.17) is the lesser form of CAT relief for applicants who prove torture is more likely than not but fall within a § 241(b)(3)(B) bar. It is easily terminated and the person can remain detained, but it prevents return to torture.",
+    "The § 241(b)(3)(B) bars defeat asylum, withholding, and CAT withholding, but not CAT deferral. CAT's ban on returning a person to torture is absolute.",
+    "CAT withholding (8 C.F.R. § 208.16(c)) is available only to applicants who are not within the § 241(b)(3)(B) bars. Because she is barred, she is limited to deferral.",
+    "Asylum requires a well-founded fear on account of a protected ground and is defeated by the bars. A CAT claim has its own standard, and success under it yields CAT withholding or deferral."
+   ],
+   "e": "CAT relief comes in two forms. CAT withholding goes to applicants who prove torture is more likely than not and are not barred; CAT deferral goes to those who prove the same likelihood but fall within a § 241(b)(3)(B) bar. The two forms exist because FARRA (the Foreign Affairs Reform and Restructuring Act of 1998) told agencies to exclude barred people as far as CAT allows, while CAT's ban on return is absolute. She is barred and proved the likelihood of torture, so she receives deferral.",
+   "unit": 7
+  },
+  {
+   "q": "Haiti's prisons lack food and medical care because of scarce resources. A criminal deportee seeks CAT relief based on those conditions. Most likely result?",
+   "o": [
+    "Granted, because the conditions are severe enough to be torture",
+    "Granted, because the conditions discriminate against deportees",
+    "Denied, because the applicant shows no nexus to a protected ground",
+    "Denied, because there is no specific intent to inflict severe pain or suffering"
+   ],
+   "a": 3,
+   "why": [
+    "Severity alone is not enough. Torture also requires specific intent to cause severe pain or suffering, and courts treat conditions caused by scarce resources as lacking that intent.",
+    "Discrimination is one of the listed purposes, but purpose is a separate element from specific intent. Conditions caused by scarce resources show no intent to inflict suffering on anyone.",
+    "CAT requires no nexus to a protected ground. A missing nexus defeats asylum or withholding but is not a reason to deny CAT.",
+    "Correct. Under Matter of J-E- (BIA 2002), adopted in Auguste v. Ridge (3d Cir. 2005) and Cherichel v. Holder (8th Cir. 2010), the applicant must show the authorities specifically intended to inflict severe pain or suffering. Conditions caused by limited resources show at most that harm was foreseeable, which does not meet the specific intent standard."
+   ],
+   "e": "Torture has three parts: severe pain or suffering, specific intent to cause it, and an impermissible purpose. In J-E-, the BIA held Haitian detention conditions were not imposed with specific intent to torture, and the circuits followed. The exception is an applicant who would be singled out for treatment beyond what detainees normally experience (Jean-Pierre; Eneh), and nothing here suggests that.",
+   "unit": 7
+  },
+  {
+   "q": "Cartel members torture people while local police know and do nothing. Under the Ninth Circuit's approach in Zheng v. Ashcroft (2003):",
+   "o": [
+    "There is no state action unless the government willfully accepted the torture",
+    "Acquiescence can be shown because the government knew or should have known of the torture and failed to act",
+    "CAT never covers torture by private actors",
+    "Acquiescence exists only if the police were paid by the cartel"
+   ],
+   "a": 1,
+   "why": [
+    "Willful acceptance (actual knowledge plus a willful breach) is the BIA and Attorney General standard from Matter of S-V-. Zheng rejected it.",
+    "Correct. Zheng held acquiescence does not require willful acceptance; it is shown where the government knew or should have known of the torture and failed to act (willful blindness). Police who know of cartel torture and do nothing meet that test.",
+    "CAT covers torture by non-state actors such as gangs, guerrillas, or smugglers when a public official instigates, consents to, or acquiesces in it.",
+    "Payment is not an element. Acquiescence turns on the government's knowledge and failure to act."
+   ],
+   "e": "CAT requires torture by, at the instigation of, or with the consent or acquiescence of a public official. The BIA and AG read acquiescence as willful acceptance. The Ninth Circuit in Zheng, followed by the 8th, 10th, 4th, and 3d Circuits among others, accepts willful blindness: the government knew or should have known and failed to act. Local police who know and do nothing meet the Zheng standard.",
+   "unit": 7
+  },
+  {
+   "q": "An IJ finds an applicant not credible and denies asylum, then denies CAT without looking at reports of widespread torture of his ethnic group. Under Kamalthas v. INS (9th Cir. 2001):",
+   "o": [
+    "Proper, because the credibility finding controls both claims",
+    "Proper unless he showed nexus",
+    "Error only if he was tortured before",
+    "Error, because CAT is analytically separate and country conditions must be considered"
+   ],
+   "a": 3,
+   "why": [
+    "Kamalthas rejected this. 8 C.F.R. § 208.16(c)(3) requires considering all evidence relevant to future torture, including country conditions, apart from the asylum findings.",
+    "CAT does not require nexus, so whether he proved nexus for asylum has no bearing on the CAT question.",
+    "Past torture is one relevant consideration, not a prerequisite. Country conditions alone can play a decisive role.",
+    "Correct. The BIA abuses its discretion when it conflates the asylum and CAT standards and ignores country conditions. Reports of widespread torture of the applicant's group can carry a CAT claim even when his own testimony was not credible."
+   ],
+   "e": "In Kamalthas, a Tamil man found not credible for asylum moved to reopen under CAT, and the BIA denied without considering documented torture of Tamil males. The Ninth Circuit vacated: CAT is broader than asylum (no nexus) and narrower (torture must be more likely than not), so it is not a subset of asylum. The limit is where both claims rest on the same factual predicate (Singh v. Lynch; Yang), and reports about his group are independent of his discredited story.",
+   "unit": 7
+  },
+  {
+   "q": "An applicant was tortured by police in the past. Does that past torture create a presumption that she will be tortured in the future?",
+   "o": [
+    "No: past torture is one relevant consideration, and the evidence must show she personally faces a likely risk",
+    "Yes, the same presumption that applies to past persecution in asylum",
+    "Yes, but DHS can rebut it by a preponderance",
+    "No, and past torture is irrelevant to a CAT claim"
+   ],
+   "a": 0,
+   "why": [
+    "Correct. Past torture does not create a regulatory presumption of future torture (Dawson v. Garland, 9th Cir. 2021). It is one consideration under 8 C.F.R. § 1208.16(c)(3), along with internal relocation and gross, flagrant, or mass human rights violations, and the evidence must show she personally would more likely than not be tortured (Omar v. Barr).",
+    "The past-persecution presumption in 8 C.F.R. §§ 1208.13(b)(1) and 1208.16(b)(1) applies to asylum and withholding. It does not carry over to CAT.",
+    "There is no presumption for DHS to rebut in a CAT claim.",
+    "Past torture is the first item the regulation lists as relevant evidence."
+   ],
+   "e": "CAT requires showing torture is more likely than not, the Senate's reading of Article 3's 'substantial grounds for believing.' Unlike asylum and withholding, past torture creates no presumption. General country reports also need a link to this applicant: specific grounds must show she would be personally at risk.",
+   "unit": 7
+  },
+  {
+   "q": "An off-duty police officer, acting in violation of local law and department policy, uses his badge to detain and torture a man. Is that torture by a public official for CAT purposes?",
+   "o": [
+    "No, because the state did not sanction the conduct",
+    "No, because he broke local law",
+    "Yes: CAT covers a rogue officer exercising official authority (Matter of O-F-A-S-)",
+    "Only if his superiors willfully accepted it"
+   ],
+   "a": 2,
+   "why": [
+    "State sanction is not required. Matter of O-F-A-S- (A.G. 2020) covers a rogue officer acting without state sanction.",
+    "Violating local law does not take the conduct outside CAT if the officer was exercising official authority.",
+    "Correct. CAT covers torture by a rogue police officer exercising official authority, even without state sanction and in violation of local law and policy (Matter of O-F-A-S-, followed by the 2d, 3d, and 9th Circuits). The test borrows the § 1983 'under color of law' standard: a misuse of authority made possible only because the wrongdoer is clothed with the authority of law.",
+    "Willful acceptance is the BIA's acquiescence standard for torture by non-state actors. Here the officer himself is the public official inflicting the torture."
+   ],
+   "e": "State action under CAT means torture by, at the instigation of, or with the consent or acquiescence of a public official or person acting in an official capacity. A public official acts in that capacity when he misuses authority that he has only because of his office. Using a badge to detain someone is that kind of misuse.",
+   "unit": 7
+  },
+  {
+   "q": "A country imposes the death penalty after a lawful conviction. Under the U.S. CAT regulations, is the execution torture?",
+   "o": [
+    "No, because the regulations expressly treat the death penalty as a 'lawful sanction'",
+    "Yes, because death is the most severe pain or suffering",
+    "Yes, if the applicant shows nexus",
+    "No, because CAT covers only mental pain"
+   ],
+   "a": 0,
+   "why": [
+    "Correct. 8 C.F.R. § 208.18 expressly treats the death penalty as a lawful sanction, and torture excludes pain or suffering arising from or inherent in lawful sanctions (§ 1208.18(a)(3)). Class discussion raised whether the U.S. death penalty itself would count as torture without this proviso.",
+    "The regulations add a proviso that excludes the death penalty, so severity alone does not make it torture under U.S. law.",
+    "CAT requires no nexus, and nexus would not change the lawful-sanctions exclusion.",
+    "Article 1 covers severe pain or suffering 'whether physical or mental.'"
+   ],
+   "e": "Article 1 excludes pain or suffering arising only from, inherent in, or incidental to lawful sanctions. The U.S. regulations narrow the definition further, including by naming the death penalty a lawful sanction. A country's label does not settle everything, though: 'torture is never a lawful means of punishment,' and in Nuru v. Gonzales the court reversed a lawful-punishment finding for a man bound, beaten, and left naked in the sun for 25 days.",
+   "unit": 7
+  },
+  {
+   "q": "Under 8 C.F.R. § 208.18, which of the following can qualify as mental pain or suffering for CAT purposes?",
+   "o": [
+    "Any severe emotional distress caused by detention",
+    "Prolonged mental harm caused by the threat of imminent death",
+    "Prolonged solitary confinement that causes mental suffering, by itself",
+    "Verbal harassment and threats by police against an ethnic minority"
+   ],
+   "a": 1,
+   "why": [
+    "The regulation limits mental pain to prolonged mental harm caused by one of four listed sources. General emotional distress from detention is not enough.",
+    "Correct. Mental pain counts only as prolonged mental harm caused by intentional or threatened infliction of severe physical pain, mind-altering substances or procedures calculated to profoundly disrupt the senses or personality, the threat of imminent death, or the threat that another person will be subjected to any of these.",
+    "In Gallina v. Wilkinson (2d Cir. 2021), highly restrictive conditions including prolonged solitary confinement were not procedures calculated to disrupt profoundly the senses or the personality.",
+    "In Rashiah v. Ashcroft (7th Cir. 2004), verbal harassment and threats by police and army against a vulnerable minority were not torture, even where torture of that minority was reported."
+   ],
+   "e": "The U.S. regulations adopt Article 1 but add provisos that narrow it: the death penalty is a lawful sanction, mental pain must be prolonged mental harm from one of four causes, the victim must be in the perpetrator's custody or physical control, and acquiescence requires prior awareness and a breach of duty. Each proviso makes it harder to qualify than the treaty text alone.",
+   "unit": 7
+  },
+  {
+   "q": "Police beat an applicant severely on one occasion to make him confess. The IJ denies CAT because the abuse happened only once. Is that correct?",
+   "o": [
+    "Yes, because torture requires repeated abuse over time",
+    "Yes, because confessions are lawful sanctions",
+    "No: there is no duration or frequency requirement, and a single occurrence is enough if severe; police abuse to extract a confession serves a listed purpose",
+    "No, because any beating by police is torture"
+   ],
+   "a": 2,
+   "why": [
+    "Hernandez-Martinez v. Garland (1st Cir. 2023) held there is no duration or frequency requirement.",
+    "Obtaining a confession is one of Article 1's listed impermissible purposes. Coercive interrogation is not a lawful sanction.",
+    "Correct. A single occurrence can be torture if severe enough (Hernandez-Martinez). Harsh police mistreatment to extract a confession is intentional and serves a listed purpose, obtaining information or a confession (Kouzam v. Ashcroft).",
+    "Severity is a fact-based inquiry with no bright line. In Kumar v. Gonzalez (9th Cir. 2005), an arrest with beatings with sticks and belts was not severe enough."
+   ],
+   "e": "The first CAT element asks whether the harm is torture: severe pain or suffering, specific intent, and an impermissible purpose. Severity has no bright line and no duration requirement. Violent physical harm is much more likely to qualify than nonphysical harm, and police abuse to obtain a confession fits a listed purpose.",
+   "unit": 7
   }
  ],
  "drills": [
@@ -3708,47 +5778,47 @@ window.COURSES["asylum"] = {
     [
      "Discretionary grant",
      "Asylum",
-     "Withholding is mandatory."
+     "Asylum is discretionary because INA § 208(b)(1) says the government 'may grant' it, while withholding must be granted once its standard is met and no bar applies."
     ],
     [
      "More likely than not standard",
      "Withholding",
-     "Clear probability."
+     "Withholding requires a clear probability, meaning persecution is more likely than not (INS v. Stevic); asylum needs only a well-founded fear, which can be met below 50%."
     ],
     [
      "Derivative benefits for spouse and children",
      "Asylum",
-     "Withholding has none."
+     "Asylum extends status to a spouse and child, while withholding protects only the applicant and gives nothing to family members."
     ],
     [
      "Requires nexus to a protected ground",
      "Both",
-     "Both run on the five grounds."
+     "Asylum and withholding both require that the persecution be on account of race, religion, nationality, membership in a particular social group, or political opinion."
     ],
     [
      "Past persecution creates a presumption of future harm",
      "Both",
-     "Presumption applies to asylum and withholding."
+     "Under 8 C.F.R. §§ 1208.13(b)(1) and 1208.16(b)(1), past persecution creates a presumption of a well-founded fear for asylum and a presumed threat to life or freedom for withholding."
     ],
     [
      "Humanitarian grant despite rebutted fear",
      "Asylum",
-     "No humanitarian withholding."
+     "Humanitarian asylum lets asylum be granted after DHS rebuts the presumption, based on severe past persecution or other serious harm, and withholding has no humanitarian version."
     ],
     [
      "Available after a reinstated removal order",
      "Withholding",
-     "Asylum unavailable in that route (with CAT)."
+     "A person with a reinstated removal order can pass a reasonable fear screen into withholding and CAT proceedings only, because asylum is unavailable on that route."
     ],
     [
-     "Bars to protection leave a fallback form of relief available",
+     "Survives the INA § 241(b)(3)(B) bars",
      "Neither",
-     "Only CAT has that: deferral."
+     "The INA § 241(b)(3)(B) bars defeat both asylum and withholding, and the only fallback for a barred applicant is CAT deferral, which is a separate form of protection."
     ],
     [
      "Path to permanent residence and citizenship",
      "Asylum",
-     "Withholding only bars removal to that country."
+     "Asylum leads to lawful permanent residence and then citizenship, while withholding only bars removal to the specific country where the threat exists."
     ]
    ]
   },
@@ -3763,37 +5833,37 @@ window.COURSES["asylum"] = {
     [
      "Short detention, one beating, no medical care needed",
      "Not persecution",
-     "Outline: does not rise to persecution."
+     "Matter of A-H-D- (BIA 2026) held that a three-day detention with a single blow causing no significant injury and needing no medical care does not rise to persecution."
     ],
     [
-     "Threat by a group that has carried out similar threats against neighbors",
+     "Threats that the group then carried out against the applicant",
      "Persecution",
-     "Ask whether the group can carry it out (circuit split on threats alone)."
+     "Threats that are carried out are persecution; only threats that have not yet been carried out divide the circuits, with the Second Circuit saying threats alone are not persecution and the Fourth saying they may be."
     ],
     [
      "Denigration and harassment for ethnicity",
      "Not persecution",
-     "Harassment and “morally reprehensible” discrimination aren’t enough."
+     "Eduard v. Ashcroft (5th Cir. 2004) holds that denigration, harassment, and threats, and even 'morally reprehensible' discrimination, are not persecution without more serious consequences."
     ],
     [
      "Barred from school, banned from worship, and jobs denied for religion",
      "Persecution",
-     "UNHCR ¶ 54: substantially prejudicial consequences."
+     "UNHCR Handbook ¶ 54 treats discrimination as persecution when it seriously restricts the right to earn a livelihood, practise one's religion, or access education, and this applicant faces all three."
     ],
     [
      "Large-scale confiscation of property for political opinion",
      "Persecution",
-     "Severe economic disadvantage beyond society at large."
+     "In re T-Z- lists a large-scale confiscation of property as an example of severe economic disadvantage beyond what society as a whole faces, which is economic persecution when imposed for a protected reason."
     ],
     [
      "Ordinary fine after a fair trial for a traffic crime",
      "Not persecution",
-     "Prosecution isn’t persecution."
+     "Prosecution for a common offense with ordinary punishment and a legitimate process is not persecution, because a refugee is a victim of injustice and not a fugitive from justice (UNHCR Handbook ¶ 56)."
     ],
     [
      "Forced sterilization under a population-control policy",
      "Persecution",
-     "Deemed persecution on account of political opinion."
+     "INA § 101(a)(42), as amended by IIRIRA § 601(a)(1), deems a person forced to undergo involuntary sterilization to have been persecuted on account of political opinion."
     ]
    ]
   },
@@ -3809,27 +5879,27 @@ window.COURSES["asylum"] = {
     [
      "No nexus to a protected ground, but torture is likely",
      "CAT",
-     "CAT requires no nexus."
+     "Asylum and withholding both require nexus to a protected ground, while CAT requires none, so only CAT can protect someone whose likely torture is unconnected to a ground."
     ],
     [
      "30% chance of persecution for political opinion; discretion favorable",
      "Asylum",
-     "Well-founded fear can be met below 50%."
+     "Under Cardoza-Fonseca a well-founded fear can exist well below a 50% chance, so a 30% chance supports asylum, but it falls short of withholding's more-likely-than-not standard."
     ],
     [
      "60% chance of persecution on account of religion; serious fraud makes a discretionary denial likely",
      "Withholding",
-     "More likely than not with nexus; mandatory, so discretion can’t defeat it."
+     "A 60% chance on a protected ground meets withholding's more-likely-than-not standard, and because withholding is mandatory, the fraud that could defeat discretionary asylum cannot defeat it."
     ],
     [
-     "Persecutor bar applies; torture by police is likely",
+     "A statutory bar to asylum and withholding applies; torture by police is likely",
      "CAT",
-     "Deferral survives the bars."
+     "The INA § 241(b)(3)(B) bars defeat asylum and withholding, but a barred applicant who proves likely torture still receives CAT deferral, because CAT's ban on return is absolute."
     ],
     [
      "Wants derivative status for spouse and children",
      "Asylum",
-     "Only asylum carries derivatives."
+     "Only asylum extends status to a spouse and children; withholding and CAT protect only the applicant."
     ]
    ]
   },
@@ -3844,32 +5914,32 @@ window.COURSES["asylum"] = {
     [
      "Rebutting the past-persecution presumption",
      "DHS / Government",
-     "Preponderance."
+     "Once past persecution is shown, DHS must rebut the presumption of future persecution by a preponderance of the evidence, through a fundamental change in circumstances or reasonable internal relocation."
     ],
     [
      "Proving alienage in removal proceedings",
      "DHS / Government",
-     "Respondent then shows manner of entry."
+     "The outline states that DHS bears the burden of proving alienage, after which the respondent must show the manner and means of entry."
     ],
     [
      "Showing the government is unable or unwilling",
      "Applicant",
-     "Applicant’s burden."
+     "When the persecutor is a private actor, the applicant must prove the government is unable or unwilling to control it, for example by showing she sought protection and was rebuffed."
     ],
     [
      "Bond: not a flight risk or danger",
      "Applicant",
-     "Respondent before the IJ."
+     "At a bond redetermination before the IJ, the respondent must show she is not a flight risk and not a danger to the community."
     ],
     [
      "Supporting favorable discretion",
      "Applicant",
-     "Absent adverse factors, grant."
+     "Under Matter of Pula the applicant bears the burden of showing favorable discretion is warranted, though asylum should be granted if there are no adverse factors."
     ],
     [
      "Relocation reasonable after government persecution",
      "DHS / Government",
-     "Presumption against reasonableness."
+     "When the government is the persecutor, relocation is presumed unreasonable because a government can reach the whole country, so DHS must prove by a preponderance that relocation would be reasonable."
     ]
    ]
   }

@@ -200,7 +200,8 @@ mark { background: var(--gold); color: var(--ink); padding: 0 2px; }
 .confbar span { flex: 1; height: 8px; }
 .selectwrap { display: inline-flex; align-items: center; gap: 10px; }
 .selectwrap select { font-family: var(--f-serif); font-size: 15px; text-transform: none; letter-spacing: 0; min-height: 44px; padding: 8px 12px; background: var(--raised); color: var(--cream); border: 2px solid var(--line); border-radius: 3px; max-width: 70vw; }
-.fb-sec { display: flex; flex-direction: column; gap: 6px; }
+.fb-sec { display: flex; flex-direction: column; gap: 6px; padding-top: 6px; }
+.feedback { gap: 14px; }
 .fb-sec p { margin: 0; }
 .fb-sec ul { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; }
 .checkpanel { padding: 16px 20px; }
@@ -208,7 +209,47 @@ mark { background: var(--gold); color: var(--ink); padding: 0 2px; }
 .checkpanel ul { margin: 12px 0 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; font-size: 15px; line-height: 22px; }
 .hypo textarea { width: 100%; font: inherit; font-size: 16px; padding: 10px 12px; border: 2px solid var(--ink); background: #fff8ec; color: var(--ink); resize: vertical; }
 
+/* review structure */
+.review-layout { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 28px; align-items: start; }
+.review-main { display: flex; flex-direction: column; gap: 24px; min-width: 0; }
+.toc { position: sticky; top: 16px; display: flex; flex-direction: column; gap: 10px; padding: 18px; background: var(--raised); border: 1px solid rgba(243,234,216,0.25); max-height: calc(100vh - 32px); overflow: auto; }
+.toc ol { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; font-size: 15px; line-height: 21px; }
+.toc a { color: var(--cream); text-decoration: none; }
+.toc a:hover { color: var(--gold); text-decoration: underline; }
+.tocflag { display: inline-block; background: var(--gold); color: var(--ink); font-family: var(--f-mono); font-weight: 700; font-size: 11px; padding: 0 5px; border-radius: 3px; }
+.toc-toggle { align-self: flex-start; }
+.overview { max-width: none; }
+.sec-title { margin: 0; font-family: var(--f-wide); font-weight: 400; font-size: 22px; text-transform: uppercase; }
+.overview .lead { margin: 0; font-size: 18px; line-height: 29px; font-weight: 400; }
+.bul { margin: 0; padding-left: 22px; display: flex; flex-direction: column; gap: 8px; }
+.bul > li { line-height: 26px; }
+.bul .sub { margin: 6px 0 0; padding-left: 22px; display: flex; flex-direction: column; gap: 5px; list-style: circle; }
+.bul .sub li { font-size: 16px; line-height: 24px; }
+.overview .bul > li { font-size: 17px; }
+.blocks { max-width: none; gap: 16px; }
+details.block { padding: 0; gap: 0; }
+details.block > summary { list-style: none; cursor: pointer; padding: 20px 24px; display: flex; flex-direction: column; gap: 6px; }
+details.block > summary::-webkit-details-marker { display: none; }
+.sum-top { display: flex; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
+.sum-top .headline { flex: 1 1 260px; }
+.sum-n { color: #4d4133; padding-top: 4px; }
+.sum-line { color: #4d4133; font-size: 15px; line-height: 22px; padding-left: 34px; }
+details.block[open] .sum-line { display: none; }
+.chev { width: 12px; height: 12px; border-right: 3px solid var(--ink); border-bottom: 3px solid var(--ink); transform: rotate(45deg); margin: 6px 4px 0 auto; transition: transform 120ms ease; flex-shrink: 0; }
+details.block[open] .chev { transform: rotate(-135deg); margin-top: 10px; }
+.block-body { padding: 0 24px 24px; display: flex; flex-direction: column; gap: 18px; border-top: 2px solid var(--ink); padding-top: 18px; margin: 0 24px; padding-left: 0; padding-right: 0; }
+.sec { display: flex; flex-direction: column; gap: 10px; }
+.sec-h { margin: 0; font-family: var(--f-mono); font-weight: 700; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: #b3381a; }
+.rule-item { display: flex; flex-direction: column; gap: 6px; padding: 12px 0 12px 14px; border-left: 3px solid var(--ink); }
+.rule-item + .rule-item { margin-top: 4px; }
+.rule-h { margin: 0; font-family: var(--f-serif); font-size: 18px; line-height: 25px; font-weight: 700; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+
 @media (max-width: 820px) {
+  .review-layout { grid-template-columns: minmax(0, 1fr); }
+  .toc { position: static; max-height: none; }
+  details.block > summary { padding: 16px 18px; }
+  .block-body { margin: 0 18px; }
+  .sum-line { padding-left: 0; }
   .wrap { padding: 24px 16px 56px; }
   .g2, .g3, .flowrow { grid-template-columns: minmax(0, 1fr); }
   .g4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }

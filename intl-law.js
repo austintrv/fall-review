@@ -548,7 +548,7 @@ window.COURSES["intl-law"] = {
         "Peace of Westphalia (1648): ended the Thirty Years War and solidified territorial states, whose authority over a territory and its people was acknowledged regardless of the government's religion. 1648 is typically chosen as the year IL 'began,' though it had antecedents.",
         "Gentili moved IL away from theology and toward Roman law, which both Catholics and Protestants respected.",
         "Grotius, typically called the 'father of international law,' wrote De Jure Belli ac Pacis (1625), the first system of IL widely accepted among European states. His theory sits more in the natural law tradition.",
-        "Vattel and Zouche marked a shift toward positivism: studying what states actually do, including their treaty practice."
+        "Vattel and Zouche marked a shift toward positivism: studying what states do in practice, including their treaty practice."
        ]
       ],
       [
@@ -578,7 +578,7 @@ window.COURSES["intl-law"] = {
        "Pacta sunt servanda",
        "'Agreements must be kept': all states are bound by the treaty obligations they adopt, and must perform them in good faith (VCLT art. 26). Murphy calls it a grundnorm (foundational principle) of treaty law.",
        [
-        "Why it is a natural law rule: the rule cannot rest on consent alone, because a state bound only by consent could simply withdraw it. Saying states consented through a 'treaty on treaties' does not solve the problem, because then something has to bind them to that treaty.",
+        "Why it is a natural law rule: the rule cannot rest on consent alone, because a state bound only by consent could withdraw it. Saying states consented through a 'treaty on treaties' does not solve the problem, because then something has to bind them to that treaty.",
         "Murphy concludes there must be some first principles separate from state consent. He lists others: the independence and legal equality of states, the duty of non-intervention, and the right of self-defense."
        ]
       ],
@@ -600,7 +600,7 @@ window.COURSES["intl-law"] = {
       ],
       [
        "Challenge",
-       "The central problem is identifying which rules natural law actually compels. You can claim universal norms exist, but states disagree about which ones exist and what they say, which produces uncertainty and instability in relations between states."
+       "The central problem is identifying which rules natural law compels. You can claim universal norms exist, but states disagree about which ones exist and what they say, which produces uncertainty and instability in relations between states."
       ]
      ],
      "check": {
@@ -743,7 +743,7 @@ window.COURSES["intl-law"] = {
        "(c) General principles",
        "\"The general principles of law recognized by civilized nations.\" These are ideas like equity, and rules that bind how courts operate. They usually matter for how international tribunals function, and they are often developed by analogy to what domestic courts do.",
        [
-        "Example from the sources: the ICJ's power to decline a case because too much time has passed reflects general principles of timeliness and equity."
+        "Example from the slides: the ICJ's power to decline a case because too much time has passed is described as general principles (timeliness and equity) at work."
        ]
       ],
       [
@@ -811,7 +811,7 @@ window.COURSES["intl-law"] = {
        "Why the League failed",
        "Wilson could not get the U.S. Senate to ratify the Covenant, so the United States stayed out of its own plan for two decades. The League was then powerless against aggression in the 1930s.",
        [
-        "1931: Japan invaded Manchuria; the League condemned it in 1933 and Japan simply left the League the next month.",
+        "1931: Japan invaded Manchuria; the League condemned it in 1933 and Japan left the League the next month.",
         "The League watched as Italy invaded Ethiopia and Germany moved into the Rhineland, Austria, and Czechoslovakia (1936–1938).",
         "In 1946 the League voted unanimously to dissolve and transfer its functions and property to the UN."
        ]
@@ -1178,7 +1178,7 @@ window.COURSES["intl-law"] = {
      "title": "Consent to Contentious Jurisdiction",
      "explain": [
       "The ICJ has no compulsory jurisdiction. Under Statute art. 36 it can hear a contentious case only if the states involved have consented. This follows from the sovereign equality of states: no state can be forced before a tribunal without its agreement. The drafters considered compulsory jurisdiction in 1920 and the great powers rejected it, leaving the weaker \"optional clause\" compromise.",
-      "Only states can be parties. Consent can be given in advance (a treaty clause, an optional clause declaration, or an old PCIJ clause) or for a single dispute (a special agreement, or simply appearing and litigating). Any one recognized form of consent is enough.",
+      "Only states can be parties. Consent can be given in advance (a treaty clause, an optional clause declaration, or an old PCIJ clause) or for a single dispute (a special agreement, or appearing and litigating). Any one recognized form of consent is enough.",
       "Two qualifications: joining the Statute is not consent, but every party is bound by the Court's power to decide whether it has jurisdiction and by its power to order binding provisional measures."
      ],
      "items": [
@@ -1211,7 +1211,7 @@ window.COURSES["intl-law"] = {
       ],
       [
        "Informal consent",
-       "Consent shown by actually using the Court, for example by appearing and litigating the case. Voluntary jurisdiction has no formal requirements: art. 36(1) says the Court's jurisdiction covers all cases the parties refer to it."
+       "Consent shown by using the Court, for example by appearing and litigating the case. Voluntary jurisdiction has no formal requirements: art. 36(1) says the Court's jurisdiction covers all cases the parties refer to it."
       ],
       [
        "PCIJ clauses (arts. 36(5), 37)",
@@ -1297,7 +1297,7 @@ window.COURSES["intl-law"] = {
         "The matter is more properly a question for domestic courts (the slides note this will come up in international criminal law).",
         "Too much time has passed since the disputed activity.",
         "The legal issue is not absolutely necessary to resolving the legal issue before the Court.",
-        "These reflect general principles of timeliness and equity (Art. 38(1)(c))."
+        "The slides call these general principles of IL at work: principles of timeliness and equity."
        ]
       ],
       [
@@ -1364,7 +1364,7 @@ window.COURSES["intl-law"] = {
         "Exclusive jurisdiction for disputes under the WTO agreements.",
         "Panels hear disputes first; a dissatisfied party could appeal to the Appellate Body, which reviews legal conclusions but not findings of fact.",
         "Decisions are enforced through countermeasures: if the losing member does not comply in a reasonable time, the complaining member may seek compensation or raise tariffs on the other member's exports.",
-        "The Appellate Body has been defunct since 2019."
+        "The Appellate Body has been defunct since 2019. Brownlie's ch. 32 (n. 131) cites \"recent difficulties with replacement of Appellate Body members\" but does not explain further."
        ]
       ],
       [
@@ -1380,7 +1380,7 @@ window.COURSES["intl-law"] = {
      ],
      "check": {
       "status": "thin",
-      "note": "WTO DSB item: slides state the Appellate Body has been \"defunct since 2019\" but no source (slides, Day 2 notes, outline, Brownlie ch. 32 §4(C)) explains why. UNCLOS detail is drawn from Brownlie ch. 32 §4(B), which was not on the assigned page list."
+      "note": "WTO DSB item: slides state the Appellate Body has been \"defunct since 2019.\" Brownlie ch. 32 n. 131 only cites \"recent difficulties with replacement of Appellate Body members\"; no source (slides, Day 2 notes, outline, Brownlie ch. 32 §4(C)) explains why it stopped functioning."
      }
     },
     {
@@ -1432,7 +1432,7 @@ window.COURSES["intl-law"] = {
        "From the Class 3 slides and outline:",
        [
         "Jurisdiction: the jurisdictional hook, why the request presents a legal question, and why it is prudent to decide (discretion, distinct from power).",
-        "The request: the question actually asked and how the Court interprets it.",
+        "The request: the question asked and how the Court interprets it.",
         "Relevant law: the sources the Court relies on, the applicable Charter provisions, and why the character of the thing in dispute matters.",
         "CIL: what meaning the Court gives long non-use and GA resolutions, and which rules it applies.",
         "Application: whether the rule, as identified, prohibits the conduct."
@@ -1708,7 +1708,7 @@ window.COURSES["intl-law"] = {
      "explain": [
       "Before any treaty rule applies, you have to know the instrument is a treaty. The VCLT definition is art. 2(1)(a): “an international agreement concluded between States in written form and governed by international law, whether embodied in a single instrument or in two or more related instruments and whatever its particular designation.”",
       "The name on the document does not matter. What separates a treaty from a non-binding agreement comes down to two screens: the agreement must be governed by international law, and the parties must intend to create legally binding obligations. If either is missing, the instrument is not a treaty, however it is titled.",
-      "Brownlie’s compares this to contract law: there is no consideration requirement, and at custom there is no writing requirement. The only real question is whether the parties meant to be legally bound."
+      "Brownlie’s compares this to contract law: there is no consideration requirement, and at customary law there is no writing requirement. The only real question is whether the parties meant to be legally bound."
      ],
      "items": [
       [
@@ -2001,7 +2001,7 @@ window.COURSES["intl-law"] = {
        "An invalid reservation has no legal effect. Practice diverges on whether a state with an invalid reservation is still bound by the rest of the treaty.",
        [
         "Severability: the ECtHR (European Court of Human Rights, in Belilos and Loizidou) and the Human Rights Committee treat an invalid reservation as severable. The state remains a party without the benefit of its reservation, whatever it intended. The Committee’s examples: a state cannot reserve the right to torture or to presume a person guilty.",
-        "ILC Guide to Practice on Reservations (2011), a non-binding toolbox: Guideline 4.5.1 says an invalid reservation is null and void. The Guide presumes the reserving state stays bound without the reservation unless it expressed or established a contrary intention, so the reserving state’s intention is the key."
+        "ILC Guide to Practice on Reservations (2011), a non-binding toolbox: Guideline 4.5.1 says an invalid reservation is null and void. The Guide presumes the reserving state stays bound without the reservation unless it expressed or established a contrary intention, so the reserving state’s intention decides the outcome."
        ]
       ]
      ],
@@ -2204,7 +2204,7 @@ window.COURSES["intl-law"] = {
       ],
       [
        "Ordinary meaning",
-       "The common usage of the words at the time the treaty was negotiated (the principle of contemporaneity), except where the parties intended a specialized meaning. The Day 5 notes add this is especially important in IL because many treaties are very old.",
+       "The common usage of the words at the time the treaty was negotiated (the principle of contemporaneity), except where the parties intended a specialized meaning. The Day 5 notes add this is especially important in IL because many treaties are old.",
        [
         "Polish Postal Service in Danzig (PCIJ): Poland’s treaty right to run a postal service in Danzig was not limited to the inside of the post office building. “Postal service” took its ordinary sense, including the normal functions of a postal service.",
         "Special meaning (art. 31(4)): a special meaning applies if it is established the parties intended it. The proponent of the special meaning bears the burden of proof.",
@@ -2708,7 +2708,7 @@ window.COURSES["intl-law"] = {
         "Precaution: plausible risks of serious or irreversible damage call for preventive action despite incomplete scientific certainty.",
         "Risk and environmental impact assessments: assess risks before proposed activities, including particularly significant emitting projects and their relevant downstream effects.",
         "Notification and consultation: notify and consult other states in good faith when necessary to determine preventive measures, especially for major policy changes affecting collective climate efforts.",
-        "The standard is flexible and evolving, but compliance is assessed objectively; a state cannot simply declare its own efforts sufficient."
+        "The standard is flexible and evolving, but compliance is assessed objectively; a state cannot declare its own efforts sufficient."
        ]
       ],
       [
@@ -2725,7 +2725,7 @@ window.COURSES["intl-law"] = {
        "Established environmental duties were applied to climate change through earlier judgments (such as Pulp Mills and Nuclear Weapons), without a detailed practice-and-opinio-juris inquiry. Science established the risk and helped specify due diligence, but science alone does not prove states accept a rule as law."
       ]
      ],
-     "tip": "Compare the Climate AO method with the ICRC study and North Sea: the exam question is how rigorously each one actually proves both elements. The Class 7 slides labeled this material as practice, with nothing new flagged as important.",
+     "tip": "Compare the Climate AO method with the ICRC study and North Sea: the exam question is how rigorously each one proves both elements. The Class 7 slides labeled this material as practice, with nothing new flagged as important.",
      "check": {
       "status": "complete",
       "note": ""
@@ -2764,8 +2764,8 @@ window.COURSES["intl-law"] = {
        [
         "Examples from the reading: no one may be judge in his own suit; litispendence; res judicata (a decided matter cannot be relitigated); parties must not take measures that would prejudice execution of a decision.",
         "Corfu Channel: circumstantial evidence is “admitted in all systems of law.”",
-        "Chorzów Factory: a party cannot rely on the other side’s failure to perform when its own illegal act caused that failure, and “any breach of an engagement involves an obligation to make reparation” is “a general conception of law.”",
-        "Barcelona Traction (repeated in Diallo) relied on the domestic-law concept of the limited liability company."
+        "Beyond procedure, the ICJ has also drawn on general principles for responsibility. Chorzów Factory: a party cannot rely on the other side’s failure to perform when its own illegal act caused that failure, and “any breach of an engagement involves an obligation to make reparation” is “a general conception of law.”",
+        "Barcelona Traction (repeated in Diallo) borrowed the domestic-law concept of the limited liability company, another use outside procedure."
        ]
       ],
       [
@@ -3405,7 +3405,7 @@ window.COURSES["intl-law"] = {
       ],
       [
        "Rights through nationality vs. humanity",
-       "Some individual rights exist only through nationality: consular rights under the Vienna Convention and investor rights under investment treaties. Human rights go further: individuals hold them simply by being human, a major 20th-century innovation.",
+       "Some individual rights exist only through nationality: consular rights under the Vienna Convention and investor rights under investment treaties. Human rights go further: individuals hold them by being human, a major 20th-century innovation.",
        [
         "EU law is especially advanced: regulations apply directly to individuals; Francovich v. Italy (1991) requires a member state to compensate individuals for failing to implement a directive; Van Gend en Loos gave certain treaty provisions direct effect, conferring rights that can override national law."
        ]
@@ -3449,7 +3449,7 @@ window.COURSES["intl-law"] = {
        [
         "Regulation: a state may regulate its nationals even outside its territory; its power over aliens abroad is much more limited.",
         "Diplomatic protection: when a national is harmed in violation of IL, the state may espouse (take up) the national’s claim against the responsible state.",
-        "Treaty rights: treaties key protections to nationality, e.g., BITs (bilateral investment treaties) protect each party’s nationals, and extradition treaties often let a state refuse to extradite its own nationals."
+        "Treaty rights: treaties often tie protections to nationality, e.g., BITs (bilateral investment treaties) protect each party’s nationals, and extradition treaties often let a state refuse to extradite its own nationals."
        ]
       ],
       [
@@ -3961,316 +3961,1679 @@ window.COURSES["intl-law"] = {
  "cards": [
   [
    "Art. 38(1)(a)–(d)",
-   "Conventions; custom; general principles; judicial decisions and publicists (subsidiary, subject to art. 59)."
+   "The ICJ Statute's list of sources: (a) treaties the states have accepted; (b) custom, a general practice accepted as law; (c) general principles of law; (d) judicial decisions and leading scholars, as subsidiary means only, subject to art. 59.",
+   2
   ],
   [
    "ICJ Statute art. 59",
-   "A decision binds only the parties and only in that case."
+   "An ICJ decision binds only the parties to that case and only for that dispute. That is why judicial decisions are subsidiary means and the Court has no binding precedent.",
+   2
   ],
   [
    "Lotus principle",
-   "Restrictions on state independence cannot be presumed; rules come from states’ free will."
+   "From S.S. Lotus (PCIJ 1927): rules binding states come from their own free will, so restrictions on a state's independence cannot be presumed. A state may act unless a treaty or custom limits it.",
+   1
   ],
   [
    "UNGA resolution: law-making indicia",
-   "General legal obligations; unanimous; “solemnly declares”; followed by state practice."
+   "A General Assembly resolution may reflect custom when it is framed as general legal obligations, adopted unanimously, uses 'solemnly declares,' and is followed by state practice (e.g., the 1962 outer space declaration, followed by the Outer Space Treaty).",
+   2
   ],
   [
    "Why UNSC resolutions bind",
-   "Charter arts. 24, 25, 48, and 103 (Charter prevails over other agreements)."
+   "Members confer primary responsibility for peace and security on the Security Council (art. 24), agree to carry out its decisions (art. 25), carry out its required action (art. 48), and Charter obligations prevail over other treaties (art. 103).",
+   2
   ],
   [
    "Five routes to contentious jurisdiction",
-   "Treaty clause 36(1); optional clause 36(2); compromis; informal consent; PCIJ clause 36(5)/37."
+   "A state consents through (1) a treaty clause, art. 36(1); (2) an optional clause declaration, art. 36(2), against another declarant; (3) a special agreement (compromis); (4) informal consent by appearing and litigating; (5) an old PCIJ clause transferred under arts. 36(5)/37.",
+   3
   ],
   [
    "Art. 36(6) and art. 41",
-   "Court decides its own jurisdiction; provisional measures bind."
+   "Joining the ICJ Statute is not consent to be sued, but every party is bound by the Court's power to decide its own jurisdiction (36(6)) and to order provisional measures, which LaGrand held binding (41).",
+   3
   ],
   [
    "Advisory opinion: two-part inquiry",
-   "(1) authorization by treaty (Charter art. 96 + Statute art. 65(1)); (2) propriety."
+   "(1) Power: a treaty must authorize the body to ask this question (Charter art. 96 plus Statute art. 65(1)); agencies may ask only within their activities. (2) Propriety: the Court may decline, but only for compelling reasons; political aspects go here.",
+   3
   ],
   [
    "Finding the ICJ holding",
-   "The sentence after argument and counterargument: “The Court notes / observes / finds…”"
+   "Each section gives one side's argument, then the counterargument, then a sentence beginning 'The Court notes / observes / finds.' That sentence is the holding.",
+   3
   ],
   [
    "VCLT art. 2(1)(a)",
-   "International agreement between states, in writing, governed by IL, whatever its name."
+   "A treaty is an international agreement between states, in written form, governed by international law, in one or several related instruments, whatever it is called.",
+   4
   ],
   [
    "Two screens for a treaty",
-   "Governed by international law + intention to create binding obligations."
+   "An instrument is a treaty only if (1) it is governed by international law and (2) the parties intended to create legally binding obligations. Title and form are not decisive.",
+   4
   ],
   [
    "VCLT arts. 34–36",
-   "No obligations without express written acceptance (35); rights presumed accepted (36)."
+   "A treaty creates no obligations or rights for a third state without its consent (34). An obligation needs the parties' intent plus the third state's express written acceptance (35). A right needs only presumed assent, absent objection (36).",
+   4
   ],
   [
    "VCLT art. 18",
-   "Signatory must not defeat the treaty’s object and purpose before ratifying."
+   "A state that has signed a treaty subject to ratification must refrain from acts that would defeat the treaty's object and purpose before ratifying. Signature does not otherwise bind it.",
+   4
   ],
   [
    "Art. 19 reservation bars",
-   "Prohibited by treaty; not among the permitted ones; incompatible with object and purpose."
+   "A reservation is barred if (a) the treaty prohibits it, (b) the treaty permits only specified reservations and this is not one, or (c) it is incompatible with the treaty's object and purpose (the fallback test when the treaty is silent).",
+   4
   ],
   [
    "Material breach (art. 60(3))",
-   "Repudiation, or violating a provision essential to object and purpose. Importance of provision, not size of breach."
+   "Either a repudiation of the treaty or the violation of a provision essential to its object or purpose. The test is the importance of the provision, not the size of the breach. The injured party may terminate or suspend.",
+   4
   ],
   [
    "Rebus sic stantibus (art. 62)",
-   "Unforeseen change of a circumstance that was an essential basis of consent. Not for boundary treaties."
+   "A party may invoke a fundamental change only if it was unforeseen and the changed circumstances were an essential basis of the parties' consent. Boundary treaties are excluded, and the plea succeeds only in exceptional cases.",
+   4
   ],
   [
    "Void vs. voidable",
-   "Void: coercion of a state, jus cogens conflict. Voidable: internal law, excess authority, error, fraud."
+   "Void without more: coercion of a state, coercion of a representative, and conflict with a peremptory norm. Voidable only if invoked: violation of internal law, excess of authority, error, fraud, and probably corruption.",
+   4
   ],
   [
    "VCLT art. 31(1)",
-   "Ordinary meaning + context + object and purpose, in good faith."
+   "A treaty is interpreted in good faith according to the ordinary meaning of its terms, in their context, and in light of its object and purpose. The ICJ treats this as CIL.",
+   4
   ],
   [
    "VCLT art. 32 trigger",
-   "Primary tools leave meaning ambiguous/obscure or manifestly absurd/unreasonable."
+   "Supplementary means (preparatory work, circumstances of conclusion) may be used to confirm an art. 31 meaning, or to determine meaning when art. 31 leaves it ambiguous or obscure or produces a manifestly absurd or unreasonable result.",
+   4
   ],
   [
    "CIL elements",
-   "State practice (widespread, representative, consistent) + opinio juris."
+   "Customary international law requires (1) state practice that is widespread, representative, and consistent, and (2) opinio juris, meaning states follow it from a sense of legal obligation. Each element is proven separately.",
+   5
   ],
   [
    "Persistent objector requirements",
-   "During formation; clearly articulated; made known; maintained. Useless against jus cogens."
+   "The objection must be made during the rule's formation, clearly articulated, made known to other states, and maintained over time. It does not work against peremptory norms.",
+   5
   ],
   [
    "Codification / crystallization / generation",
-   "Treaty records existing CIL / completes emerging CIL / sparks new CIL (ILC Concl. 11)."
+   "ILC Concl. 11: a treaty provision may record custom that already existed (codification), complete a custom that was emerging (crystallization), or spark later practice and opinio juris that create new custom (generation).",
+   5
   ],
   [
    "North Sea holding",
-   "Art. 6 equidistance wasn’t CIL: not existing, not created, not later adopted, no independent practice."
+   "Art. 6 equidistance did not bind Germany as custom: it did not codify existing custom, it lacked a norm-creating character, too few states and too little time followed it after entry into force, and independent practice did not show opinio juris.",
+   5
   ],
   [
    "VCLT art. 53",
-   "Peremptory norm: accepted by the community of states as a whole as non-derogable; modifiable only by a like norm."
+   "A peremptory norm is accepted and recognized by the international community of states as a whole as one from which no derogation is permitted, changeable only by a later norm of the same character. A treaty conflicting with one at conclusion is void.",
+   6
   ],
   [
    "ILC Concl. 6",
-   "Proving CIL doesn’t prove peremptory status: need separate acceptance of non-derogability."
+   "Proving a rule is custom does not prove it is peremptory. There must be separate evidence that states accept the rule as one no state may derogate from.",
+   6
   ],
   [
    "Serious breach of jus cogens: third states",
-   "Cooperate to end it; don’t recognize as lawful; don’t aid or assist (Concl. 19; ARSIWA 41)."
+   "For a gross or systematic breach of a peremptory norm, every state must cooperate to end it through lawful means, not recognize the resulting situation as lawful, and not aid or assist in maintaining it (Concl. 19; ARSIWA art. 41).",
+   6
   ],
   [
    "Montevideo",
-   "Permanent population; defined territory; government; capacity for relations."
+   "Montevideo Convention art. I: a state has a permanent population, a defined territory, a government, and capacity to enter into relations with other states. Each threshold is low, and the criteria are a rule of thumb.",
+   7
   ],
   [
    "Declaratory vs. constitutive",
-   "Recognition affirms statehood (prevailing) vs. creates it."
+   "Declaratory (prevailing): statehood exists once the criteria are met and recognition only confirms it, so acts before recognition are state acts. Constitutive: no statehood until other states recognize the entity.",
+   7
   ],
   [
    "IO personality: four questions",
-   "Permanent association; executive organs; distinct legal powers; powers exist generally."
+   "After reading the establishing treaty, ask whether the IO is a permanent association of states, has executive organs, has legal powers distinct from its members, and has powers that exist generally.",
+   7
   ],
   [
    "Nottebohm",
-   "Genuine link required before others must recognize nationality for diplomatic protection."
+   "A state cannot demand that another state recognize its grant of nationality for diplomatic protection unless there is a genuine link between the person and the state. Liechtenstein's tenuous naturalization did not bind Guatemala.",
+   8
   ],
   [
    "Barcelona Traction",
-   "Only the corporation’s national state (incorporation / siège social) may espouse its claim."
+   "Only the corporation's national state (state of incorporation or registered office) may claim for injury to the company. Belgium, home of 88% of the shareholders, had no standing against Spain.",
+   8
+  ],
+  [
+   "Answer architecture",
+   "For each discrete legal question, write a Rule Statement (name the source and why it binds these parties), Analysis (easier standard first, counterarguments, missing facts), and a Conclusion that grades the strength of each position.",
+   0
+  ],
+  [
+   "The three blocks",
+   "Block 1, methods: sources, adjudication, treaties, custom, general principles, peremptory norms. Block 2, characterizing actors: personality, nationality, jurisdiction, immunity, state responsibility. Block 3, substantive rules. The midterm covers Blocks 1 and 2.",
+   0
+  ],
+  [
+   "Four mindset shifts",
+   "(1) IL exists mainly outside courts. (2) Not every wrong has a remedy. (3) IL is a layer cake: state freedom, then peremptory norms, then treaty and custom, then tribunal decisions. (4) State rights do not transfer automatically to IOs, individuals, or corporations.",
+   0
+  ],
+  [
+   "Wind the analysis back",
+   "For state responsibility, characterize the unlawful act, attribute it to a state, and only then set out consequences. Most midterm answers skipped attribution.",
+   0
+  ],
+  [
+   "'Judicial relief' vs. 'obligations of other states'",
+   "'Judicial relief' asks which courts or tribunals could hear the matter. 'What obligations do other states have' asks about state responsibility, with no court necessarily involved.",
+   0
+  ],
+  [
+   "Natural law",
+   "Law must reflect fundamental principles of right and wrong found through reason, so what is morally wrong or irrational cannot be law. It explains rules that bind without consent, such as pacta sunt servanda and peremptory norms.",
+   1
+  ],
+  [
+   "Legal positivism",
+   "Law is the product of state consent, expressed in treaties (express consent) and custom (tacit consent). A state is bound only by what it has accepted. Most IL lawyers reason this way.",
+   1
+  ],
+  [
+   "Is IL law? (Austin, Kelsen, Hart)",
+   "Austin: no, because law is a sovereign's command backed by sanction. Kelsen: yes, IL sits atop a monist global order. Hart: partly, because IL has primary rules but lacks secondary rules on change and interpretation.",
+   1
+  ],
+  [
+   "How IL is enforced",
+   "With no central sanction, IL is enforced through reciprocity (the other side stops cooperating), reputation (rule-breakers lose partners), and collective security (states band together against a violator).",
+   1
+  ],
+  [
+   "TWAIL and the New Stream",
+   "The New Stream argues IL is internally contradictory, so respectable arguments can reach opposite results. TWAIL (Third World Approaches to International Law) argues IL developed to serve colonizing states and should reflect non-European perspectives.",
+   1
+  ],
+  [
+   "GA powers (Charter arts. 10, 14)",
+   "The General Assembly may discuss any Charter matter and make recommendations, but cannot enact binding law. It may not recommend on a matter while the Security Council is exercising its functions on it.",
+   2
+  ],
+  [
+   "SC voting",
+   "The Security Council has 15 members (5 permanent, 10 elected for two years). A measure needs nine votes, and on nonprocedural matters any permanent member can veto it.",
+   2
+  ],
+  [
+   "Art. 38(2): ex aequo et bono",
+   "The ICJ may decide a case on the basis of fairness and equity, instead of strict legal rules, only if the parties agree.",
+   2
+  ],
+  [
+   "Optional clause (art. 36(2))",
+   "A state's declaration accepts ICJ jurisdiction automatically, but only in cases brought by another state that has also filed a declaration. Both states must have accepted.",
+   3
+  ],
+  [
+   "WHO request refused",
+   "The ICJ refused the World Health Organization's request on nuclear weapons for lack of jurisdiction: the question was outside the scope of the WHO's activities. It answered the same question for the General Assembly.",
+   3
+  ],
+  [
+   "Nuclear Weapons AO holding (para. 2 E)",
+   "Threat or use of nuclear weapons would generally be contrary to the law of armed conflict, but the Court could not decide whether it would be lawful in an extreme case of self-defense in which a state's survival is at stake (non liquet).",
+   3
+  ],
+  [
+   "ICJ and precedent",
+   "No stare decisis. The Court strives for consistency to protect reliance interests, distinguishes earlier decisions instead of overruling them, and treats its procedural and evidentiary rulings as precedential.",
+   3
+  ],
+  [
+   "Art. 27",
+   "A state may not invoke its own internal law (constitution or statutes) to justify failing to perform a treaty.",
+   4
+  ],
+  [
+   "Withdrawal from a silent treaty (art. 56)",
+   "A treaty with no withdrawal clause cannot be denounced unless the parties intended to allow it or a right of withdrawal is implied by the treaty's nature. At least twelve months' notice is required; peace treaties are not open to denunciation.",
+   4
+  ],
+  [
+   "Registration (Charter art. 102)",
+   "Every treaty a UN member enters must be registered with the UN Secretariat. An unregistered treaty cannot be invoked before any UN organ, but it remains valid.",
+   4
+  ],
+  [
+   "Interpretive declaration vs. reservation",
+   "A declaration states a party's view of a provision's meaning. If it in effect excludes or modifies the provision's legal effect for that state, it is a reservation, whatever it is called.",
+   4
+  ],
+  [
+   "Evolutive interpretation (Navigational Rights)",
+   "Where parties use generic terms in a treaty of continuing duration, they are presumed to intend an evolving meaning, so 'for the purposes of commerce' in an 1858 treaty covered modern tourism.",
+   4
+  ],
+  [
+   "Usage",
+   "A practice states follow because they want to, without a sense of legal obligation (ceremonial salutes, diplomatic parking courtesies). It has practice but no opinio juris, so it is not custom.",
+   5
+  ],
+  [
+   "ILC Concl. 8 (practice)",
+   "State practice must be sufficiently widespread, representative (including specially affected states), and consistent. No fixed duration is required once that standard is met.",
+   5
+  ],
+  [
+   "Particular (local) custom",
+   "A customary rule binding only a subset of states, usually in a shared geography, based on a general practice accepted as law among those states (ILC Concl. 16). Example: Gulf of Mannar pearl fisheries.",
+   5
+  ],
+  [
+   "Silence as acceptance",
+   "A state's failure to react can show acceptance of a rule only if the state was in a position to react and the circumstances called for a reaction.",
+   5
+  ],
+  [
+   "Concl. 4: two criteria",
+   "A peremptory norm must be (a) a norm of general international law, usually custom, and (b) accepted by the international community of states as non-derogable and changeable only by a later peremptory norm.",
+   6
+  ],
+  [
+   "Art. 53 vs. art. 64",
+   "Art. 53: a treaty conflicting with a peremptory norm at conclusion is void in whole, with no severance. Art. 64: a treaty conflicting with a new norm becomes void and terminates, and separable provisions may survive under Concl. 11(2).",
+   6
+  ],
+  [
+   "The ILC list of peremptory norms",
+   "Prohibitions of aggression, genocide, crimes against humanity, racial discrimination and apartheid, slavery, and torture; the basic rules of international humanitarian law; and the right of self-determination. The list is non-exhaustive.",
+   6
+  ],
+  [
+   "Peremptory norms: no defenses, no objectors",
+   "No circumstance precluding wrongfulness (e.g., necessity, self-defense) can justify breaching a peremptory norm (Concl. 18), and the persistent objector rule does not apply (Concl. 14(3)), because these norms bind regardless of consent.",
+   6
+  ],
+  [
+   "Peremptory norms: limits",
+   "A peremptory norm does not create ICJ jurisdiction, which still requires consent (Armed Activities), and does not by itself displace immunity (Arrest Warrant).",
+   6
+  ],
+  [
+   "Subject of IL: three elements",
+   "An entity that has direct rights and obligations under IL, can defend them by bringing international claims, and is responsible for breaching its obligations. States are the primary subjects; individuals and corporations are not direct subjects.",
+   7
+  ],
+  [
+   "Independence (Montevideo government criterion)",
+   "A state can be heavily under foreign control and remain a state. Only systematic, continuous control over a wide range of decisions defeats independence, and control under a legal title (occupation, protectorate) leaves statehood intact.",
+   7
+  ],
+  [
+   "Implied recognition",
+   "Recognition may be implied only from a bilateral treaty, formal diplomatic relations, and probably consular exequaturs. It is not implied from negotiations, a shared multilateral treaty, or a joint conference.",
+   7
+  ],
+  [
+   "Tinoco Concessions",
+   "A government binds the state if it has secure de facto control of all or most of its territory. Non-recognition based on illegitimacy or irregular origin loses weight, so Costa Rica was bound by the Tinoco regime's acts.",
+   7
+  ],
+  [
+   "De jure vs. de facto recognition",
+   "De jure: formal recognition of a government. De facto: working with a government without formally recognizing it. The distinction applies only to governments; there is no de facto state.",
+   7
+  ],
+  [
+   "Why nationality matters",
+   "A state may regulate its nationals abroad, may espouse their claims through diplomatic protection, and can secure treaty rights for them (investment treaties, refusal to extradite nationals).",
+   8
+  ],
+  [
+   "Nationality baseline rule",
+   "Each state's domestic law decides who its nationals are (Tunis and Morocco Nationality Decrees; 1930 Hague Convention art. 1). Other states recognize that law insofar as it is consistent with conventions, custom, and principles on nationality.",
+   8
+  ],
+  [
+   "Jus soli and jus sanguinis",
+   "Jus sanguinis (nationality from parents) is the predominant approach globally. Jus soli (nationality from birthplace) is a global minority approach but the majority approach in the Americas. Both generally supply a genuine link.",
+   8
+  ],
+  [
+   "Barcelona Traction exceptions",
+   "The shareholders' state may claim when the act targets shareholders' direct rights (declared dividends, voting, residual assets), under ILC Diplomatic Protection art. 11, or where a treaty provides otherwise.",
+   8
+  ],
+  [
+   "State-controlled corporation",
+   "If closely controlled enough to be a state agency, it gets no sovereign immunity for commercial activities but gets immunity for governmental ones (e.g., issuing port permits, collecting duties).",
+   8
   ]
  ],
  "quiz": [
   {
-   "q": "A UNGA resolution passed 120–30 “Requests” states to stop a practice. On its own, the resolution is:",
+   "q": "An exam packet includes the ILC (International Law Commission) Draft Articles on State Responsibility. How should your rule statement treat them?",
    "o": [
-    "Binding on all members under art. 25",
-    "Binding only on states that voted yes",
-    "Not binding, and weak evidence of CIL given its verbs and split vote",
-    "Binding once registered under art. 102"
+    "Define CIL (customary international law) and state that the provisions are understood to reflect CIL.",
+    "Say the draft articles bind as an international convention under ICJ Statute art. 38(1)(a).",
+    "Run the full VCLT (Vienna Convention on the Law of Treaties) art. 31 interpretation rundown on the draft articles.",
+    "Set the draft articles aside, because a non-binding instrument has no role in the analysis."
    ],
-   "a": 2,
-   "e": "GA resolutions don’t create binding obligations. Suggestive verbs and a non-unanimous vote are nonbinding indicia. Art. 25 is about Security Council decisions."
+   "a": 0,
+   "why": [
+    "Correct. An ILC product binds only to the extent it restates custom, so the rule statement defines CIL (state practice plus opinio juris) and says the provisions reflect it.",
+    "Art. 38(1)(a) covers conventions the contesting states have accepted. An ILC draft was never adopted as a treaty, so it cannot bind as a convention.",
+    "The art. 31 rundown is the move for an in-force treaty. An ILC draft is not an in-force treaty, so the outline says to skip that rundown for ILC products.",
+    "The draft articles still matter because they are understood to reflect CIL. Ignoring them throws away the governing rule; the answer keys expect you to use them as evidence of custom."
+   ],
+   "e": "An ILC draft is not a treaty in force, so it binds only as far as it reflects customary law. The standing rule-statement move is to define CIL up front (general state practice plus opinio juris) and state that the provisions are understood to reflect it. The SP2025 final key also credited noting that the ILC commentaries help flesh out the customary rule.",
+   "unit": 0
   },
   {
-   "q": "State A signed but never ratified a treaty. Before deciding, it takes an act that would gut the treaty’s core purpose. Best argument against A?",
+   "q": "A prompt asks: \"What obligations do other states have in response to the brigade's execution of prisoners?\" Under the exam-architecture approach, what body of law does this question call for?",
    "o": [
-    "Pacta sunt servanda (art. 26)",
-    "VCLT art. 18",
-    "Material breach (art. 60)",
-    "Art. 27: internal law is no excuse"
+    "State responsibility and the obligations that run between states, with no court necessarily involved.",
+    "Judicial relief, so you should map which tribunals could hear the case.",
+    "Domestic criminal jurisdiction under the packet's War Crimes Act.",
+    "Interpretation of the ICJ Statute's jurisdiction clauses."
    ],
-   "a": 1,
-   "e": "Signature subject to ratification doesn’t establish consent to be bound, but art. 18 creates an interim duty not to defeat object and purpose."
+   "a": 0,
+   "why": [
+    "Correct. Mindset shift #1: IL (international law) operates mainly outside courts. A question about what other states owe calls for state responsibility, including the special consequences of a peremptory norm breach.",
+    "The word 'judicial' or 'relief' signals courts and tribunals. This prompt asks about obligations of other states, which the professor treats as a different question.",
+    "A domestic statute raises jurisdiction and immunity questions. That would be the right move for a question about prosecution, not for one asking what other states are obliged to do.",
+    "ICJ jurisdiction is relevant only if the question asks about adjudication. Nothing in this call of the question points to the ICJ."
+   ],
+   "e": "The professor says to be 'super exacting' about the call of the question. 'What judicial relief is available' asks about courts and tribunals, while 'what obligations do other states have' asks about state responsibility, with no court involved. On the midterm key, execution of prisoners triggered peremptory norm consequences: all states must cooperate to end the breach, must not recognize it as lawful, and must not aid in maintaining it.",
+   "unit": 0
   },
   {
-   "q": "Which is NOT a way to consent to ICJ contentious jurisdiction?",
+   "q": "An armed group trained by State X attacks civilians. The question asks about the consequences for State X. According to the answer keys, what step must come before discussing consequences?",
    "o": [
-    "A compromissory clause in a treaty in force",
-    "An optional-clause declaration under art. 36(2)",
-    "Simply becoming a party to the ICJ Statute",
-    "A special agreement for this dispute"
+    "Characterize the unlawful act and attribute the armed group's conduct to State X.",
+    "Decide whether the ICJ has contentious jurisdiction over State X.",
+    "Recite VCLT art. 31 to interpret the armed group's mandate.",
+    "Determine whether State X persistently objected to the rule against attacking civilians."
    ],
-   "a": 2,
-   "e": "Joining the Statute doesn’t submit a state to jurisdiction; further consent is required. It does bind the state to arts. 36(6) and 41."
+   "a": 0,
+   "why": [
+    "Correct. The keys say to wind the analysis back: characterize the unlawful act, attribute it to a state, then set out consequences. Nearly all midterm responses skipped attribution.",
+    "Responsibility can exist with no court involved. Jurisdiction is a separate question and is not a prerequisite to discussing consequences.",
+    "Treaty interpretation applies to treaties. An armed group's conduct is not a treaty, and the missing step the keys flag is attribution.",
+    "Persistent objection is a CIL defense to a forming rule. It is not the step the keys require before consequences, and it cannot apply to a peremptory norm."
+   ],
+   "e": "When a question involves state responsibility, the answer keys require you to start at the beginning: characterize the unlawful act, attribute it to a state, and only then set out the consequences. On the Fall 2025 midterm, nearly all responses skipped straight to consequences without attribution. Take the easier attribution standard first (for example, a state's own organs under ARSIWA art. 4) and then the harder one (art. 8 control over a non-state group).",
+   "unit": 0
   },
   {
-   "q": "The WHO asks the ICJ whether using nuclear weapons is lawful. The Court should:",
+   "q": "A prompt asks whether an international organization (the 'Community') acted unlawfully in deploying forces. Many midterm answers applied the articles on state responsibility to it. What did the midterm key say was the better approach?",
    "o": [
-    "Answer, because it’s a legal question",
-    "Refuse, because the question is political",
-    "Refuse, because the WHO treaty doesn’t authorize that request",
-    "Answer only if the SC consents"
-   ],
-   "a": 2,
-   "e": "Authorization comes first. The Court refused the WHO request for lack of authority; political aspects go only to propriety."
-  },
-  {
-   "q": "Under VCLT art. 32, a party may consult the travaux préparatoires:",
-   "o": [
-    "Always, as a primary tool",
-    "Only if art. 31 leaves meaning ambiguous or obscure, or manifestly absurd or unreasonable",
-    "Only with consent of all parties",
-    "Only for bilateral treaties"
-   ],
-   "a": 1,
-   "e": "Supplementary means are gated by the art. 32 triggers. Primary tools are art. 31."
-  },
-  {
-   "q": "A treaty is found to have been procured by coercing a state. The treaty is:",
-   "o": [
-    "Voidable if invoked",
-    "Void",
-    "Valid until terminated under art. 60",
-    "Valid but unenforceable"
-   ],
-   "a": 1,
-   "e": "Coercion of a state and conflict with a peremptory norm make a treaty void. Error, fraud, internal law, and excess of authority make it voidable."
-  },
-  {
-   "q": "State B’s dam, essential to a water-sharing treaty, was destroyed by B’s own treaty violation. B invokes supervening impossibility. Result?",
-   "o": [
-    "Treaty terminates",
-    "Suspended only",
-    "B can’t invoke it: impossibility from its own breach is barred",
-    "Automatically converts to rebus sic stantibus"
-   ],
-   "a": 2,
-   "e": "Art. 61 must be invoked by a party and is barred where the impossibility results from that party’s own breach."
-  },
-  {
-   "q": "Which is NOT a requirement for a persistent objector?",
-   "o": [
-    "Objection during formation",
-    "Objection made known to other states",
-    "Objection maintained persistently",
-    "Objection formally registered with the UN Secretariat"
+    "Apply the state responsibility articles in full, because an IO (international organization) has the same duties as a state.",
+    "Conclude the Community cannot have any legal obligations because only states are subjects of IL.",
+    "Apply only jus cogens consequences, since those bind every actor.",
+    "Use the Community's own founding treaty, because the state responsibility articles are rules for states only."
    ],
    "a": 3,
-   "e": "The four: during formation, clearly articulated, made known, maintained. No registration requirement."
+   "why": [
+    "This is the error the key flagged. Mindset shift #4: rights and duties of states do not transfer automatically to IOs.",
+    "IOs can have legal personality and obligations, which are tested through their founding treaty. Denying any obligation skips the analysis the key expected.",
+    "The key did not direct students to peremptory norms for the IO's own conduct. The tool it named was the IO's founding treaty.",
+    "Correct. The articles on state responsibility apply to states. IO responsibility was not taught, so the only tool for the IO was its own treaty: what powers it grants and whether the IO followed its procedures."
+   ],
+   "e": "Mindset shift #4 says you cannot assume that IOs, individuals, or corporations have the same rights and duties as states. The midterm key criticized answers that applied the articles of state responsibility to the Community, an IO. The correct move is to read the founding treaty: establish what authority the IO has, then whether it followed the treaty's procedures, such as a required voting majority.",
+   "unit": 0
   },
   {
-   "q": "State C shows its rule against X is followed by many states. Proving it is also peremptory requires:",
+   "q": "On the Practice Final, the Rome Statute (a treaty) conflicted with a CIL rule giving officials immunity for acts in their official capacity. Which hierarchy rule did the answer key apply?",
    "o": [
-    "Nothing more",
-    "Separate evidence of acceptance of its non-derogable character by a very large, representative majority",
-    "Unanimous acceptance",
-    "An ICJ judgment declaring it"
+    "A treaty obligation can prevail over an earlier-in-time CIL rule, but never over a peremptory norm, so the Rome Statute overrides CIL immunity.",
+    "Custom always prevails over a treaty because custom binds all states.",
+    "Article 38(1) ranks treaties first, so a treaty prevails over every other rule, including peremptory norms.",
+    "The two rules cancel out, so neither applies and the official is treated under domestic law."
+   ],
+   "a": 0,
+   "why": [
+    "Correct. This is the layer cake in action: treaty and custom sit on top of peremptory norms. A treaty can displace earlier custom, so the Rome Statute overrides official-capacity immunity.",
+    "There is no rule that custom always wins. A treaty obligation can prevail over an earlier-in-time CIL rule among its parties.",
+    "Article 38(1) contains no strict hierarchy, and no treaty can prevail over a peremptory norm. A treaty contrary to a peremptory norm creates no obligation.",
+    "IL resolves the conflict through the later-in-time rule and the peremptory norm limit. Nothing in the sources says conflicting rules cancel out."
+   ],
+   "e": "The outline's hierarchy move: a treaty obligation can prevail over an earlier-in-time CIL rule, but never over a peremptory norm. The Practice Final key used this to note that the Rome Statute, a treaty, overrides CIL immunity for officials acting in their official capacity. Timing and jus cogens decide conflicts between treaty and custom, not the order of Article 38(1).",
+   "unit": 0
+  },
+  {
+   "q": "State A objects to a policy State B has adopted. A cannot point to any treaty or custom that forbids B's conduct. Under the Lotus principle, what follows?",
+   "o": [
+    "B is free to act, because restrictions on the independence of states cannot be presumed.",
+    "B's conduct is unlawful because natural law forbids interference with another state's ships.",
+    "B must show a rule of IL that authorizes its conduct, or the conduct is unlawful.",
+    "The question must go to the General Assembly, which decides when a state's freedom is restricted."
+   ],
+   "a": 0,
+   "why": [
+    "Correct. Under Lotus, rules binding states come from their own consent, so a state is free to act unless a treaty or custom limits it.",
+    "Lotus is a positivist rule: binding rules come from states' free will, in conventions or accepted usages. An unstated natural law prohibition does not restrict B.",
+    "This reverses the Lotus presumption. Lotus says restrictions on states cannot be presumed, so B needs no authorizing rule.",
+    "The GA can only discuss and recommend. It does not decide when a state's freedom is restricted."
+   ],
+   "e": "In S.S. Lotus (PCIJ 1927), the Court said the rules binding states 'emanate from their own free will,' expressed in conventions or usages generally accepted as law, so 'restrictions upon the independence of States cannot be presumed.' The practical rule is that a state may act unless you can show a treaty or custom limiting it. This is the bottom layer of the layer cake: start from state freedom and add limits only with a source.",
+   "unit": 1
+  },
+  {
+   "q": "Why does Murphy treat pacta sunt servanda ('agreements must be kept') as a rule that rests on natural law and not on consent alone?",
+   "o": [
+    "Because a state bound only by consent could withdraw that consent, and a 'treaty on treaties' would itself need something binding states to it.",
+    "Because the VCLT codified it in art. 26, and codification turns a rule into natural law.",
+    "Because the ICJ declared it a peremptory norm in the Nuclear Weapons opinion.",
+    "Because the General Assembly adopted it unanimously with 'solemnly declares' language."
+   ],
+   "a": 0,
+   "why": [
+    "Correct. If the duty to keep agreements rested only on consent, a state could revoke it. Something outside consent has to bind states to their promises.",
+    "Codification in a treaty is a positivist route, based on consent. Murphy's point is that consent cannot be the whole foundation of this rule.",
+    "The sources do not say the Court declared this. Murphy's reasoning is about the logical problem with consent, not about a court ruling.",
+    "GA resolutions can be evidence of custom, which still rests on state acceptance. That would not explain why the rule cannot rest on consent."
+   ],
+   "e": "Pacta sunt servanda requires states to perform their treaty obligations in good faith (VCLT art. 26), and Murphy calls it a grundnorm of treaty law. It cannot rest on consent alone: a state bound only by consent could withdraw it, and a 'treaty on treaties' only moves the problem back one step. Murphy concludes that some first principles exist apart from state consent, which is why the natural law mode of reasoning cannot be avoided entirely.",
+   "unit": 1
+  },
+  {
+   "q": "Which theorist held that IL has 'primary rules' of obligation but lacks the 'secondary rules' on how rules change and are interpreted, so it is not a full legal system?",
+   "o": [
+    "John Austin",
+    "Hans Kelsen",
+    "Hugo Grotius",
+    "H.L.A. Hart"
+   ],
+   "a": 3,
+   "why": [
+    "Austin answered 'No': law is a sovereign's command backed by a sanction, and with no international sovereign, IL is only moral rules.",
+    "Kelsen answered 'Yes': IL is monist and sits at the top of a global legal order, with national systems subsidiary to it.",
+    "Grotius is the 'father of international law' who wrote De Jure Belli ac Pacis (1625) in the natural law tradition. He is not part of the 'Is IL law?' spectrum in the sources.",
+    "Correct. Hart (1961) took the middle ('Kinda') position: IL has primary rules such as trading coconuts for fire, but lacks secondary rules for change and interpretation."
+   ],
+   "e": "The slides give three answers to whether IL is law. Austin said no, because law needs a sovereign and a sanction. Kelsen said yes, placing IL at the top of a monist global order. Hart sat between them: IL has primary rules of obligation but lacks the secondary rules (on how rules change and are interpreted) that a full legal system needs.",
+   "unit": 1
+  },
+  {
+   "q": "Under the GATT, State A breaks its trade commitments to State B. According to Murphy's account of why states comply with IL, what is the most likely response?",
+   "o": [
+    "An international police force enforces the commitment against A.",
+    "The ICJ automatically takes jurisdiction because trade disputes fall under compulsory jurisdiction.",
+    "The General Assembly passes a binding resolution ordering A to comply.",
+    "B retaliates, and A suffers reputational harm with other trading partners."
+   ],
+   "a": 3,
+   "why": [
+    "IL has no central police force. Enforcement is decentralized.",
+    "ICJ jurisdiction rests on consent. Joining the system does not by itself submit a state to the Court.",
+    "The GA cannot enact binding law; it only discusses and recommends.",
+    "Correct. Murphy says a state that breaks trade commitments faces retaliation from the partner and reputational harm with others, so the rational choice is usually to comply."
+   ],
+   "e": "IL is decentralized and has no central sanction, so enforcement runs through reciprocity, reputation, and collective security. Murphy's island hypothetical explains self-interest: if one person stops lighting fires, the other stops handing over coconuts, and a cheater is seen as untrustworthy. He applies this to the GATT, where retaliation and reputational harm mean that 'in most instances, the rational choice for a state is to abide by its trade agreements.'",
+   "unit": 1
+  },
+  {
+   "q": "A positivist is asked whether State C's use of torture violates IL. Which question does the positivist ask first?",
+   "o": [
+    "Have states enacted a treaty provision prohibiting the conduct, and is State C a party to it?",
+    "Does torture violate fundamental human rights regardless of what states have agreed to?",
+    "Whose interests did the rule against torture serve when it formed?",
+    "Has an international court ever condemned torture?"
+   ],
+   "a": 0,
+   "why": [
+    "Correct. The positivist runs a consent checklist: is there a treaty prohibiting the conduct, is the state a party, did it file a reservation, and if no treaty applies, does general practice prohibit it without this state dissenting.",
+    "That is the natural law question. Positivism asks what states have consented to, not what is right in the abstract.",
+    "That is the kind of argument a critical approach such as TWAIL generates. It is not the positivist starting point.",
+    "Court decisions are subsidiary means and bind only the parties. The positivist looks first for the state's own consent through treaty or custom."
+   ],
+   "e": "Positivism treats law as the product of state consent, through treaties (express consent) and custom (tacit consent). Murphy's torture example runs a checklist: a treaty provision prohibiting the conduct, whether the offending state is a party, whether it reserved, and, if no treaty applies, whether general and consistent practice prohibits the conduct and whether this state dissented. The outline notes this is the same sequence the exam rewards for any treaty.",
+   "unit": 1
+  },
+  {
+   "q": "A UN General Assembly (UNGA) resolution passed 120–30 'Requests' states to stop a practice. Standing alone, what is its legal effect?",
+   "o": [
+    "It binds all members under Charter art. 25.",
+    "It binds only the states that voted yes.",
+    "It becomes binding once registered with the UN Secretariat under art. 102.",
+    "It is not binding, and its suggestive verb and split vote make it weak evidence of CIL."
+   ],
+   "a": 3,
+   "why": [
+    "Art. 25 obliges members to carry out decisions of the Security Council. It does not apply to GA resolutions.",
+    "A yes vote on a GA resolution does not create a treaty-like obligation. The GA can only recommend.",
+    "Art. 102 registration applies to treaties and affects whether they can be invoked before UN organs. It does not turn a resolution into binding law.",
+    "Correct. GA resolutions do not create binding obligations on their own. Suggestive verbs ('Requests,' 'Deplores') and a non-unanimous vote are indicia of a nonbinding resolution."
+   ],
+   "e": "The GA's Charter powers are to discuss and recommend, so its resolutions do not bind on their own. A resolution can be evidence of CIL if it meets the criteria for custom: look at how many states adopted it and whether unanimously, its operative verbs, whether it treats the conduct as legally required, and later state practice. 'Requests' and a 120–30 split point to a nonbinding resolution.",
+   "unit": 2
+  },
+  {
+   "q": "Acting under Chapter VII, the Security Council (SC) decides that all members shall freeze a target's assets. State D says a bilateral treaty with the target requires it to keep the assets available. Which is correct?",
+   "o": [
+    "D must freeze the assets: members agreed to carry out SC decisions (art. 25), and Charter obligations prevail over other agreements (art. 103).",
+    "D may follow the bilateral treaty under the later-in-time rule if the treaty was concluded after the resolution.",
+    "D need not comply, because SC resolutions are recommendations like GA resolutions.",
+    "D is bound only if it voted for the resolution as a Council member."
+   ],
+   "a": 0,
+   "why": [
+    "Correct. SC resolutions bind through arts. 24, 25, 48, and 103, and art. 103 resolves the conflict with the bilateral treaty in favor of the Charter.",
+    "Charter art. 103 overrides the ordinary later-in-time rule: Charter obligations prevail over obligations under any other international agreement.",
+    "That describes the GA. The SC can make decisions that bind every member.",
+    "SC decisions bind all UN members, whether or not they sit on the Council or voted for the measure."
+   ],
+   "e": "SC resolutions can impose obligations on all UN members because of four Charter provisions: art. 24 (the SC acts on members' behalf for peace and security), art. 25 (members agree to carry out its decisions), art. 48 (members carry out the action the SC decides), and art. 103 (Charter obligations prevail over other international agreements). 'Acting under Chapter VII' signals an enforcement-type resolution. So D's bilateral treaty gives way.",
+   "unit": 2
+  },
+  {
+   "q": "The Security Council is handling a crisis in Region R. The General Assembly wants to adopt a resolution recommending specific measures for the same situation. What does the Charter say?",
+   "o": [
+    "The GA may not make recommendations on the matter while the SC is exercising its functions on it.",
+    "The GA may adopt a binding decision because it represents all 193 members.",
+    "The GA may recommend only if two-thirds of the P5 (permanent five) agree.",
+    "The GA's recommendation overrides the SC because the GA approves the UN budget."
+   ],
+   "a": 0,
+   "why": [
+    "Correct. The GA's art. 14 power to recommend peaceful adjustment is limited: it may not recommend on a matter while the SC is dealing with it.",
+    "The GA cannot enact binding IL, whatever its membership. Its powers are discussion and recommendation.",
+    "No such requirement exists. Two-thirds voting applies to 'important questions' in the GA, and the P5 veto is an SC rule.",
+    "Budget approval is arguably the GA's greatest operational power, but it gives the GA no priority over the SC on peace and security."
+   ],
+   "e": "Charter art. 10 lets the GA discuss any matter within the Charter and make recommendations, and art. 14 lets it recommend measures for the peaceful adjustment of situations. The limit is that the GA may not make recommendations on a matter while the SC is exercising its functions on that matter. The SC has primary responsibility for peace and security and has priority on issues it is handling.",
+   "unit": 2
+  },
+  {
+   "q": "In a dispute between States Y and Z, counsel cites an ICJ judgment between States W and X as binding on Y. What is wrong with the argument?",
+   "o": [
+    "Nothing; ICJ judgments are a primary source under art. 38(1)(a).",
+    "ICJ judgments bind only if the GA endorses them.",
+    "Under art. 59, a decision binds only the parties to that case; for others it is a subsidiary means of determining the law.",
+    "ICJ judgments bind all states, but only after ten years."
+   ],
+   "a": 2,
+   "why": [
+    "Art. 38(1)(a) covers conventions. Judicial decisions fall under art. 38(1)(d) as subsidiary means.",
+    "No GA endorsement step exists. The limit on judgments comes from art. 59 of the ICJ Statute.",
+    "Correct. Art. 59 limits a judgment's binding force to the parties and the particular case, which is why art. 38(1)(d) lists decisions only as subsidiary means.",
+    "No time-based rule exists in the sources. A judgment never becomes binding on non-parties."
+   ],
+   "e": "ICJ Statute art. 59 says a decision of the Court has no binding force except between the parties and in respect of that particular case. That is why art. 38(1)(d) lists judicial decisions only as 'subsidiary means for the determination of rules of law.' The judgment between W and X can be persuasive evidence of the law, but it does not bind Y.",
+   "unit": 2
+  },
+  {
+   "q": "Which statement about the order of sources in ICJ Statute art. 38(1) is accurate?",
+   "o": [
+    "It sets a strict ranking: a treaty under (a) always prevails over custom under (b).",
+    "General principles under (c) are only 'subsidiary means,' like judicial decisions.",
+    "Peremptory norms are listed as the first source in art. 38(1)(a).",
+    "It contains no express hierarchy; for example, a treaty that conflicts with a peremptory norm gives rise to no obligation."
+   ],
+   "a": 3,
+   "why": [
+    "The reading warns against a strict ranking. A treaty can be displaced by later custom, and a treaty contrary to a peremptory norm creates no obligation.",
+    "'Subsidiary means' describes only art. 38(1)(d): judicial decisions and the teachings of publicists.",
+    "Peremptory norms are not listed in art. 38 at all. The Class 2 discussion asked why the Statute omits them.",
+    "Correct. The (a)–(d) order does not dictate priority in all cases, and peremptory norms, though unlisted, prevail over every other source."
+   ],
+   "e": "Art. 38(1) lists conventions, custom, general principles, and judicial decisions plus publicists, but contains no express hierarchy. Treaties usually come first because a specific chosen obligation ordinarily prevails, yet a treaty can be displaced by later custom, and a treaty that conflicts with a peremptory norm creates no obligation at all. Peremptory norms are not in the list but prevail over all other sources.",
+   "unit": 2
+  },
+  {
+   "q": "Which combination of features most strongly suggests that a General Assembly resolution reflects customary law?",
+   "o": [
+    "Adopted by a narrow majority, uses 'Deplores,' and is not followed by any state practice.",
+    "Adopted unanimously, uses 'Requests,' and addresses a single state's policy.",
+    "Adopted by the GA after the SC failed to act, regardless of its wording.",
+    "Adopted unanimously, 'solemnly declares' general legal obligations, and is followed by consistent state practice."
+   ],
+   "a": 3,
+   "why": [
+    "These are indicia of a nonbinding resolution: suggestive verbs, a split vote, and no supporting practice.",
+    "Unanimity helps, but 'Requests' is suggestive language, and a resolution about one state's policy is not framed as a general legal obligation.",
+    "The sources do not make SC inaction a factor. The indicia focus on adoption, wording, legal framing, and later practice.",
+    "Correct. These match the law-making indicia, illustrated by GA Res. 1962 (XVIII) on outer space, which was followed by the Outer Space Treaty."
+   ],
+   "e": "A GA resolution is not binding on its own but may be evidence of CIL. The law-making indicia are: framed as general legal obligations, adopted unanimously, using 'solemnly declares' (which the professor said largely recites existing custom), and supported by later state practice. GA Res. 1962 (XVIII) on outer space is the slides' example; the later Outer Space Treaty is the subsequent practice.",
+   "unit": 2
+  },
+  {
+   "q": "A Security Council draft resolution on a nonprocedural matter receives 12 votes in favor, including four permanent members. France votes no. What is the result?",
+   "o": [
+    "It fails, because any permanent member can veto a nonprocedural resolution.",
+    "It passes, because it has more than the nine votes required.",
+    "It passes, but binds only the states that voted yes.",
+    "It goes to the General Assembly for a two-thirds vote."
+   ],
+   "a": 0,
+   "why": [
+    "Correct. France is one of the P5 (China, France, Russia, the UK, the US), and each holds a veto on nonprocedural matters.",
+    "Nine votes is necessary but not sufficient on nonprocedural matters. A negative vote by any permanent member is a veto.",
+    "If an SC decision passes, it binds all members. Here the veto means it does not pass at all.",
+    "The Charter sources in the course contain no automatic transfer to the GA after a veto."
+   ],
+   "e": "The SC has 15 members: five permanent members (China, France, Russia, the United Kingdom, the United States) and ten elected members on two-year terms. Nine votes are needed to pass a measure, and on nonprocedural matters any permanent member can veto. France's no vote defeats the resolution despite 12 votes in favor. The reading notes the veto has often stymied Council action.",
+   "unit": 2
+  },
+  {
+   "q": "Which of the following is NOT a way for a state to consent to ICJ contentious jurisdiction?",
+   "o": [
+    "A clause in a treaty in force between the parties giving the ICJ jurisdiction over disputes about the treaty (art. 36(1)).",
+    "Becoming a party to the ICJ Statute by joining the UN.",
+    "An optional clause declaration under art. 36(2), against a state that made the same declaration.",
+    "A special agreement (compromis) submitting this particular dispute."
    ],
    "a": 1,
-   "e": "ILC Concl. 6 (separate acceptance) and Concl. 7 (very large and representative majority, not all)."
+   "why": [
+    "This is a recognized form of advance consent: treaties in force with clauses giving the ICJ jurisdiction over disputes about their interpretation or application.",
+    "Correct. Joining the Statute is not consent to be sued; further consent is required. It does bind the state to arts. 36(6) and 41.",
+    "This is a recognized basis: two states with declarations accept automatic jurisdiction as between them.",
+    "This is consent for a particular case, a recognized basis (Gabon and Equatorial Guinea used one in 2016)."
+   ],
+   "e": "The ICJ has no compulsory jurisdiction; under Statute art. 36 it hears contentious cases only with consent, a corollary of sovereign equality. The recognized forms are a treaty clause, an optional clause declaration, a special agreement, informal consent (appearing and litigating), and a transferred PCIJ clause. Every UN member is automatically a party to the Statute, but that alone is not consent; it binds the state only to the Court's power to decide its own jurisdiction (art. 36(6)) and to order binding provisional measures (art. 41).",
+   "unit": 3
   },
   {
-   "q": "In North Sea, why hadn’t art. 6 passed into CIL after the Convention?",
+   "q": "The World Health Organization (WHO) asks the ICJ whether the use of nuclear weapons is lawful. How should the Court respond?",
    "o": [
-    "Germany persistently objected",
-    "Too few states adopted it and too little time elapsed",
-    "It conflicted with a peremptory norm",
-    "The ICJ lacked jurisdiction"
+    "Answer, because the request presents a legal question.",
+    "Refuse, because the question is political.",
+    "Answer only if the Security Council consents.",
+    "Refuse for lack of jurisdiction, because the question is not within the scope of the WHO's activities."
+   ],
+   "a": 3,
+   "why": [
+    "Being a legal question is necessary but not enough. The first step is authorization: whether this body may ask this question.",
+    "Political aspects do not deprive a question of its legal character, and they go only to propriety, never to power.",
+    "No SC consent requirement exists for advisory opinions. Authorization comes from the Charter and the requesting body's own treaty.",
+    "Correct. Agencies authorized under Charter art. 96(2) may ask only about questions within their own activities. The Court refused the WHO request on that ground."
+   ],
+   "e": "Advisory jurisdiction runs a two-part inquiry: (1) is there treaty authorization for this body to ask this question (power), and (2) is it proper to answer (discretion). Under Charter art. 96(2), specialized agencies may request opinions only on questions within the scope of their activities. The Court held the legality of nuclear weapons was outside the WHO's scope and refused for lack of jurisdiction, then answered essentially the same question when the GA asked.",
+   "unit": 3
+  },
+  {
+   "q": "In the Nuclear Weapons Advisory Opinion, how did the Court treat the right to life under ICCPR (International Covenant on Civil and Political Rights) art. 6 during armed conflict?",
+   "o": [
+    "The right to life is suspended entirely in wartime.",
+    "It continues to apply, but whether a death is an 'arbitrary' deprivation of life is judged by the law of armed conflict as lex specialis.",
+    "It displaces the law of armed conflict, so any killing in war violates art. 6.",
+    "It protects only civilians, not combatants."
    ],
    "a": 1,
-   "e": "The Court found too few adopters and not enough time. Separate reasons defeated codification, creation, and independent practice."
+   "why": [
+    "The Court said the right does not stop in wartime and is non-derogable.",
+    "Correct. Human rights law still applies, and the more specific law of armed conflict gives content to its open term 'arbitrary.'",
+    "The relationship runs the other way: the law of armed conflict is the more specific body of law that governs when the facts call for it.",
+    "The sources do not limit art. 6 to civilians. The Court's point concerned how 'arbitrary' is measured, not who is covered."
+   ],
+   "e": "The Court held that ICCPR art. 6 does not cease in wartime and is non-derogable. Whether a particular loss of life in hostilities is an 'arbitrary' deprivation is decided by the lex specialis, the law of armed conflict, which is designed for the conduct of hostilities. The Day 3 notes identify this lex specialis move as a recurring technique: the general body of law applies, and the specific one fills its open terms.",
+   "unit": 3
   },
   {
-   "q": "An entity has a population, territory, and a weak but stable government, yet few states recognize it. Under the prevailing view:",
+   "q": "State A has filed an optional clause declaration under ICJ Statute art. 36(2). State B has not, and no treaty clause or special agreement exists. A files suit against B, and B refuses to appear or take part. Does the Court have jurisdiction?",
    "o": [
-    "It can’t be a state until recognized",
-    "Recognition affirms existing statehood (declaratory view)",
-    "IO membership decides it",
-    "It is a state only for treaty purposes"
+    "Yes, because A's declaration accepts compulsory jurisdiction over any state.",
+    "Yes, because B is a party to the ICJ Statute as a UN member.",
+    "No, because the optional clause requires both states to have accepted, and B has not consented by any other route.",
+    "No, because only the Security Council can refer cases to the ICJ."
+   ],
+   "a": 2,
+   "why": [
+    "An optional clause declaration operates only against another state that has also filed one. B has not.",
+    "Being a party to the Statute is not consent to jurisdiction. Further consent is required.",
+    "Correct. Jurisdiction under art. 36(2) exists only between declarants, and B has given no other consent, formal or informal.",
+    "States bring contentious cases themselves. In Corfu Channel, judges rejected the idea that even an SC recommendation to refer a dispute was binding."
+   ],
+   "e": "Under the optional clause, a state accepts automatic jurisdiction only when the case is brought by another state that has also filed a declaration; both must have accepted. B has no declaration, no treaty clause, and no special agreement. Informal consent arises from using the Court, such as appearing and litigating the case, and B has refused to take part. Had B appeared and litigated, that could have supplied consent.",
+   "unit": 3
+  },
+  {
+   "q": "While B's jurisdictional objection is pending, the ICJ orders provisional measures against B. B argues it is not bound until the Court rules that it has jurisdiction. Is B right?",
+   "o": [
+    "No. Every party to the Statute is bound by the Court's art. 41 power, provisional measures are binding (LaGrand), and the Court orders them without first deciding jurisdiction unless consent is plainly absent.",
+    "Yes. Provisional measures are recommendations until jurisdiction is established.",
+    "Yes. Provisional measures bind only states that filed optional clause declarations.",
+    "No, but only because the Security Council must enforce every ICJ order."
+   ],
+   "a": 0,
+   "why": [
+    "Correct. Art. 41 binds all Statute parties, and LaGrand held provisional measures binding.",
+    "LaGrand held provisional measures are binding. They do not wait on a final jurisdictional ruling.",
+    "The art. 41 power binds every party to the Statute, regardless of the basis of consent.",
+    "The binding force comes from art. 41 and LaGrand, not from SC enforcement."
+   ],
+   "e": "Joining the Statute is not consent to jurisdiction, but every party is bound by two powers: the Court's power to decide its own jurisdiction (art. 36(6)) and its power to indicate provisional measures to preserve the parties' rights (art. 41). Unless it is apparent there is no consent, the Court orders provisional measures without deciding jurisdiction on the merits, and LaGrand held those measures binding.",
+   "unit": 3
+  },
+  {
+   "q": "Which statement best describes how the ICJ treats its earlier decisions?",
+   "o": [
+    "It follows strict stare decisis, so earlier holdings bind later cases.",
+    "It ignores earlier decisions because art. 59 makes them irrelevant.",
+    "It regularly overrules earlier decisions expressly when it disagrees with them.",
+    "It has no stare decisis but strives for consistency, distinguishes instead of overruling, and treats its procedural rulings as precedential."
+   ],
+   "a": 3,
+   "why": [
+    "Art. 59 was drafted to rule out binding precedent. The Court does not observe stare decisis.",
+    "The Court strives for consistency to respect reliance interests and treats decisions as 'precedential-ish.'",
+    "The Court distinguishes earlier decisions and, when it departs from them, tends to do so tacitly.",
+    "Correct. This matches the sources: no formal precedent, consistency for reliance interests, distinguishing, and precedential practice on procedure and evidence."
+   ],
+   "e": "Art. 38(1)(d) makes judicial decisions subsidiary means, and art. 59 limits a judgment's binding force to the parties and the case, so the Court has no stare decisis. It still strives for consistency, mainly to respect states' reliance interests, distinguishes prior decisions instead of overruling them, and does not expect to reverse a jurisprudence constante. On court procedure and evidence, its practice is precedential.",
+   "unit": 3
+  },
+  {
+   "q": "You are given an excerpt of an ICJ opinion with several paragraphs of argument and counterargument. Where will you most likely find the Court's holding on that issue?",
+   "o": [
+    "In the first paragraph of the section, where the applicant's position is stated.",
+    "In the sentence after the argument and counterargument that begins 'The Court notes / observes / finds.'",
+    "In the separate opinions appended to the judgment.",
+    "In the life-cycle summary listing the memorial and counter-memorial dates."
    ],
    "a": 1,
-   "e": "The declaratory view prevails. Recognition remains the best practical metric; effectiveness of government isn’t required."
+   "why": [
+    "The opening of a section usually states one side's argument, not the Court's conclusion.",
+    "Correct. The professor's method: nearly every section gives an argument, then the counterargument, then the Court's sentence stating its view.",
+    "Separate opinions are individual judges' writings; they do not state the holding of the Court.",
+    "The procedural history shows the filing schedule. It does not state the holding."
+   ],
+   "e": "The professor's bottom line is 'If the ICJ can IRAC, so can you.' An ICJ opinion runs in a predictable order (question and posture, propriety if advisory, facts, applicable law, application, summary of holdings). Within each section, the Court gives one side's argument, then the counterargument, then a sentence beginning 'The Court notes / observes / finds.' That sentence is the holding.",
+   "unit": 3
   },
   {
-   "q": "Liechtenstein naturalized a German national who lived in Guatemala for decades. Guatemala may refuse the claim because:",
+   "q": "A state argues that the General Assembly's request for an advisory opinion is political, so the Court lacks jurisdiction. How does the Court treat this argument?",
    "o": [
-    "Naturalization is never valid",
-    "There is no genuine link",
-    "Jus soli controls",
-    "Individuals are subjects of IL"
+    "Political aspects defeat jurisdiction, so the Court must decline.",
+    "Political aspects are irrelevant to jurisdiction; they go only to propriety, and only 'compelling reasons' justify declining.",
+    "The Court may answer only if every state concerned consents, as in Eastern Carelia.",
+    "The Court defers to the Security Council on whether a question is political."
    ],
    "a": 1,
-   "e": "Nottebohm: others need not recognize nationality for diplomatic protection absent a genuine link."
+   "why": [
+    "The Court has held that political aspects do not deprive a question of its legal character.",
+    "Correct. A question framed in terms of law and raising problems of IL is a legal question, and the political issue is one of discretion, not power.",
+    "Eastern Carelia involved an interstate dispute where the objecting state was not bound by the Covenant. Later opinions distinguished it for requests within the requesting organ's functions.",
+    "The Court decides this itself. No SC deferral rule exists in the sources."
+   ],
+   "e": "A question's political aspects do not deprive it of its character as a legal question (Kosovo). The Court asks whether the question is framed in terms of law and raises problems of IL (Western Sahara). Political motives and implications are irrelevant to jurisdiction and go only to propriety, where only 'compelling reasons' justify refusal; the present Court has never refused on discretionary grounds.",
+   "unit": 3
   },
   {
-   "q": "A Canadian company 88% owned by Belgians is harmed by Spain. Who may espouse the company’s claim?",
+   "q": "What did the ICJ hold in paragraph 2 E of the Nuclear Weapons Advisory Opinion?",
    "o": [
-    "Belgium",
-    "Canada",
-    "Both",
-    "Neither, individuals must sue"
+    "The threat or use of nuclear weapons is unlawful in all circumstances.",
+    "The threat or use of nuclear weapons is lawful whenever used in self-defense under art. 51.",
+    "Threat or use would generally be contrary to the law of armed conflict, but the Court could not conclude whether it would be lawful in an extreme circumstance of self-defense in which a state's survival is at stake.",
+    "The Court declined to answer because the question was political."
+   ],
+   "a": 2,
+   "why": [
+    "The Court did not find a comprehensive prohibition in treaty or custom, and it could not decide the extreme self-defense case.",
+    "A lawful self-defense use must also satisfy the law of armed conflict. The Court found use would generally violate that law.",
+    "Correct. This is the non liquet ('it is not clear'), adopted by the President's casting vote.",
+    "The Court rejected the political-question objection and answered, though it left part of the question undecided."
+   ],
+   "e": "Paragraph 2 E holds that the threat or use of nuclear weapons would generally be contrary to the rules of international law applicable in armed conflict, especially humanitarian law. Given the current state of IL and the facts available, the Court could not conclude definitively whether threat or use would be lawful or unlawful in an extreme circumstance of self-defense in which a state's very survival is at stake. Judge Schwebel attacked this non liquet, arguing the Court should have declined to answer instead.",
+   "unit": 3
+  },
+  {
+   "q": "A judge agrees with the Court's outcome but for a different legal reason. What type of writing does that judge file?",
+   "o": [
+    "A dissenting opinion",
+    "A declaration",
+    "A separate opinion",
+    "An advisory opinion"
+   ],
+   "a": 2,
+   "why": [
+    "A dissent disagrees with the decision, in whole or in part. This judge agrees with the outcome.",
+    "A declaration is a more informal statement of a judge's position that can concur or dissent. The document for agreeing on different reasoning is the separate opinion.",
+    "Correct. A separate opinion agrees with the outcome for a different legal reason, like a concurrence.",
+    "An advisory opinion is the Court's own answer to a request from an authorized body. It is not an individual judge's writing."
+   ],
+   "e": "ICJ decisions come with four kinds of documents. The merits decision or advisory opinion contains the Court's holding. A separate opinion agrees with the outcome for a different legal reason. A declaration is a more informal statement that can concur or dissent, and a dissenting opinion disagrees, possibly only as to part of the decision.",
+   "unit": 3
+  },
+  {
+   "q": "State A signed, but has not ratified, a treaty that requires ratification. Before deciding whether to ratify, it takes an act that would defeat the treaty's core purpose. What is the best argument against A?",
+   "o": [
+    "Pacta sunt servanda (VCLT art. 26).",
+    "VCLT art. 18: a signatory must refrain from acts that would defeat the treaty's object and purpose.",
+    "Material breach under art. 60.",
+    "Art. 27: internal law is no excuse for non-performance."
    ],
    "a": 1,
-   "e": "Barcelona Traction: the company’s national state (incorporation or registered office), not the shareholders’ state, absent an exception."
+   "why": [
+    "Art. 26 binds parties to a treaty in force. Signature subject to ratification does not make A a party.",
+    "Correct. Signature does not establish consent to be bound, but art. 18 creates an interim good-faith obligation not to defeat the object and purpose.",
+    "Material breach is a ground for an injured party to terminate or suspend a treaty in force. It is not an argument against a signatory before ratification.",
+    "Art. 27 applies to performance of a treaty binding the state. A is not yet bound to perform."
+   ],
+   "e": "When a treaty requires ratification, signature does not establish consent to be bound and creates no obligation to ratify. It does qualify the state to ratify, and VCLT art. 18 imposes an interim good-faith obligation to refrain from acts that would defeat the treaty's object and purpose. The Day 4 notes flag this as the one way signature binds a state before ratification.",
+   "unit": 4
   },
   {
-   "q": "Which is a peremptory norm on the ILC’s non-exhaustive list?",
+   "q": "Under VCLT art. 32, when may an interpreter use the travaux préparatoires (preparatory work)?",
+   "o": [
+    "Always, as one of the primary tools alongside the text.",
+    "Only with the consent of all the parties to the treaty.",
+    "To confirm an art. 31 meaning, or to determine meaning when art. 31 leaves it ambiguous or obscure or leads to a manifestly absurd or unreasonable result.",
+    "Only for bilateral treaties, because multilateral records are unreliable."
+   ],
+   "a": 2,
+   "why": [
+    "The primary tools are in art. 31. Preparatory work is a supplementary means that sits behind a gate.",
+    "No consent requirement exists. Art. 32 sets triggers based on the result of the art. 31 analysis.",
+    "Correct. These are the art. 32 gates, plus its use to confirm a meaning already reached.",
+    "Art. 32 applies to all treaties. The unreliability of multilateral records explains why preparatory work is supplementary, not why it is excluded."
+   ],
+   "e": "Art. 31 supplies the primary tools: ordinary meaning, context, and object and purpose, applied in good faith. Art. 32 lets you use supplementary means, mainly the preparatory work and the circumstances of conclusion, to confirm an art. 31 meaning or to determine meaning where art. 31 leaves it ambiguous or obscure or produces a manifestly absurd or unreasonable result. The ICJ generally refuses to use preparatory work when the text is clear.",
+   "unit": 4
+  },
+  {
+   "q": "A treaty is shown to have been procured by the threat of force against the state in violation of the UN Charter. What is the treaty's status?",
+   "o": [
+    "Void.",
+    "Voidable, if the coerced state invokes the defect.",
+    "Valid until terminated for material breach under art. 60.",
+    "Valid but unenforceable before UN organs."
+   ],
+   "a": 0,
+   "why": [
+    "Correct. Coercion of a state (art. 52) makes the treaty void without more, and the whole treaty falls; no clauses can be severed.",
+    "Voidable grounds are internal-law incompetence, excess of authority, error, fraud, and probably corruption. Coercion of a state is void without more.",
+    "Material breach concerns breach of a valid treaty. Coercion goes to validity from the start.",
+    "That describes an unregistered treaty under Charter art. 102. Coercion produces voidness, not a registration problem."
+   ],
+   "e": "VCLT art. 52 makes a treaty procured by the threat or use of force in violation of the Charter void. Void grounds (coercion of a state, conflict with a peremptory norm, and coercion of a representative, which is without legal effect) operate without being invoked. Voidable grounds (internal law, excess of authority, error, fraud, probably corruption) require the affected state to invoke them. Under art. 44, separability is not available for coercion.",
+   "unit": 4
+  },
+  {
+   "q": "State B's dam, essential to a water-sharing treaty, was destroyed as a result of B's own violation of the treaty. B invokes supervening impossibility. What result?",
+   "o": [
+    "The treaty terminates automatically because the dam is gone.",
+    "The treaty is suspended but not terminated.",
+    "The plea converts into a fundamental change of circumstances claim under art. 62.",
+    "B cannot invoke impossibility, because the impossibility resulted from its own breach."
+   ],
+   "a": 3,
+   "why": [
+    "Supervening impossibility is not automatic. A party must invoke it, and here the invoking party caused the impossibility.",
+    "The issue is whether B can invoke impossibility at all. Its own breach bars the plea.",
+    "Art. 62 is a separate ground with its own requirements. Nothing converts one plea into the other.",
+    "Correct. Art. 61 is barred where the impossibility results from the invoking party's own breach."
+   ],
+   "e": "Supervening impossibility (VCLT art. 61) applies on the permanent disappearance or destruction of an object indispensable for executing the treaty, like a dam a water-sharing treaty depends on. It is not automatic: a party must invoke it. And it is barred where the impossibility results from the invoking party's own breach, so B cannot rely on it. The same logic appears in Gabčíkovo-Nagymaros, where Hungary could not terminate for a breach it provoked.",
+   "unit": 4
+  },
+  {
+   "q": "Two foreign ministries sign a document titled 'Memorandum of Understanding.' Its text says the parties 'shall' take specified steps and 'agree to be legally bound' under international law. Is it a treaty?",
+   "o": [
+    "No, because an MOU (memorandum of understanding) is by definition a non-binding instrument.",
+    "No, because only instruments titled 'treaty' or 'convention' qualify under VCLT art. 2(1)(a).",
+    "Yes, because it is governed by international law and its language shows an intention to create legally binding obligations.",
+    "Yes, but only after it is registered with the UN Secretariat."
+   ],
+   "a": 2,
+   "why": [
+    "The name is not conclusive. MOUs usually record non-binding understandings, but the parties' intention as shown in the language decides.",
+    "Art. 2(1)(a) applies 'whatever its particular designation.' There are no requirements of form.",
+    "Correct. The two screens are governed by international law and intention to be bound. Both are met here, and the title does not matter.",
+    "Registration under Charter art. 102 affects whether the treaty may be invoked before UN organs. It does not affect validity or treaty status."
+   ],
+   "e": "VCLT art. 2(1)(a) defines a treaty as an international agreement between states, in writing, governed by international law, 'whatever its particular designation.' The real tests are two screens: governed by international law, and intention to create legally binding obligations. An MOU is the classic non-treaty, but its name is not conclusive; an MOU written in binding language can be a treaty.",
+   "unit": 4
+  },
+  {
+   "q": "A treaty between States A and B states that State C shall pay a share of a canal's maintenance costs. C's foreign minister says orally that C agrees, and C pays for a year. Is C bound by the treaty obligation?",
+   "o": [
+    "Yes, because C's conduct shows it accepted the obligation.",
+    "Yes, because a third state's assent is presumed unless it objects.",
+    "No, because treaties can never affect third states under any circumstances.",
+    "No, because art. 35 requires that the third state expressly accept the obligation in writing, and C accepted only orally and by conduct."
+   ],
+   "a": 3,
+   "why": [
+    "Under art. 35, conduct is not enough. Acceptance of an obligation must be express and in writing.",
+    "Presumed assent applies to rights under art. 36, not to obligations.",
+    "Too broad. Art. 35 allows an obligation for a third state if the parties intend it and the third state accepts it expressly in writing.",
+    "Correct. Both art. 35 conditions must be met: the parties' intent and express written acceptance."
+   ],
+   "e": "Pacta tertiis (art. 34): a treaty creates neither obligations nor rights for a third state without its consent. For obligations, art. 35 requires both that the parties intend the provision to establish the obligation and that the third state expressly accept it in writing. Rights are looser: under art. 36, assent is presumed unless the third state indicates otherwise. C's oral statement and payments do not meet the written-acceptance requirement.",
+   "unit": 4
+  },
+  {
+   "q": "A human rights treaty has no reservations clause. State D ratifies with a reservation that would exclude the treaty's core obligation for D. Is the reservation permissible?",
+   "o": [
+    "Yes, because the treaty is silent, so any reservation is allowed.",
+    "No, because a reservation incompatible with the treaty's object and purpose is barred under art. 19(c).",
+    "Yes, as long as at least one party accepts it.",
+    "No, because reservations are prohibited for all multilateral treaties."
+   ],
+   "a": 1,
+   "why": [
+    "Silence sends you to the fallback test, which still bars reservations incompatible with the object and purpose.",
+    "Correct. When a treaty says nothing about reservations, the object-and-purpose compatibility test from Reservations to the Genocide Convention governs.",
+    "Acceptance by another party is not one of the art. 19 bars. Art. 19(c) asks whether the reservation is compatible with the treaty's object and purpose, and a reservation excluding the core obligation fails that test.",
+    "Reservations are generally allowed. The bars are the treaty's own prohibition, its list of permitted reservations, and incompatibility with object and purpose."
+   ],
+   "e": "A reservation is a unilateral statement at signature, ratification, acceptance, approval, or accession that purports to exclude or modify a provision's legal effect for the reserving state. Art. 19 bars a reservation that the treaty prohibits, that is not among the reservations the treaty permits, or that is incompatible with the object and purpose. The compatibility test comes from Reservations to the Genocide Convention (ICJ 1951). A reservation excluding the core obligation fails it.",
+   "unit": 4
+  },
+  {
+   "q": "State E violates a short procedural provision of a treaty that is essential to accomplishing the treaty's purpose. The violation was small in scale. Can State F treat this as a material breach?",
+   "o": [
+    "Yes, because material breach includes the violation of a provision essential to the object or purpose, and the importance of the provision matters, not the size of the breach.",
+    "No, because only a large-scale violation can be material.",
+    "No, because only an express repudiation of the treaty counts as material breach.",
+    "Yes, but only if E's breach was caused by F's own prior breach."
+   ],
+   "a": 0,
+   "why": [
+    "Correct. Art. 60(3)(b) focuses on the importance of the provision violated.",
+    "The size of the breach is not the test. The provision's importance to the treaty's object and purpose is.",
+    "Repudiation is one form under art. 60(3)(a). Violation of an essential provision under art. 60(3)(b) is the other.",
+    "That reverses Gabčíkovo-Nagymaros: a party that provoked the breach cannot rely on it."
+   ],
+   "e": "VCLT art. 60 lets an injured party invoke a material breach to terminate or suspend a treaty. Art. 60(3) defines material breach as (a) a repudiation not sanctioned by the VCLT, or (b) the violation of a provision essential to the accomplishment of the treaty's object or purpose. The focus is on the importance of the provision, not the size of the breach. Provisions protecting the human person in humanitarian treaties are excluded (art. 60(5)).",
+   "unit": 4
+  },
+  {
+   "q": "State G suffers a material breach of a humanitarian treaty by State H. G wants to respond by suspending the treaty's provisions protecting H's detained nationals. May it?",
+   "o": [
+    "Yes, material breach allows suspension of any provision.",
+    "Yes, but only after twelve months' notice.",
+    "No, because provisions protecting the human person in treaties of a humanitarian character cannot be suspended in response to breach.",
+    "No, because material breach can never justify suspension, only termination."
+   ],
+   "a": 2,
+   "why": [
+    "Art. 60(5) carves out provisions protecting the human person in treaties of a humanitarian character.",
+    "The twelve-month notice rule belongs to withdrawal from treaties without a withdrawal clause under art. 56. It does not unlock humanitarian protections.",
+    "Correct. Art. 60(5) excludes these provisions, so a state cannot answer a breach by dropping humanitarian protections.",
+    "Art. 60 allows an injured party to terminate or suspend. The limit here is the humanitarian carve-out."
+   ],
+   "e": "An injured party may invoke a material breach to terminate or suspend a treaty under art. 60. Art. 60(5) excludes provisions relating to the protection of the human person in treaties of a humanitarian character. So G cannot retaliate by withdrawing protections from H's detained nationals, even though H materially breached the treaty.",
+   "unit": 4
+  },
+  {
+   "q": "After a change of government, State J invokes a fundamental change of circumstances (rebus sic stantibus) to escape a treaty fixing its border with State K. What result?",
+   "o": [
+    "J may withdraw if the change was unforeseen.",
+    "J may suspend the treaty but not terminate it.",
+    "J may withdraw because a change of government always counts as fundamental.",
+    "J cannot invoke art. 62, because treaties establishing a boundary are excluded."
+   ],
+   "a": 3,
+   "why": [
+    "Unforeseen change is only one requirement, and boundary treaties are excluded from the doctrine entirely.",
+    "The exclusion for boundary treaties bars the plea altogether, not only termination.",
+    "No change automatically qualifies. In Gabčíkovo-Nagymaros, political change was rejected as a fundamental change.",
+    "Correct. Art. 62 excludes boundary treaties to avoid an obvious source of threats to the peace."
+   ],
+   "e": "Art. 62 lets a party invoke a fundamental change only if the change was unforeseen and the circumstances at conclusion were an essential basis of the parties' consent. Boundary treaties are excluded, to avoid an obvious source of threats to the peace. The plea applies only in exceptional cases: Fisheries Jurisdiction rejected new fishing techniques, and Gabčíkovo-Nagymaros rejected political, economic, and environmental changes.",
+   "unit": 4
+  },
+  {
+   "q": "State L's parliament passes a statute that makes performing a treaty obligation impossible under L's domestic law. L tells its treaty partners it is excused. Is it?",
+   "o": [
+    "Yes, because a state's constitution and statutes control its international obligations.",
+    "No, because under art. 27 a state may not invoke its internal law to justify failure to perform a treaty.",
+    "Yes, if the statute was passed before the treaty entered into force.",
+    "No, but only if the treaty was registered under Charter art. 102."
+   ],
+   "a": 1,
+   "why": [
+    "Art. 27 provides the opposite on the international plane.",
+    "Correct. A conflicting domestic law is no excuse for non-performance.",
+    "Timing of the statute does not matter under art. 27. Internal law is not a justification either way.",
+    "Registration affects invocation before UN organs, not whether internal law excuses non-performance."
+   ],
+   "e": "Pacta sunt servanda (art. 26) requires parties to perform treaties in force in good faith. Art. 27 adds that a state may not invoke its own internal law, such as its constitution or statutes, to justify failure to perform. L's new statute is no excuse on the international plane. Art. 46, which concerns a manifest violation of internal law on competence to conclude a treaty, is a separate and rarely successful invalidity ground.",
+   "unit": 4
+  },
+  {
+   "q": "An 1858 treaty grants navigation rights 'for the purposes of commerce.' A dispute arises over modern commercial tourism. How did the ICJ resolve this kind of issue in Navigational Rights?",
+   "o": [
+    "The term is frozen at its 1858 meaning under the principle of contemporaneity, so tourism is excluded.",
+    "The term covers tourism, because parties using generic terms in a treaty of continuing duration are presumed to intend an evolving meaning.",
+    "The term is ambiguous, so the Court must rely only on the travaux préparatoires.",
+    "The term covers tourism only if both parties' legislatures approve."
+   ],
+   "a": 1,
+   "why": [
+    "Contemporaneity is the general rule, but the Court applied an evolutive exception for generic terms in a treaty of continuing duration.",
+    "Correct. This is the evolutive exception from Navigational Rights.",
+    "Art. 32 means are supplementary. The Court resolved the meaning through the evolutive reading of the text.",
+    "Domestic approval plays no role in interpretation under art. 31."
+   ],
+   "e": "Ordinary meaning is generally the meaning at the time of negotiation (contemporaneity), which matters because many treaties are old. In Navigational Rights, the ICJ held that where parties use generic terms, knowing their meaning is likely to evolve, in a treaty of continuing duration, they are presumed to have intended an evolving meaning. 'For the purposes of commerce' in the 1858 treaty therefore covered modern commercial tourism. Brownlie's notes the tension with contemporaneity.",
+   "unit": 4
+  },
+  {
+   "q": "In the Class 5 deep seabed exercise, UNCLOS Annex III art. 5 required mandatory technology transfer, while the 1994 Implementing Agreement said Annex III art. 5 'shall not apply.' Which text controls, and why?",
+   "o": [
+    "Annex III art. 5, because the original treaty always prevails over later agreements.",
+    "Neither, because conflicting provisions cancel each other out.",
+    "The Implementing Agreement, because art. 2(1) makes it and Part XI a single instrument and says the Agreement prevails in case of inconsistency.",
+    "Annex III art. 5, because a modification inter se is never allowed under UNCLOS art. 311(3)."
+   ],
+   "a": 2,
+   "why": [
+    "The Implementing Agreement contains a priority clause, and the later-in-time rule and context point the other way.",
+    "Conflicting texts are resolved through context, including the instruments' own relationship and priority clauses.",
+    "Correct. The priority clause and the treaties' modification provisions point to the Implementing Agreement controlling, leaving a duty to cooperate in promoting transfer.",
+    "Art. 311(3) limits inter se modifications that undermine effective execution of the object and purpose. It does not displace a priority clause adopted to rewrite Part XI."
+   ],
+   "e": "When on-point texts contradict, context resolves the conflict: look at related agreements and the instruments' own amendment and priority clauses. Implementing Agreement art. 2(1) says the Agreement and Part XI are interpreted and applied together as a single instrument and the Agreement prevails over any inconsistency. So Annex III art. 5's mandatory transfer no longer applies; what remains is UNCLOS art. 144's duty to cooperate in promoting transfer plus the Agreement's open-market and cooperation scheme.",
+   "unit": 4
+  },
+  {
+   "q": "A treaty contains no clause on termination or withdrawal. State M wants to denounce it. Under VCLT art. 56, what must M show?",
+   "o": [
+    "Nothing; any state may withdraw from any treaty at will.",
+    "That the parties intended to allow withdrawal or that a right of withdrawal is implied by the treaty's nature, and M must give at least twelve months' notice.",
+    "That another party committed a material breach.",
+    "That the treaty is a treaty of peace."
+   ],
+   "a": 1,
+   "why": [
+    "The baseline is that states cannot unilaterally withdraw. Art. 56 presumes against withdrawal from a silent treaty.",
+    "Correct. These are the two art. 56 routes plus the notice requirement.",
+    "Material breach is a separate termination ground under art. 60, not the test for denouncing a silent treaty.",
+    "Treaties of peace are the clearest case where unilateral denunciation is not available."
+   ],
+   "e": "States cannot unilaterally withdraw from a treaty, though they can withdraw under the treaty's own terms or with all parties' consent (art. 54). For a treaty silent on termination, art. 56 presumes against withdrawal unless the parties intended to allow it or a right of withdrawal is implied by the nature of the treaty, and at least twelve months' notice is required. Treaties of peace are not open to unilateral denunciation.",
+   "unit": 4
+  },
+  {
+   "q": "Which of the following is NOT a requirement for a state to qualify as a persistent objector?",
+   "o": [
+    "The objection was made while the rule was forming.",
+    "The objection was formally registered with the UN Secretariat.",
+    "The objection was made known to other states.",
+    "The objection was maintained persistently."
+   ],
+   "a": 1,
+   "why": [
+    "Timeliness is required: a state cannot object after the rule is established.",
+    "Correct. No registration requirement exists. Registration under Charter art. 102 concerns treaties.",
+    "This is required: other states must know of the objection, so a private or unannounced objection does not count.",
+    "This is required: once the state stops objecting, it loses the exemption."
+   ],
+   "e": "A persistent objector is not bound by a CIL rule for as long as it keeps objecting (ILC Concl. 15). All four requirements must be met: the objection must come during formation, be clearly articulated, be made known to other states, and be maintained persistently. The case is stronger when other states acquiesce. The doctrine does not work against peremptory norms.",
+   "unit": 5
+  },
+  {
+   "q": "In North Sea Continental Shelf, why had the equidistance rule in art. 6 of the 1958 Convention not passed into CIL after the Convention entered into force?",
+   "o": [
+    "Germany had persistently objected to it during its formation.",
+    "It conflicted with a peremptory norm.",
+    "Too few states had ratified, ratifications were not widespread and representative, and too little time had passed.",
+    "The ICJ lacked jurisdiction to decide the question."
+   ],
+   "a": 2,
+   "why": [
+    "The case did not turn on persistent objection. Germany was not a party, and the Court found no custom had formed.",
+    "No peremptory norm was involved. The Court tested whether a customary rule existed.",
+    "Correct. The Court found the post-Convention practice inadequate on each count.",
+    "The Court decided the merits of the custom question, rejecting every route from treaty to custom."
+   ],
+   "e": "The Court tested each route by which art. 6 might bind Germany as custom. On passage into custom after entry into force, it found too few ratifications, not widespread and representative, and too little time, especially measured to when litigation began. No minimum duration is required, but practice must be extensive and virtually uniform, including specially affected states, and show recognition of a legal obligation. Separate reasons defeated codification, norm-creation, and independent practice.",
+   "unit": 5
+  },
+  {
+   "q": "For decades, states have fired ceremonial salutes when foreign warships visit. No state has ever said it does so because the law requires it. Is the salute a rule of CIL?",
+   "o": [
+    "No. It is a usage: the practice element exists, but there is no opinio juris.",
+    "Yes. Long, uniform practice is enough to create custom.",
+    "Yes, because comity automatically becomes custom after a fixed period.",
+    "No, because ceremonial matters can only be governed by treaty."
+   ],
+   "a": 0,
+   "why": [
+    "Correct. A usage is something states do because they want to, without a sense of legal obligation.",
+    "Practice alone is not enough. Repeated conduct does not prove opinio juris because courtesy and tradition also produce habitual conduct.",
+    "Comity can ripen into custom only once states come to accept it as legally required. No fixed period triggers this.",
+    "Nothing in the sources limits ceremonial matters to treaties. The problem is the missing opinio juris."
+   ],
+   "e": "CIL requires both state practice and opinio juris, each assessed separately (ILC Concls. 2–3). A usage, such as a ceremonial salute or a diplomatic parking courtesy, is something states do because they want to, with no sense of legal obligation. It has the practice element but lacks opinio juris, so it is not custom. Consistent comity can ripen into custom only once states accept it as legally required.",
+   "unit": 5
+  },
+  {
+   "q": "A customary rule has been firmly established for twenty years. State N, which never objected before, now announces that it rejects the rule. Is N bound?",
+   "o": [
+    "No, because a clear objection exempts any state from a customary rule.",
+    "No, if other states acquiesce in N's objection.",
+    "Yes, because the persistent objector exemption requires objection during formation, before the rule became established.",
+    "Yes, but only if the rule is also a peremptory norm."
+   ],
+   "a": 2,
+   "why": [
+    "An objection exempts a state only if it was made during the rule's formation.",
+    "Acquiescence strengthens a timely objection. It cannot revive an objection made after the rule is established.",
+    "Correct. A state cannot object after the rule is already established.",
+    "N is bound by an ordinary customary rule too. The peremptory norm point is a separate limit on the doctrine."
+   ],
+   "e": "The persistent objector doctrine protects state consent by letting a state avoid a rule it never accepted. It requires an objection made during the rule's formation, clearly articulated, made known to other states, and maintained over time. N's objection came after the rule was established, so it is untimely and N is bound.",
+   "unit": 5
+  },
+  {
+   "q": "Three neighboring states have for generations followed a rule on shared pearl fisheries, and each treats it as legally required. Distant states have no such practice. What is the legal status of the rule?",
+   "o": [
+    "It cannot be custom, because the practice is not followed by states worldwide.",
+    "It is particular (local) CIL binding those three states, because there is a general practice accepted as law among them.",
+    "It binds all states as general custom, because the three states accept it as law.",
+    "It is an example of persistent objection by the distant states."
+   ],
+   "a": 1,
+   "why": [
+    "Particular custom measures 'general practice' within the relevant group, not the whole world.",
+    "Correct. ILC Concl. 16 recognizes custom binding only a subset of states, usually in a shared geography, like the Gulf of Mannar pearl fisheries.",
+    "Acceptance by a small group creates a rule only among that group. It does not bind states that do not participate.",
+    "Persistent objection is one state opting out of a general rule. Particular custom is a group opting into a rule that does not bind everyone."
+   ],
+   "e": "Particular CIL is a customary rule binding only a subset of states, usually in a shared geography (ILC Concl. 16). Both elements still apply but are measured within the group: there must be a general practice accepted as law among those states themselves. The slides' example is the pearl fisheries rules binding the states around the Gulf of Mannar, now India and Sri Lanka.",
+   "unit": 5
+  },
+  {
+   "q": "Forty states from every region, including those specially affected, have consistently followed a practice for three years, and many have issued official statements that they act from legal obligation. A state argues three years is too short. Who is right?",
+   "o": [
+    "The objecting state, because custom requires at least a decade of practice.",
+    "The objecting state, because the practice must be followed by every state.",
+    "Neither, because only treaties can create rules in under ten years.",
+    "The other states: no particular duration is required if the practice is sufficiently widespread, representative, and consistent and accompanied by opinio juris."
+   ],
+   "a": 3,
+   "why": [
+    "No fixed duration is required. A longer practice helps, but it is not a minimum.",
+    "Practice must be widespread, representative, and consistent, not universal.",
+    "No source sets a ten-year rule for custom or limits fast law-making to treaties.",
+    "Correct. ILC Concl. 8 sets the widespread, representative, consistent standard, with no fixed duration."
+   ],
+   "e": "State practice must be the practice of states, substantially consistent, and, under ILC Concl. 8, sufficiently widespread, representative (including specially affected states), and consistent. No particular duration is required, though a longer practice strengthens the case. Opinio juris is assessed separately; official statements of legal obligation are written evidence of it. On these facts both elements can be met despite the short time.",
+   "unit": 5
+  },
+  {
+   "q": "State P never said anything about an emerging customary rule. Can its silence count as acceptance of the rule?",
+   "o": [
+    "Yes, silence always counts as acceptance.",
+    "No, silence can never be evidence of opinio juris.",
+    "Only if P was in a position to react and the circumstances called for a reaction.",
+    "Only if a scholar or NGO documented P's silence."
+   ],
+   "a": 2,
+   "why": [
+    "Silence is ambiguous: it may show acceptance or just lack of interest.",
+    "Silence can count in the right circumstances, so an absolute bar is wrong.",
+    "Correct. These are the two conditions for treating a failure to react over time as acceptance.",
+    "Only states' views count as opinio juris; documentation by other actors does not supply the conditions."
+   ],
+   "e": "A state's failure to react over time can show acceptance only if (1) the state was in a position to react and (2) the circumstances called for a reaction. Brownlie's notes silence is otherwise ambiguous: it may mean acceptance or only lack of interest. Opinio juris generally requires written evidence of the state's own legal view.",
+   "unit": 5
+  },
+  {
+   "q": "State Q is not a party to a treaty, but it is bound by a customary rule with identical content. Q wants to use the treaty's dispute-settlement mechanism against a treaty party. May it?",
+   "o": [
+    "Yes, because identical treaty and custom obligations merge into one rule.",
+    "No, because a non-party bound by the parallel custom does not gain the treaty's rights, such as its dispute-settlement mechanism.",
+    "Yes, because the customary rule codified the treaty.",
+    "No, because custom can never overlap with a treaty."
+   ],
+   "a": 1,
+   "why": [
+    "Treaty and custom keep separate identities even when their content matches.",
+    "Correct. The two obligations are independently binding, and treaty benefits stay with treaty parties.",
+    "Codification runs from custom into a treaty. Either way, the non-party does not acquire treaty rights.",
+    "Custom and treaties often overlap: a treaty can codify, crystallize, or generate custom."
+   ],
+   "e": "Treaties and custom keep separate identities even when their content matches: each is independently binding and each helps interpret the other. A non-party bound by the parallel custom does not gain the treaty's rights, such as its dispute-settlement mechanism (Brownlie's). The Climate AO adds that non-parties remain bound by customary duties independently of treaty membership.",
+   "unit": 5
+  },
+  {
+   "q": "State C shows that its rule against conduct X is followed by many states out of a sense of legal obligation. What else must it prove to show the rule is peremptory?",
+   "o": [
+    "Nothing more; proving custom proves peremptory status.",
+    "Unanimous acceptance by every state of its non-derogable character.",
+    "Separate evidence that a very large and representative majority of states accepts the rule as non-derogable.",
+    "An ICJ judgment declaring the rule peremptory."
+   ],
+   "a": 2,
+   "why": [
+    "ILC Concl. 6 says acceptance of non-derogability is separate from acceptance as general law. Proving custom proves only the first criterion.",
+    "Concl. 7 requires a very large and representative majority, not all states.",
+    "Correct. This combines Concl. 6 (separate acceptance of non-derogability) and Concl. 7 (very large and representative majority).",
+    "ICJ decisions are subsidiary means under Concl. 9. They help find acceptance but are not required and are not acceptance themselves."
+   ],
+   "e": "Concl. 4 requires two things: the norm is one of general international law (usually CIL), and the international community of states accepts it as non-derogable and changeable only by a later peremptory norm. Concl. 6 says the second criterion needs separate evidence; proving custom is not enough. Concl. 7 says acceptance by a very large and representative majority of states suffices.",
+   "unit": 6
+  },
+  {
+   "q": "Which of the following appears on the ILC's non-exhaustive list of peremptory norms?",
    "o": [
     "Diplomatic immunity",
     "Freedom of the high seas",
-    "Prohibition of torture",
-    "Pacta sunt servanda"
+    "Pacta sunt servanda",
+    "Prohibition of torture"
+   ],
+   "a": 3,
+   "why": [
+    "Not on the ILC list. Peremptory norms do not even displace immunity on their own (Arrest Warrant).",
+    "Not on the list. The sources treat it as a general principle of international law that states can derogate from, such as by a stop-and-search agreement.",
+    "Not on the ILC list. It is a grundnorm of treaty law rooted in natural law, but the ILC did not list it as a peremptory norm.",
+    "Correct. Torture is one of the eight norms on the ILC's list."
+   ],
+   "e": "The ILC Annex lists, non-exhaustively (Concl. 23): the prohibitions of aggression, genocide, crimes against humanity, racial discrimination and apartheid, slavery, and torture; the basic rules of international humanitarian law; and the right of self-determination. The outline says to list these on the exam when defining a peremptory norm.",
+   "unit": 6
+  },
+  {
+   "q": "Two states conclude a treaty that, at the time of conclusion, conflicts with the prohibition of genocide. One article of the treaty, on customs duties, is unrelated. What happens?",
+   "o": [
+    "The whole treaty is void, with no severance of the unrelated article.",
+    "Only the genocide-related provisions are void; the customs article survives.",
+    "The treaty is voidable if one party invokes the conflict.",
+    "The treaty stays valid between the parties because they consented."
+   ],
+   "a": 0,
+   "why": [
+    "Correct. Under VCLT art. 53 and Concls. 10(1) and 11(1), a treaty conflicting with a peremptory norm at conclusion is void in whole.",
+    "Severance is available only under art. 64 for a new norm. A conflict at conclusion voids the whole treaty.",
+    "Conflict with a peremptory norm makes a treaty void without being invoked.",
+    "Consent cannot derogate from a peremptory norm, which is why the treaty creates no obligation."
+   ],
+   "e": "VCLT art. 53 makes a treaty void if, when concluded, it conflicts with a peremptory norm. Under ILC Concls. 10(1) and 11(1), it is void in whole and no provisions can be separated out and saved. The parties must eliminate, as far as possible, the consequences of acts done in reliance on the conflicting provision (Concl. 12(1)). Compare art. 64, where a later norm terminates a treaty and severance is possible.",
+   "unit": 6
+  },
+  {
+   "q": "A new peremptory norm emerges that conflicts with one provision of an existing treaty. The provision is separable in application and was not an essential basis of consent, and performing the rest would not be unjust. What happens?",
+   "o": [
+    "The entire treaty is void from the start.",
+    "Nothing, because peremptory norms cannot affect treaties concluded before they emerged.",
+    "The conflicting provision becomes void and terminates, and the rest of the treaty can continue.",
+    "The treaty becomes voidable at the option of either party."
    ],
    "a": 2,
-   "e": "ILC list: aggression, genocide, crimes against humanity, basic IHL, racial discrimination and apartheid, slavery, torture, self-determination."
+   "why": [
+    "Art. 64 has no retroactive effect, and severance is possible under Concl. 11(2).",
+    "Art. 64 provides that an existing treaty conflicting with a new peremptory norm becomes void and terminates.",
+    "Correct. Under art. 64 and Concl. 11(2), the conflicting provision can be separated when all three conditions are met.",
+    "Conflict with a peremptory norm is a void ground, not a voidable one."
+   ],
+   "e": "Under VCLT art. 64 and Concl. 10(2), a treaty that conflicts with a newly emerged peremptory norm becomes void and terminates, releasing the parties from further performance. The conflicting provisions can be separated if (a) they are separable in application, (b) they were not an essential basis of consent, and (c) continued performance of the rest would not be unjust (Concl. 11(2)). Rights created before termination survive only if maintaining them does not conflict with the new norm.",
+   "unit": 6
   },
   {
-   "q": "An exam packet includes the Draft Articles on State Responsibility. Your rule statement should:",
+   "q": "State R has objected clearly and consistently, since the rule began forming, to the prohibition of slavery. Is R bound by it?",
    "o": [
-    "Run the VCLT interpretation rundown",
-    "Define CIL and state that the provisions reflect CIL",
-    "Say it’s binding under art. 38(1)(a)",
-    "Ignore it as non-binding"
+    "No, because R meets every requirement for persistent objection.",
+    "Yes, because the persistent objector rule does not apply to peremptory norms, which bind regardless of consent.",
+    "No, if R files a reservation to the slavery treaty.",
+    "Yes, but only if R voted for a GA resolution against slavery."
    ],
    "a": 1,
-   "e": "An ILC product isn’t an in-force treaty. Define CIL up front and treat the provisions as reflecting CIL."
+   "why": [
+    "The persistent objector rule does not apply to peremptory norms, and the prohibition of slavery is on the ILC list.",
+    "Correct. Concl. 14(3) excludes persistent objection for peremptory norms.",
+    "Concl. 13: a reservation cannot affect the binding nature of a peremptory norm.",
+    "R's vote is irrelevant. Peremptory norms bind all states regardless of consent."
+   ],
+   "e": "Custom requires consent, and persistent objection can make a customary rule inapplicable to the objecting state. A peremptory norm binds regardless of consent, so the persistent objector rule does not apply to it (Concl. 14(3)). The prohibition of slavery is on the ILC list. The 'super custom' view raises the question whether a state could 'super oppose' a peremptory norm, which conflicts with this rule.",
+   "unit": 6
   },
   {
-   "q": "Nuclear Weapons AO: how did the Court treat ICCPR art. 6 in wartime?",
+   "q": "State S commits acts of torture and claims they were justified by necessity during a national emergency. Can necessity preclude wrongfulness?",
    "o": [
-    "Suspended entirely",
-    "Applies, but arbitrariness is judged by the lex specialis, the law of armed conflict",
-    "Displaces the law of armed conflict",
-    "Applies only to civilians"
+    "Yes, if the emergency was grave and imminent.",
+    "Yes, but only if the injured state consents.",
+    "Only if S is a persistent objector to the torture prohibition.",
+    "No. No circumstance precluding wrongfulness may be invoked for conduct breaching a peremptory norm."
    ],
-   "a": 1,
-   "e": "The right to life doesn’t cease in war; what counts as arbitrary is measured through LOAC."
+   "a": 3,
+   "why": [
+    "Concl. 18 bars any circumstance precluding wrongfulness for breach of a peremptory norm, however grave the emergency.",
+    "Neither consent nor acquiescence can derogate from a peremptory norm.",
+    "The persistent objector rule does not apply to peremptory norms.",
+    "Correct. Concl. 18 removes the usual state responsibility defenses, such as necessity or self-defense."
+   ],
+   "e": "Torture is on the ILC list of peremptory norms. Under ILC Concl. 18, no circumstance precluding wrongfulness (for example, necessity or self-defense) may be invoked for conduct that breaches a peremptory norm. The Wall opinion applied the same idea when it rejected Israel's self-defense and necessity arguments.",
+   "unit": 6
   },
   {
-   "q": "Which condition applies to an IO’s legal personality?",
+   "q": "A state commits a serious (gross or systematic) breach of a peremptory norm. Under ILC Concl. 19 and ARSIWA (Articles on Responsibility of States for Internationally Wrongful Acts) art. 41, which duties fall on all other states?",
    "o": [
-    "It exists automatically for any IO",
-    "Read the establishing treaty; ask permanence, organs, distinct powers, general existence",
-    "Only UN specialized agencies have it",
-    "It requires Security Council recognition"
+    "Cooperate to end the breach through lawful means, not recognize the resulting situation as lawful, and not aid or assist in maintaining it.",
+    "Each state must individually use force to end the breach.",
+    "Recognize the new situation once it becomes effective, to restore stability.",
+    "Only the injured state has any duties or rights; other states must stay neutral."
+   ],
+   "a": 0,
+   "why": [
+    "Correct. These are the three third-state duties for a serious breach.",
+    "The duty is to cooperate through lawful means. Crawford calls these residual obligations with no strenuous individual duty to act.",
+    "The duty is the opposite: non-recognition of the situation as lawful.",
+    "Peremptory norms create erga omnes obligations, so all states have a legal interest and specific duties after a serious breach."
+   ],
+   "e": "For a serious breach of a peremptory norm, every state must cooperate to bring it to an end through lawful means, must not recognize the resulting situation as lawful, and must not render aid or assistance in maintaining it (Concl. 19, mirroring ARSIWA art. 41). Crawford says the customary core is collective non-recognition, traced to the Stimson doctrine. Because the obligations are erga omnes, any state may invoke responsibility.",
+   "unit": 6
+  },
+  {
+   "q": "State T sues State U at the ICJ for genocide. U has never consented to the Court's jurisdiction by any route. T argues that because genocide is a peremptory norm, the Court has jurisdiction anyway. What result?",
+   "o": [
+    "The Court has jurisdiction, because peremptory norms bind regardless of consent.",
+    "The Court has jurisdiction if the Security Council recommends it.",
+    "The Court lacks jurisdiction, because a dispute about a peremptory norm cannot of itself provide a basis for jurisdiction.",
+    "The Court lacks jurisdiction because genocide is not on the ILC list."
+   ],
+   "a": 2,
+   "why": [
+    "Peremptory norms bind regardless of consent, but jurisdiction is a separate question that still rests on consent.",
+    "An SC recommendation is not compulsory (Corfu Channel), and it would not supply U's consent.",
+    "Correct. Armed Activities (DRC v. Rwanda) held exactly this.",
+    "Genocide is on the ILC list. The problem is the absence of consent."
+   ],
+   "e": "A peremptory norm does not create jurisdiction, which always rests on consent. In Armed Activities (DRC v. Rwanda), the ICJ said a dispute about a peremptory norm (genocide) 'cannot of itself provide a basis for the jurisdiction of the Court.' Similarly, Arrest Warrant found no CIL exception to an incumbent foreign minister's immunity for alleged war crimes or crimes against humanity.",
+   "unit": 6
+  },
+  {
+   "q": "An entity has a permanent population, a defined territory, and a weak but stable government, yet few states recognize it. Under the prevailing view, what is its status?",
+   "o": [
+    "It cannot be a state until other states recognize it.",
+    "Membership in international organizations decides whether it is a state.",
+    "It is a state only for treaty purposes.",
+    "Statehood exists once the criteria are met, and recognition only confirms it (declaratory view)."
+   ],
+   "a": 3,
+   "why": [
+    "That is the constitutive view, which leaves unanswered what to do with acts before recognition. It is not the prevailing view.",
+    "Statehood cannot necessarily be implied from IO membership, though UN admission is evidence of it.",
+    "No source recognizes partial statehood for treaty purposes.",
+    "Correct. The declaratory view prevails and is 'the one to know.' A government need not be particularly effective."
+   ],
+   "e": "Under the declaratory view, statehood arises by operation of law once the criteria are met, and recognition affirms it, so acts before recognition are state acts. The constitutive view says there is no statehood until recognition. The Montevideo government criterion requires only some stable political community, not an effective government. Recognition by other states remains the best practical metric of statehood.",
+   "unit": 7
+  },
+  {
+   "q": "Under the course test, which approach determines whether an international organization has international legal personality?",
+   "o": [
+    "Personality exists automatically for any IO.",
+    "Only UN specialized agencies have personality.",
+    "Read the establishing treaty, then ask: permanent association of states, executive organs, distinct legal powers, and powers that exist generally.",
+    "Personality requires Security Council recognition."
+   ],
+   "a": 2,
+   "why": [
+    "IOs do not have personality automatically. You start with the founding treaty and apply the four questions.",
+    "The test is functional, not limited to specialized agencies. ECOWAS, for example, passes it.",
+    "Correct. These are the four criteria, applied after reading the establishing treaty.",
+    "No SC recognition step exists. In Reparation for Injuries, the ICJ inferred the UN's personality from its Charter."
+   ],
+   "e": "IO personality is not automatic. Start with the text of the establishing treaty, then ask whether the IO is a permanent association of entities with personality (usually states), has executive organs, has legal powers distinct from its members, and has powers that exist generally. Reparation for Injuries (ICJ 1949) inferred the UN's capacity to bring claims from the Charter as a whole because personality was indispensable to its tasks.",
+   "unit": 7
+  },
+  {
+   "q": "An entity seeking statehood has an active border dispute with a neighbor, so its frontiers are not fully settled. Does it fail the Montevideo 'defined territory' criterion?",
+   "o": [
+    "No. Defined territory requires some definite geographic extent, and frontiers need not be fully settled.",
+    "Yes. All borders must be agreed by every neighboring state.",
+    "Yes, unless its territory exceeds a minimum size.",
+    "No, because territory is not one of the Montevideo criteria."
+   ],
+   "a": 0,
+   "why": [
+    "Correct. Albania was recognized in 1913 without settled frontiers, and Israel was admitted to the UN in 1949 despite border disputes.",
+    "The criterion has a low threshold: you draw some line, but not everyone has to agree on it.",
+    "There is no lower limit on size; microstates like Liechtenstein and Monaco were admitted to the UN.",
+    "Defined territory is one of the four criteria in art. I."
+   ],
+   "e": "Montevideo art. I lists a permanent population, a defined territory, a government, and capacity to enter into relations with other states. Each has a low threshold. Defined territory requires some definite geographic extent, but frontiers need not be fully defined: Albania (1913) and Israel (1949) are the examples. There is also no minimum size.",
+   "unit": 7
+  },
+  {
+   "q": "After 1945, Germany was under Allied occupation, and Morocco was under a French protectorate. How do the sources treat their statehood?",
+   "o": [
+    "Both ceased to be states because foreign control defeats independence.",
+    "Both remained states, because control under a legal title (occupation, treaty of protection) leaves statehood intact, and there is a strong presumption against loss of status.",
+    "Germany remained a state, but Morocco did not.",
+    "Their status depended on whether the UN admitted them."
    ],
    "a": 1,
-   "e": "IO personality isn’t automatic. Reparation for Injuries recognized the UN’s capacity to bring claims."
+   "why": [
+    "Only foreign control that systematically and continuously overbears the entity's decisions defeats independence, and control under a legal title leaves statehood intact.",
+    "Correct. Germany remained a state under Allied occupation, and US Nationals in Morocco held Morocco remained sovereign under the protectorate.",
+    "US Nationals in Morocco held Morocco 'remained a sovereign State' under the French protectorate.",
+    "UN admission is evidence of statehood but not the test applied in these examples."
+   ],
+   "e": "The course uses a minimal conception of independence, part of the government criterion: a state can be substantially under foreign control in fact and remain a state. Crawford calls independence 'the decisive criterion' but says only systematic, continuous control over a wide range of decisions defeats it. Control under a legal title, such as a treaty of protection or lawful occupation, leaves statehood intact, and there is a strong presumption against loss of status.",
+   "unit": 7
+  },
+  {
+   "q": "State V attends a multilateral conference with Entity W and joins the same multilateral treaty W has joined, but has no bilateral dealings with W. Has V impliedly recognized W as a state?",
+   "o": [
+    "Yes, joining the same multilateral treaty is implied recognition.",
+    "Yes, attending a joint conference is implied recognition.",
+    "No, because recognition must always be express.",
+    "No, because implied recognition arises only from acts such as a bilateral treaty, formal diplomatic relations, and probably consular exequaturs."
+   ],
+   "a": 3,
+   "why": [
+    "Recognition is not implied from a shared multilateral treaty.",
+    "Recognition is not implied from a joint conference or negotiations.",
+    "Recognition can be implied, but only from specific acts such as a bilateral treaty or formal diplomatic relations.",
+    "Correct. A shared multilateral treaty and a joint conference do not imply recognition."
+   ],
+   "e": "Recognition turns on intent and may be implied, but only from a bilateral treaty, formal diplomatic relations, and probably consular exequaturs. It is not implied from negotiations, unofficial representation, a shared multilateral treaty, or a joint conference. The indicia of recognition are formal diplomatic relations, official communications, and a pattern of practice treating the entity as a state.",
+   "unit": 7
+  },
+  {
+   "q": "A revolutionary regime takes secure control of all of State X's territory. Several states refuse to recognize it because it came to power irregularly. Later the regime grants concessions. Do the concessions bind State X?",
+   "o": [
+    "No, because non-recognition by other states means the regime never represented X.",
+    "Yes, because the international standard for a government is secure de facto control of all or most of the territory (Tinoco Concessions).",
+    "No, because only a de jure recognized government can bind a state.",
+    "Yes, but only if the UN General Assembly accredits the regime."
+   ],
+   "a": 1,
+   "why": [
+    "Tinoco held non-recognition based on illegitimacy or irregular origin loses evidential weight against effective control.",
+    "Correct. Costa Rica's Tinoco regime bound the state despite British and US non-recognition.",
+    "Tinoco's standard is effective control. De jure recognition is not required to bind the state.",
+    "GA accreditation is not part of the Tinoco standard."
+   ],
+   "e": "In Tinoco Concessions, arbitrator Taft held that Costa Rica's Tinoco regime bound the state despite British and US non-recognition. Non-recognition based on illegitimacy or irregular origin, instead of lack of control, loses evidential weight. The international standard for a government is secure de facto control of all or most of the state's territory.",
+   "unit": 7
+  },
+  {
+   "q": "Which feature of the Arctic Council caused it to fail the IO legal personality test discussed in class?",
+   "o": [
+    "It was not created by states.",
+    "It has fewer than ten members.",
+    "It has no organ with decision-making power, and its secretariat and working groups only support the states, which implement all decisions.",
+    "It has a court whose decisions bind its members."
+   ],
+   "a": 2,
+   "why": [
+    "It was set up by eight states through the Ottawa Declaration. The failure lies elsewhere.",
+    "Membership size is not one of the four criteria.",
+    "Correct. It fails the executive-organ and distinct-legal-powers criteria.",
+    "That describes ECOWAS, which passes the test. The Arctic Council has no such court."
+   ],
+   "e": "The four IO criteria are permanent association of states, executive organs, distinct legal powers, and powers that exist generally. The Arctic Council, set up by the Ottawa Declaration among 8 states, has no organ with decision-making power; its secretariat and working groups only support the states, which implement all decisions, and it has no treaty-making authority. ECOWAS, with a Commission, Parliament, and Court whose decisions bind independently, meets all four.",
+   "unit": 7
+  },
+  {
+   "q": "The US long recognized Venezuela as a state but did not recognize the Maduro government. What does this show?",
+   "o": [
+    "Venezuela lost its statehood while its government was unrecognized.",
+    "State recognition and government recognition are separate acts: one concerns the existence of the actor, the other the legitimacy of its administering mechanism.",
+    "Venezuela became a de facto state.",
+    "Non-recognition of a government is prohibited under IL."
+   ],
+   "a": 1,
+   "why": [
+    "A state does not lose its status because its government is unrecognized; the state is the legal person.",
+    "Correct. This is the distinction the slides draw using Venezuela.",
+    "'There is no such thing as a de facto state.' The de jure/de facto distinction exists only for governments.",
+    "States may decline to recognize governments; some, under the Estrada doctrine, no longer formally recognize governments at all."
+   ],
+   "e": "Recognizing a state acknowledges that an actor exists in IL; recognizing a government acknowledges that a particular internal mechanism legitimately administers it. The state is the legal person and does not lose its status because its government is unrecognized. Governments can be recognized de jure (formally) or de facto (worked with, without formal recognition), but there is no de facto state.",
+   "unit": 7
+  },
+  {
+   "q": "Liechtenstein naturalized a German national who had lived and done business in Guatemala for decades and had only briefly visited Liechtenstein. Guatemala later seized his property. Why may Guatemala refuse Liechtenstein's claim?",
+   "o": [
+    "Naturalization is never valid under international law.",
+    "Jus soli controls, so only Guatemala could protect him.",
+    "There was no genuine link between him and Liechtenstein, so Guatemala need not recognize the nationality for diplomatic protection.",
+    "Individuals are direct subjects of IL and must bring their own claims."
+   ],
+   "a": 2,
+   "why": [
+    "Each state may naturalize consenting individuals under its own law. The issue is whether other states must recognize the nationality.",
+    "Nottebohm did not apply a jus soli rule. It asked whether Liechtenstein had a genuine link to him.",
+    "Correct. This is the Nottebohm rule; the claim was inadmissible.",
+    "Individuals are not direct subjects; they rely on their state of nationality to espouse claims."
+   ],
+   "e": "In Nottebohm (ICJ 1955), the Court held that each state sets its own nationality rules, but whether it may exercise diplomatic protection is decided by IL. Nationality must reflect a genuine connection of existence, interests, and sentiments. Nottebohm's ties ran to Germany and Guatemala, his Liechtenstein ties were 'extremely tenuous,' and the purpose was to swap a belligerent nationality for a neutral one, so Guatemala need not recognize it.",
+   "unit": 8
+  },
+  {
+   "q": "A Canadian-incorporated company headquartered in Toronto, 88% owned by Belgian shareholders, is driven out of business by Spain. Which state may espouse the company's claim?",
+   "o": [
+    "Canada, as the state of incorporation.",
+    "Belgium, because Belgians hold a preponderance of the shares.",
+    "Both Canada and Belgium, jointly.",
+    "Neither; the company must sue Spain directly before the ICJ."
+   ],
+   "a": 0,
+   "why": [
+    "Correct. Under Barcelona Traction, only the company's national state (incorporation or registered office) may claim for injury to the company.",
+    "Corporate nationality is generally not the shareholders' state, even with a large majority of shares. The Court held Belgium had no jus standi.",
+    "The Court rejected competing claims as creating 'an atmosphere of confusion and insecurity.' Only one entity's rights were infringed.",
+    "Only states may be parties in ICJ contentious cases, and corporations usually rely on their state to espouse claims."
+   ],
+   "e": "A corporation's nationality is its state of incorporation or its registered office (siège social). In Barcelona Traction (ICJ 1970), 'the national State of the company alone' could claim for injury to the company. Belgium, the shareholders' state, had no standing, because a wrong to the company harms shareholders' interests but not their rights. Canada's decision to stop pressing the claim did not pass the right to Belgium.",
+   "unit": 8
+  },
+  {
+   "q": "Same company: Spain passes a measure confiscating dividends already declared to the Belgian shareholders. Can Belgium now bring a claim?",
+   "o": [
+    "No, because only the company's state may ever claim.",
+    "No, because Belgium must first show a genuine link like Nottebohm.",
+    "Yes, because confiscating declared dividends targets the shareholders' direct rights, which their own state may protect.",
+    "Yes, because any harm to a company also harms its shareholders' rights."
+   ],
+   "a": 2,
+   "why": [
+    "That rule covers injury to the company. Acts aimed at shareholders' own direct rights are an exception.",
+    "Barcelona Traction drew no analogy to Nottebohm, and the issue here is whose rights were infringed.",
+    "Correct. Rights to declared dividends, to vote at general meetings, and to residual assets on liquidation belong to shareholders.",
+    "Barcelona Traction says harm to the company affects shareholders' interests, not their rights. Only acts aimed at their direct rights qualify."
+   ],
+   "e": "Barcelona Traction separates injury to the company, which only the company's state may claim, from acts aimed at shareholders' direct rights, which the shareholders' state may claim. Direct rights include declared dividends, attending and voting at general meetings, and a share of residual assets on liquidation. Other exceptions include ILC Articles on Diplomatic Protection art. 11 and treaties providing otherwise.",
+   "unit": 8
+  },
+  {
+   "q": "Which body rejected a strict genuine-link requirement for an individual's nationality, limiting Nottebohm to its facts?",
+   "o": [
+    "The American Law Institute in Restatement (Third) § 211.",
+    "The ILC in its 2006 Articles on Diplomatic Protection, art. 4.",
+    "The ICJ in Barcelona Traction.",
+    "The PCIJ in the Tunis and Morocco Nationality Decrees."
+   ],
+   "a": 1,
+   "why": [
+    "The Restatement recognized the genuine link test: states need not accept a nationality not based on a genuine link.",
+    "Correct. Art. 4 requires only nationality acquired under the state's law 'not inconsistent with international law,' and the commentary limits Nottebohm to its facts.",
+    "Barcelona Traction concerned corporate nationality and drew no analogy to Nottebohm. It did not address individual genuine link.",
+    "That 1923 opinion held nationality is within a state's domestic jurisdiction. It predates Nottebohm."
+   ],
+   "e": "The status of Nottebohm's genuine link test is controversial. The ILC's Articles on Diplomatic Protection (2006) art. 4 define the state of nationality as one whose nationality the person acquired under its law 'not inconsistent with international law,' with no genuine link requirement, because a strict test 'would exclude millions of persons' from protection. The Restatement (Third) § 211 recognizes the test.",
+   "unit": 8
+  },
+  {
+   "q": "What is the baseline rule for who is a national of a state?",
+   "o": [
+    "International law sets uniform criteria for nationality that all states must apply.",
+    "Each state's domestic law defines its nationals, and other states recognize that law insofar as it is consistent with conventions, custom, and generally recognized principles.",
+    "Nationality is determined by the state where the person currently resides.",
+    "Nationality is determined by the UN High Commissioner for Refugees."
+   ],
+   "a": 1,
+   "why": [
+    "No uniform international criteria exist. The baseline leaves nationality to each state's domestic law, subject to growing limits.",
+    "Correct. This is the Tunis and Morocco Nationality Decrees rule and art. 1 of the 1930 Hague Convention.",
+    "Residence is not the baseline rule. Nationality comes from jus soli, jus sanguinis, or naturalization under domestic law.",
+    "No international body assigns nationality in the sources."
+   ],
+   "e": "Each state's domestic law defines the qualifications for nationality. The PCIJ in the Tunis and Morocco Nationality Decrees (1923) held this is within a state's exclusive domestic jurisdiction, and the 1930 Hague Convention art. 1 says 'It is for each State to determine under its own law who are its nationals.' Other states recognize that law insofar as it is consistent with conventions, custom, and principles on nationality, and treaties increasingly limit state discretion.",
+   "unit": 8
+  },
+  {
+   "q": "Which statement about jus sanguinis and jus soli is accurate?",
+   "o": [
+    "Jus soli (nationality by birthplace) is the predominant approach globally.",
+    "Jus sanguinis (nationality from parents) is the majority approach in the Americas.",
+    "Jus sanguinis is the predominant approach globally, and jus soli is the majority approach in the Americas.",
+    "Neither supplies a genuine link under the Nottebohm approach."
+   ],
+   "a": 2,
+   "why": [
+    "Jus soli is a minority approach globally, though it is the majority approach in the Americas.",
+    "Reversed: the Americas mostly follow jus soli (birthplace), not jus sanguinis.",
+    "Correct. Jus sanguinis (through parents) predominates worldwide, while most countries in the Americas use jus soli (birthplace).",
+    "Jus soli and jus sanguinis are generally understood to supply a genuine link; naturalization may not."
+   ],
+   "e": "Jus sanguinis grants nationality through biological parents and is the predominant approach globally. Jus soli grants nationality by birthplace; it is a minority approach globally but the majority approach in the Americas. Both are generally understood to supply the genuine link Nottebohm requires, while voluntary naturalization may be questioned without other ties such as residence.",
+   "unit": 8
+  },
+  {
+   "q": "Arcadian Energy & Ports Corp. is wholly state-owned. It runs retail gas station chains abroad and also issues port entry permits and collects import duties at home. How does the commercial/other-activities rule apply?",
+   "o": [
+    "It gets sovereign immunity for both activities because the state owns it.",
+    "It gets no immunity for either activity because corporations lack international personality.",
+    "It gets immunity for the gas stations, because foreign sales are a state function.",
+    "No immunity for the retail gas chains (commercial activity); immunity for issuing port permits and collecting duties (governmental functions)."
+   ],
+   "a": 3,
+   "why": [
+    "Ownership alone does not decide immunity. The rule turns on the nature of the activity.",
+    "A state-controlled corporation can be an arm of the state for non-commercial, governmental activities.",
+    "Running retail gas chains is commercial activity, which gets no immunity.",
+    "Correct. Commercial activity is not treated as an arm of the state; other activities are entitled to sovereign immunity."
+   ],
+   "e": "Corporations have no independent international personality, but a state-controlled corporation may be treated as part of the state depending on what it is doing. First ask whether it is so closely controlled that it is a state agency (degree of ownership, execution of state functions, other indicia of control). Commercial activities are not treated as an arm of the state and get no immunity; other activities get sovereign immunity and may be attributed to the state.",
+   "unit": 8
+  },
+  {
+   "q": "At Nuremberg, Nazi defendants argued that IL concerns only states and that individuals performing acts of state are not responsible. How did the International Military Tribunal respond?",
+   "o": [
+    "It accepted the defense and held Germany alone responsible.",
+    "It rejected the defense: 'Crimes against international law are committed by men, not by abstract entities.'",
+    "It held that only piracy creates individual responsibility under IL.",
+    "It held individuals responsible only if their own state consented to the trial."
+   ],
+   "a": 1,
+   "why": [
+    "The Tribunal rejected the defense and held individuals responsible.",
+    "Correct. The IMT held major war criminals individually responsible for crimes against peace, war crimes, crimes against humanity, and conspiracy.",
+    "Piracy was historically the only individual responsibility, but Nuremberg expanded it to these new categories.",
+    "The Tribunal was created by the London Agreement among France, the UK, the US, and the USSR, not by the defendants' consent."
+   ],
+   "e": "Historically, claims ran against the state, and individual responsibility existed only for piracy and, later, violations of the laws of war. Under the London Agreement, the International Military Tribunal at Nuremberg held major Nazi war criminals individually responsible for crimes against peace, war crimes, crimes against humanity, and conspiracy. It rejected the act-of-state defense with the statement that crimes against IL 'are committed by men, not by abstract entities.'",
+   "unit": 8
   }
  ],
  "drills": [
@@ -4285,42 +5648,52 @@ window.COURSES["intl-law"] = {
     [
      "UNSC resolution “Acting under Chapter VII” that decides members shall freeze assets",
      "Binding",
-     "Arts. 24, 25, 48, 103."
+     "Security Council decisions bind all UN members because members agreed to carry them out (Charter art. 25), and Charter obligations prevail over other agreements (art. 103)."
     ],
     [
      "UNGA resolution adopted unanimously “solemnly declaring” principles",
      "Not binding",
-     "Still not binding alone; strong evidence of CIL."
+     "A General Assembly resolution never binds on its own because the GA can only recommend, though unanimity and “solemnly declares” make it strong evidence of custom."
     ],
     [
      "ICJ judgment, as applied to a non-party in a later case",
      "Not binding",
-     "Art. 59: binds the parties to that case only."
+     "Under ICJ Statute art. 59 a judgment binds only the parties to that particular case, so for a non-party it is only persuasive evidence of the law."
     ],
     [
      "ICJ provisional measures order against a party",
      "Binding",
-     "Art. 41 measures bind."
+     "Every party to the ICJ Statute is bound by the Court's art. 41 power to indicate provisional measures, and LaGrand held those measures are binding."
     ],
     [
      "An MOU whose text says it records “political commitments only”",
      "Not binding",
-     "No intention to create legal obligations."
+     "An instrument is a treaty only if the parties intended to create legally binding obligations, and this text expressly disclaims that intention."
     ],
     [
      "A treaty obligation, on a third state that never accepted it in writing",
      "Not binding",
-     "Art. 35 requires express written acceptance."
+     "VCLT art. 35 lets a treaty impose an obligation on a non-party only if the parties intended it and the third state expressly accepts it in writing, which did not happen here."
     ],
     [
-     "A treaty right, for a third state that stays silent",
+     "A treaty provision giving a right to a third state that stays silent: does the right take effect for that state?",
      "Binding",
-     "Art. 36: assent to a right is presumed."
+     "Under VCLT art. 36 a third state's assent to a right is presumed unless it indicates otherwise, so silence is enough for the right to take effect."
     ],
     [
      "An ICJ advisory opinion",
      "Not binding",
-     "States existing law; creates no new obligations."
+     "Advisory opinions state the existing law for the requesting body and create no new legal obligations for anyone."
+    ],
+    [
+     "UNGA resolution adopted 120–30 that “Requests” states to stop a practice",
+     "Not binding",
+     "General Assembly resolutions do not bind on their own, and a suggestive verb plus a split vote are indicia of a purely recommendatory resolution."
+    ],
+    [
+     "A treaty in force that the UN member never registered with the Secretariat",
+     "Binding",
+     "Non-registration under Charter art. 102 only bars invoking the treaty before UN organs; it does not affect the treaty's validity between the parties."
     ]
    ]
   },
@@ -4335,32 +5708,42 @@ window.COURSES["intl-law"] = {
     [
      "Conflicts with a peremptory norm at conclusion",
      "Void",
-     "Art. 53: void in whole."
+     "Under VCLT art. 53 a treaty that conflicts with an existing peremptory norm when concluded is void in whole, with no severance of other provisions."
     ],
     [
      "Negotiator exceeded internal constitutional limits",
      "Voidable",
-     "Art. 46: must be invoked; controversial."
+     "A violation of internal law on competence (art. 46) or a representative's excess of authority (art. 47) makes consent voidable only if the state invokes it, and art. 46 has never succeeded before the ICJ."
     ],
     [
      "State was coerced by threat of force",
      "Void",
-     "Art. 52."
+     "Under VCLT art. 52 a treaty procured by the threat or use of force in violation of the Charter is void, and the whole treaty falls."
     ],
     [
      "Based on a mistaken essential fact",
      "Voidable",
-     "Art. 48 error."
+     "Error under art. 48 is a ground the mistaken state must invoke, and only if the fact formed an essential basis of its consent and it did not contribute to the error."
     ],
     [
      "State fraudulently induced to sign",
      "Voidable",
-     "Art. 49 fraud."
+     "Fraud by another negotiating state under art. 49 lets the defrauded state invoke the defect, so the treaty stands until it does."
     ],
     [
      "New peremptory norm emerges that conflicts",
      "Void",
-     "Art. 64: becomes void and terminates."
+     "Under VCLT art. 64 an existing treaty that conflicts with a newly emerged peremptory norm becomes void and terminates, without retroactive effect."
+    ],
+    [
+     "The state's representative was blackmailed into signing",
+     "Void",
+     "Under art. 51 consent procured by coercing a representative, including blackmail or threats against the representative's family, is without legal effect."
+    ],
+    [
+     "The state's representative was bribed by the other negotiating state",
+     "Voidable",
+     "Corruption of a representative (art. 50) was added because fraud did not adequately cover it, and the sources treat it as probably voidable."
     ]
    ]
   },
@@ -4376,17 +5759,17 @@ window.COURSES["intl-law"] = {
     [
      "Provision records a rule states already followed as law before the treaty",
      "Codification",
-     "Already existing when concluded."
+     "The customary rule already existed when the treaty was concluded, so the provision only writes it down (ILC Concl. 11)."
     ],
     [
      "Rule was emerging; the treaty’s adoption completes it",
      "Crystallization",
-     "Completes an emerging rule."
+     "The customary rule was still forming, and adoption of the treaty provision completed its emergence (ILC Concl. 11)."
     ],
     [
      "Provision was new, then widespread practice + opinio juris followed",
      "Generation",
-     "Treaty gives rise to new custom."
+     "The provision was new law when adopted and gave rise to a later general practice accepted as law, creating a new customary rule (ILC Concl. 11)."
     ]
    ]
   }
